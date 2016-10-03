@@ -15,6 +15,11 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    arbolrb.h \
+    arbolavl.h \
+    arbol.h \
+    nodo.h \
+    arbolb.h
 
 FORMS    += mainwindow.ui

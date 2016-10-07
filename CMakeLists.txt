@@ -13,6 +13,8 @@ if(POLICY CMP0053)
 endif()
 project(SimpleView)
 
+add_compile_options(-std=c++11)
+
 find_package(VTK COMPONENTS
   vtkCommonCore
   vtkFiltersCore
@@ -30,18 +32,43 @@ endif()
 include_directories(
   ${CMAKE_CURRENT_BINARY_DIR}
   ${CMAKE_CURRENT_SOURCE_DIR}
+  include
+  include/estructuras_de_datos
+  ui
+  src
 )
 
+
+
 # Set your files and resources here
-set( Srcs main.cxx SimpleView.cxx )
+set( Srcs main.cxx
+    src/SimpleView.cxx
+    src/mainwindow.cpp
 
-set( Hdrs SimpleView.h )
 
-set( MOC_Hdrs SimpleView.h )
 
-set( UIs SimpleView.ui )
 
-set( QRCs Icons/icons.qrc )
+    )
+
+set( Hdrs
+     include/mainwindow.h
+     include/SimpleView.h
+     include/estructuras_de_datos/cola.h
+     include/estructuras_de_datos/avl_tree.h
+     include/estructuras_de_datos/NodoAVL.h
+     include/estructuras_de_datos/NodoRB.h
+     include/estructuras_de_datos/red_black_tree.h
+     include/estructuras_de_datos/Nodo.h
+    )
+
+set( MOC_Hdrs include/SimpleView.h )
+
+set( UIs
+    ui/SimpleView.ui
+    ui/mainwindow.ui
+    )
+
+#set( QRCs Resources/res.qrc )
 
 
 # Instruct CMake to run moc automatically when needed.

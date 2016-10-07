@@ -24,10 +24,23 @@
    </size>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>410</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>path</string>
+    </property>
+   </widget>
    <widget class="QSplitter" name="splitter">
     <property name="geometry">
      <rect>
-      <x>440</x>
+      <x>430</x>
       <y>30</y>
       <width>301</width>
       <height>341</height>
@@ -36,7 +49,7 @@
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
     </property>
-    <widget class="QVTKWidget" name="qvtkWidget">
+    <widget class="QVTKWidget" name="qvtkWidget" native="true">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
        <horstretch>1</horstretch>
@@ -50,6 +63,19 @@
       </size>
      </property>
     </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>410</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cambiar directorio</string>
+    </property>
    </widget>
   </widget>
   <action name="actionOpenFile">

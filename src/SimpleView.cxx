@@ -8,8 +8,9 @@
  */
 
 
-#include "ui_SimpleView.h"
 #include "SimpleView.h"
+#include "ui_SimpleView.h"
+
 
 #include <vtkDataObjectToTable.h>
 #include <vtkElevationFilter.h>

@@ -1,2 +1,0 @@
-# aedtraductor
-Ño chiiiiiiii

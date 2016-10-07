@@ -33,7 +33,7 @@ SimpleView::SimpleView()
   this->TableView = vtkSmartPointer<vtkQtTableView>::New();
 
   // Place the table view in the designer form
-  this->ui->tableFrame->layout()->addWidget(this->TableView->GetWidget());
+  //this->ui->tableFrame->layout()->addWidget(this->TableView->GetWidget());
 
   // Geometry
   VTK_CREATE(vtkVectorText, text);

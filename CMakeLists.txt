@@ -32,43 +32,49 @@ endif()
 include_directories(
   ${CMAKE_CURRENT_BINARY_DIR}
   ${CMAKE_CURRENT_SOURCE_DIR}
-  include
-  include/estructuras_de_datos
-  ui
-  src
+  estructuras
+  otros
+  windows/include
 )
 
 
 
 # Set your files and resources here
-set( Srcs main.cxx
-    src/SimpleView.cxx
-    src/mainwindow.cpp
-    src/binomial.cpp
-    src/fibonacci.cpp
-    src/palabra.cpp
+set( Srcs main.cpp
 
+    windows/src/mainwindow.cpp
+    windows/src/vtkwindow.cpp
 
+    estructuras/binomial.cpp
+    estructuras/fibonacci.cpp
+
+    otros/palabra.cpp
 
     )
 
 set( Hdrs
-     include/mainwindow.h
-     include/SimpleView.h
-     include/palabra.h
-     include/estructuras_de_datos/cola.h
-     include/estructuras_de_datos/avl_tree.h
-     include/estructuras_de_datos/NodoAVL.h
-     include/estructuras_de_datos/NodoRB.h
-     include/estructuras_de_datos/red_black_tree.h
-     include/estructuras_de_datos/Nodo.h
+   
+     otros/palabra.h
+
+     estructuras/cola.h
+     estructuras/avl_tree.h
+     estructuras/NodoAVL.h
+     estructuras/NodoRB.h
+     estructuras/red_black_tree.h
+     estructuras/Nodo.h
+
+     windows/include/vtkwindow.h
+     windows/include/mainwindow.h
     )
 
-set( MOC_Hdrs include/SimpleView.h )
+set( MOC_Hdrs
+    windows/include/vtkwindow.h
+    windows/include/mainwindow.h
+    )
 
 set( UIs
-    ui/SimpleView.ui
-    ui/mainwindow.ui
+    windows/ui/vtkwindow.ui
+    windows/ui/mainwindow.ui
     )
 
 #set( QRCs Resources/res.qrc )

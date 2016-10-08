@@ -46,7 +46,7 @@ set( Srcs main.cxx
     src/mainwindow.cpp
     src/binomial.cpp
     src/fibonacci.cpp
-
+    src/palabra.cpp
 
 
 
@@ -55,6 +55,7 @@ set( Srcs main.cxx
 set( Hdrs
      include/mainwindow.h
      include/SimpleView.h
+     include/palabra.h
      include/estructuras_de_datos/cola.h
      include/estructuras_de_datos/avl_tree.h
      include/estructuras_de_datos/NodoAVL.h

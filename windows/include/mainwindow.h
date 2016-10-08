@@ -33,7 +33,9 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_2_clicked();
+
+
+    void on_vtk_button_clicked();
 
     void on_cargar_button_clicked();
 

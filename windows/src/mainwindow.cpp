@@ -59,7 +59,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_pushButton_2_clicked()
+void MainWindow::on_vtk_button_clicked()
 {
     this->vtk.show();
 }

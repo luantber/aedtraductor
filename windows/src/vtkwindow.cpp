@@ -26,6 +26,8 @@ VtkWindow::VtkWindow(QWidget *parent) :
     //Codigo VTK
 
     SphereSource sphereSource =  SphereSource::New();
+     sphereSource->SetCenter(0.0, 2.0, 0.0);
+
     PolyDataMapper sphereMapper = PolyDataMapper::New();
     sphereMapper->SetInputConnection( sphereSource->GetOutputPort() );
     Actor sphereActor = Actor::New();

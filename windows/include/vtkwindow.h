@@ -9,6 +9,10 @@
 #include <vtkActor.h>
 #include <vtkRenderWindow.h>
 #include <vtkRenderer.h>
+#include <vtkArrowSource.h>
+#include <vtkPolyData.h>
+
+#include "binomial.cpp"
 
 namespace Ui {
 class VtkWindow;
@@ -19,10 +23,12 @@ class VtkWindow : public QWidget
     Q_OBJECT
 
 public:
+    //Constructor
     explicit VtkWindow(QWidget *parent = 0);
     ~VtkWindow();
 
 private:
+    BinomialHeap<int> heap;
     Ui::VtkWindow *ui;
 };
 

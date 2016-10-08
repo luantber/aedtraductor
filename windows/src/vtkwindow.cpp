@@ -1,28 +1,54 @@
 #include "vtkwindow.h"
 #include "ui_vtkwindow.h"
 
+
+typedef vtkSmartPointer<vtkSphereSource> SphereSource;
+typedef vtkSmartPointer<vtkArrowSource> ArrowSource;
+typedef vtkSmartPointer<vtkPolyDataMapper> PolyDataMapper;
+typedef vtkSmartPointer<vtkActor> Actor;
+typedef vtkSmartPointer<vtkRenderer> Renderer;
+
 VtkWindow::VtkWindow(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::VtkWindow)
 {
     ui->setupUi(this);
 
-    vtkSmartPointer<vtkSphereSource> sphereSource =
-         vtkSmartPointer<vtkSphereSource>::New();
+    //Heaps
+    heap.Insert(5);
+    heap.Insert(6);
+    heap.Insert(7);
+    heap.Insert(8);
 
-     vtkSmartPointer<vtkPolyDataMapper> sphereMapper =
-         vtkSmartPointer<vtkPolyDataMapper>::New();
-     sphereMapper->SetInputConnection( sphereSource->GetOutputPort() );
+    heap.Insert(9);
 
-     vtkSmartPointer<vtkActor> sphereActor =
-         vtkSmartPointer<vtkActor>::New();
-     sphereActor->SetMapper( sphereMapper );
 
-     vtkSmartPointer<vtkRenderer> renderer =
-         vtkSmartPointer<vtkRenderer>::New();
+    //Codigo VTK
+
+    SphereSource sphereSource =  SphereSource::New();
+    PolyDataMapper sphereMapper = PolyDataMapper::New();
+    sphereMapper->SetInputConnection( sphereSource->GetOutputPort() );
+    Actor sphereActor = Actor::New();
+    sphereActor->SetMapper( sphereMapper );
+
+
+     ArrowSource arrowSource = ArrowSource::New();
+     PolyDataMapper mapper = PolyDataMapper::New();
+     mapper->SetInputConnection(arrowSource->GetOutputPort());
+     Actor actor = Actor::New();
+     actor->SetMapper(mapper);
+
+
+
+    Renderer renderer = Renderer::New();
      renderer->AddActor( sphereActor );
+     renderer->AddActor( actor );
 
+
+    //Conexion VTK-QT
     ui->qvtkWidget->GetRenderWindow()->AddRenderer(renderer);
+
+    //
 }
 
 VtkWindow::~VtkWindow()

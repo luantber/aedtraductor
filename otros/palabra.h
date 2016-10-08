@@ -9,7 +9,7 @@ using namespace std;
 class palabra
 {
 public:
-	palabra(string palabra,vector<string> traducciones){ m_palabra=palabra; m_traducciones=traducciones; }
+    palabra(string palabra,vector<string> traducciones){ m_palabra=palabra; m_traducciones=traducciones; }
 	~palabra(){}
 	
 private:

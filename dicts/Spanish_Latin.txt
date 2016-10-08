@@ -1,0 +1,1248 @@
+China	Sina	country
+Estados Unidos	Civitates Foederatae Americae	country
+Italia	Italia	country
+Japón	Iaponia	country
+Reino Unido	Britanniarum Regnum	country
+Reino de España	Hispania	country
+República Checa	Tzekia	country
+República Federal de Alemania	Germania	country
+República Francesa	Francia	country
+República de la India	India	country
+a	''locative case	preposition
+a	''locative case	preposition
+a veces	aliquando	adverb
+abajo	deorsum	adverb
+abajo  ; debajo	deorsum	adjective
+abeja	apis (nom.)  ; apis (gen.)	animal
+abierto	patens	adjective-basic
+abonar ; pagar	pensito	verb-basic
+abril	Aprilis	time
+abrir	patefacio	verb-basic
+absoluto ; completo ; perfecto ; total	plenus	adjective
+abuelo	avus	family
+acabar ; cesar ; concluir ; parar ; terminar	desino	verb
+acalorado	calidus	adjective-basic
+accidente	casus	transport
+acción ; actividad	actio	abstract
+acción ; acto	actus	abstract
+acción ; acto ; hecho	factum	abstract
+acción ; título	pars	business
+aceite	oleum	food
+aceituna	olea	vegetable
+aceptar ; querer ; alojar	suscipio	verb
+acero	chalybs	material
+acertado ; correcto	emendatus	adjective-basic
+acoplar ; reunir	committo	verb
+acrecentar	erigo	verb
+actor ; intérprete ; farandulero ; cómico	actor	profession
+actriz	mima	profession
+actual ; presente ; ofrenda	praesens	adjective
+actualmente	nunc	adverb
+acuerdo ; pacto ; contrato	pactum	business
+acusar	arguo	verb
+adelante	protinus	adverb
+adición	additio	abstract
+admitir ; reconocer	agnosco	verb
+adorno ; decoración	decus	abstract
+adquirir ; comprar	redimo	verb-basic
+adversario ; rival	competitor	sports
+advertencia ; consejo	consilium	business
+aeropuerto ; aeródromo	aeroportus	city
+afanar ; quitar	abigo	verb
+afección ; enfermedad	morbus	medicine
+afortunado	fortunatus	adjective
+afán ; dedicación ; esfuerzo ; agotamiento	labor	abstract
+agosto	Augustus	time
+agradable ; bonito ; simpático	bonus	adjective-basic
+agregar ; añadir	adaugeo	verb
+agrupación ; colectivo ; grupo	classis	business
+agua	aqua	drink
+aguantar ; sostener ; sujetar	possideo	verb
+aguardar ; contar ; esperar	exspecto	verb
+agudo ; afilado ; cortante	acutus	adjective-basic
+aguja	acus	tool
+agujero ; cavidad ; hueco	foramen	abstract
+ahí	illic	adverb
+airado	iratus	adjective-people
+aire	aer	nature
+aire ; atmósfera	atmosphaera	environment
+ajo	alium	vegetable
+ala	ala	anatomy
+alcanzar ; ganar	adipiscor	verb
+alcoba ; dormitorio ; habitación ; pieza ; cuarto ; dependencia	cubiculum	house
+alemán	Lingua Theodisca	language
+alfombra ; tapete ; tapiz ; moqueta	tapetum	furniture
+aliento ; respiración ; ánimo ; soplo ; anhelo	spiritus	anatomy
+alimento ; comida	cibus	food
+almuerzo ; comida	prandium	food
+almuerzo ; desayuno	ientaculum	food
+alrededor	fere	adverb
+alteración ; cambio ; modificación ; variación	vicis	abstract
+alterar ; cambiar	mutatio	verb
+alternativa ; elección ; opción	alternatio	science
+altitud ; altura ; elevación	altitudo	geography
+alto	alte	adjective-basic
+alto	sursum	adverb
+alubia ; judía	fasiolum	vegetable
+aludir ; citar ; mencionar ; mentar ; nombrar	laudo	verb
+alumno ; estudiante	scholasticus	education
+alzar ; elevar ; levantar ; subir ; acosar ; realzar	erigo	verb
+amar ; querer	diligo	verb-basic
+amargo	amarus	adjective
+amarillo	flavus	color
+amigo	amicus	family
+amistoso ; amigable	familiaris	adjective-people
+amo ; dueña ; dueño ; propietario	possessor	business
+amor ; pasión	amor	feeling
+amplio ; ancho	latus	adjective
+ananá	Ananas sativus	fruit
+andar ; caminar	ambulare	verb
+anillo	anulus	clothes
+animal ; bestia ; criatura	animal	nature
+anochecer ; atardecer ; noche	vesper	time
+ante todo	praesertim	adverb
+antiguo ; anterior	antiquus	adjective
+anunciar ; proclamar	denuntio	verb
+anuncio ; cartel ; letrero	proscriptio (nom.)  ; proscriptionis (gen.)	business
+anuncio ; proclamación	pronuntiatio	communication
+apartamento ; piso ; departamento	aedes	city
+aplastar	frendo	verb
+aplastar ; machacar	frendo	verb
+apoyar ; respaldar	statumen	verb
+apoyo ; ayuda	firmamentum	business
+apreciación ; opinión ; parecer ; visión ; dictamen ; conjetura ; informe ; concepto	opinio	communication
+aprender	discere	verb-basic
+apretado	angustus	adjective
+apretar ; empujar	impressio	verb-basic
+aprobación ; aceptación ; adhesión ; consentimiento ; consenso	approbatio	communication
+aproximadamente	fere	adverb
+aquel	iste	pronoun
+aquí	hac	adverb
+arco iris	arcus	weather
+arena	arena	material
+armario	armarium	furniture
+arroz	oryza	food
+arte	ars (nom.)  ; artis (gen.)	art
+artificial ; falso	falsus	adjective
+artista	artifex	art
+asa  ; mango	ansa	object
+asaltar ; atacar	incurro	verb
+asalto ; ataque	lacesso	abstract
+ascensión ; ascenso ; subida	ascensio	abstract
+ascensor	teleferica	device
+asiento ; localidad ; plaza	locus	abstract
+asistencia ; ayuda	auxilium	business
+asociación ; club ; clube ; sociedad ; círculo	circulus	society
+asombro ; desconcierto ; sorpresa	obreptio	relations
+asunto ; cosa	res	abstract
+asunto ; objeto ; tema ; premisa	argumentum	communication
+así	igitur	adverb
+así	sic	adverb
+atención	intentio	business
+atroz ; bárbaro ; brutal ; cruel ; salvaje	barbarus	adjective
+auge ; cima ; pico	cacumen	abstract
+aumentar ; incrementar ; crecer	amplio	verb
+aumento ; crecimiento ; incremento ; multiplicación	incrementum	abstract
+aunque	autem	adverb
+auto ; automóvil ; coche ; turismo ; carro ; cacharro	autocinetum	transport
+autobús ; colectivo ; camión	laophorium	transport
+autor ; escritor	scriptor	profession
+autoridad ; dirigente ; líder	dux	society
+autoridad ; dominación ; dominio ; poder ; potencia ; autorización	auctoritas	business
+autoridad ; dominio	principatus	society
+autoridad ; gobierno ; régimen	gubernatio	society
+ave ; pájaro	avis (nom.)  ; avis (gen.)	animal
+avión	aeroplanum	transport
+ayudar ; asistir	subvenio	verb-basic
+azote	flagellum	tool
+azul	caeruleus (m)  ; caerulea (f)  ; caeruleum (n)	color
+azúcar	saccharum	food
+año	annus	time
+bajo	humilis	adjective
+balón ; pelota	pila	sports
+banco	argentaria	city
+bandera	vexillum	object
+barato	vilis	adjective
+barba ; barbilla	mentum	anatomy
+barca	cumba	transport
+barco ; buque ; nave	navis	transport
+base	substructio	society
+bastante	satis	adverb
+baño	lavacrum	house
+beber ; tomar	bibere	verb-basic
+bebida	potio	drink
+bello ; bonito ; hermoso ; precioso ; espléndido	pulcher	adjective-basic
+besar	basiatio	verb-basic
+beso	osculum	relations
+biblioteca	bibliotheca	city
+bicicleta	birota	sports
+bien	bene	adverb
+billete	-	business
+billete ; pasaje	tessera	object
+biología	biologia	science
+blanco  ; cándido	albus	color
+blando ; muelle	malacus	adjective-basic
+boca	os (nom.)  ; oris (gen.)	anatomy
+boda	matrimonium	family
+boda ; boda nupcial ; casamiento ;	Hymen	family
+bola ; historia ; mentira ; película ; falsedad	mendacium	communication
+bolsa ; bolso	saccus	container
+borde ; canto ; margen ; arista ; orilla	ora	mathematics
+bosque ; floresta ; jungla	silva	nature
+bota	calceus	clothes
+brazo	brachium	anatomy
+brillante ; vivo	candidus	adjective
+bruscamente	subito	adverb
+buena suerte	bona fortuna	conversation
+bueno	bonus	adjective-basic
+bulto ; lío ; paquete	fascis	business
+béisbol	basipila	sports
+caballo	equus	animal
+cabeza	caput (nom.)  ; capitis (gen.)	anatomy
+cabeza ; cerebro ; mente ; ánimo	mens	abstract
+cabo ; final	finis	time
+cabra	capra	animal
+cada	omnis	adjective
+cada	omnis	adjective
+cadena	catena	object
+caer ; derrumbarse ; desplomarse	cadere	verb-basic
+café	coffeum	drink
+calentamiento global	calefactio globalis	environment
+calidad ; cualidad	qualitas	abstract
+calle ; camino ; avenida ; calzada	via	city
+cama	lectus	furniture
+camino ; curso ; dirección ; trayectoria	gubernatio	business
+camino ; forma ; manera ; modo	modus	abstract
+campana	campana	tool
+campaña ; llanura	planum	geography
+campaña ; movimiento	expeditio	abstract
+campeonato	appellatio	sports
+campeonato ; competición ; concurso	certamen	business
+campo ; terreno	ager	nature
+canción	carmen (nom.)  ; carminis (gen.)	art
+cansado	fessus	adjective-people
+cantante	cantor	art
+cantar	psallo	verb-basic
+cantidad ; cuantía	quantitas	abstract
+capaz	ingeniosus	adjective-people
+capital	caput	city
+cara ; faz ; rostro	facies	anatomy
+característica ; rasgo	proprius	abstract
+carbón	carbo	material
+carga	onus electricum	physics
+carga ; contribución ; imposición ; impuesto ; tasa ; tributación	tributum	business
+cargar ; transportar	veho	verb
+cargo	criminatio	business
+carne	caro	food
+carretera	via	city
+carta ; misiva ; esquela ; epístola	epistula	communication
+carácter	character	communication
+carácter ; letra	littera	communication
+casa	domus	house
+casa ; firma	societas	business
+casa ; hogar ; techo ; familia	domus	house
+casarse	nubere	verb
+casi  ; aproximadamente	quasi	adverb
+caso	causa	abstract
+castellano ; español	lingua Hispanica	language
+castigo	castigatio	society
+castillo	castellum	city
+catorce	quattuordecim	number
+causa	causa	science
+caída	decido	abstract
+cebolla	cepa	vegetable
+centro	centrum	mathematics
+centro ; corazón ; esencia ; núcleo ; sustancia	essentia	science
+cepillo	peniculus	art
+cerebro	cerebrum	anatomy
+cereza	cerasum	fruit
+cero ; nada	nihil	number
+cerrado	clausus	adjective
+cerradura	claustrum	tool
+cerrar	cataracta	verb
+cerrar ; tapar ; cercar	claudere	verb-basic
+cerveza	cervisia	drink
+cesto ; aro ; cesta	fiscus	container
+chaval ; chico ; garzón ; joven ; mozo ; muchacho ; niño	puer	family
+chica ; joven ; señorita	puella	family
+chino	Sinesis  ; lingua Sinica	language
+chocolate	socolata	food
+cielo	caelum	nature
+ciencia	scientia	science
+ciertamente	certe	adverb
+cinco	quinque	number
+cincuenta	quinquaginta	number
+cine ; biógrafo	cinemateum	city
+ciruela	prunum	fruit
+ciudad ; metrópolis	civitas	city
+civilización ; cultura ; conocimiento ; ilustración	humanitas	society
+claro	clarus	adjective
+claro ; disperso	tenuis	adjective
+clavo	clavus	tool
+cliente	cliens	business
+clínica ; hospital	valetudinarium	city
+cocina	culina	house
+cocinero	coquus	kitchen
+coger ; comprender ; entender	agnosco	verb-basic
+coger ; escoger ; seleccionar ; preferir	sumo	verb
+coincidir ; consentir	congruo	verb
+cola	cauda	anatomy
+cola ; goma ; pegamento	gluten	material
+colegio ; escuela	schola	city
+colina ; monte	collis	geography
+color	colores	art
+combate ; lucha	colluctatio	abstract
+combustible fósil	fomes fossilis	environment
+comenzar ; empezar ; iniciar	inceptio	verb-basic
+comer	edere	verb-basic
+comercio	commercium	business
+cometido ; faena ; quehacer ; tarea ; trabajo ; empleo	negotium	business
+comida	epulae	food
+comienzo ; inicio ; principio ; umbral	initium	time
+comisión ; comité ; delegación	mandatum	business
+comitiva	vexillum	society
+como	ut	adverb
+comparar	comparare	verb
+competencia  ; rivalidad	certatio	business
+completar	exigo	verb
+completo	expletus	adjective
+componente ; elemento ; factor	elementum	mathematics
+componente ; parte	pars	abstract
+comportamiento ; conducta	mos	abstract
+comprender ; cubrir	complexo	verb
+compromiso ; cita	constitutum	relations
+común	communis	adjective
+común ; mutuo ; corriente ; ordinario ; general	communis	adjective
+con	cum	preposition
+con	cum	preposition
+concierto	acroama	art
+condición ; situación	causa	abstract
+conducir ; llevar	moderor	verb
+confrontación	comparatio	science
+conjunto	copia	mathematics
+conocimiento ; saber	scientia	education
+consecuencia ; efecto ; resultado ; corolario ; secuela ; conclusión	consecutio	science
+consecuencia ; resultado ; fruto	exitus	mathematics
+consejo	consilium	business
+conservar ; mantener	possideo	verb
+considerar ; creer ; confiar	autumo	verb
+consistente ; firme ; sólido ; robusto ; estable	pervicax	adjective
+constituir ; instaurar ; fundar	constituo	verb
+construcción ; estructura	constructio	city
+construir ; edificar ; fabricar	texo	verb
+contemplar  ; admirar  ; calcular  ; considerar	spectare	verb-basic
+contento ; feliz ; alegre	felix	adjective-basic
+continuar ; avanzar	persevero	verb
+contra	econtra	preposition
+contrario	contrarietas	abstract
+contrario	contrarietas	adjective
+contrato	pactum	business
+controlar	gubernatio	verb
+convertirse	fio	verb
+copa	calix	sports
+copia	copia	business
+copiar ; recrear	effingo	verb
+corazón	cor (nom.)  ; cordis (gen.)	anatomy
+correo	cursus publicus	communication
+correr	currere	verb-basic
+corresponder ; representar	assimulo	verb
+corriente	vulgaris	adjective
+corriente ; actual	amnis	geography
+corriente ; aire ; viento ; brisa	ventus	weather
+corriente ; curso	amnis	nature
+cortar ; recortar	redigo	verb
+cortijo ; estancia ; hacienda ; masía ; granja	ager	nature
+cortina	velum	furniture
+corto ; breve	brevis	adjective
+cosa	quendam	abstract
+coste ; costo	sumptus	business
+coste ; precio	sumptus	business
+criado	famulus	profession
+criar ; asistir	erigo	verb
+criatura	infans	family
+crimen ; delito	facinus	society
+criterio ; estándar ; patrón ; pauta ; regla	modificatio	communication
+cuadrado	quadratum	mathematics
+cuadrado	quadratus	mathematics
+cuadrado ; cuadro	quadratus	adjective
+cuadro ; pintura	tabula  ; pictura	art
+cualquier	quisquis	adjective
+cuarenta	quadraginta	number
+cuarto ; habitación	aedes	house
+cuchara	cochlear	kitchen
+cuchillo	culter	kitchen
+cuello	cervix (nom.)  ; cervicis (gen.)	anatomy
+cuenta	ratio	business
+cuerda	chorda	object
+cuero ; piel	corium	material
+cuidar ; tratar	tracto	verb
+cumpleaños	dies natalis	family
+cuyo	cuius	pronoun
+cálido	vapor	adjective
+célula ; cámara	cella	anatomy
+círculo	circulus	mathematics
+cómo se llama usted	quid nomen tibi est	conversation
+damasco	malum Armeniacum	fruit
+dar	affero	verb-basic
+daño ; perjuicio ; siniestro ; deterioro	injuria	abstract
+de	ab	preposition
+de	ab	preposition
+debate ; discusión	disputatio	communication
+deber	officium	abstract
+decidir ; determinar	cerno	verb
+decimoquinto	quindecim	number
+decir ; hablar ; conversar	loquor	verb-basic
+decir ; manifestar	aio	verb-basic
+decisión ; determinación ; resolución ; resultado	exitus	communication
+declarar ; manifestar ; revelar ; descubrir ; denunciar	reperio	verb
+dedo	digitus	anatomy
+dejar  ; consentir  ; autorizar	sino	verb
+dejar ; permitir	sino	verb
+delantera	frons	abstract
+delicado ; frágil	fragilis	adjective
+demanda ; pregunta ; búsqueda	interrogatio	communication
+democracia ; república	res publica	society
+derecho	dexter (m)  ; dextra (f)  ; dextrum (n)	adjective-basic
+derecho	ius	business
+desagradable ; horrible	turpis	adjective
+desaparición ; muerte ; tránsito	letum	abstract
+desarrollo ; evolución	evolutio	nature
+descansar	otium	abstract
+describir ; explicar ; detallar	demonstro	verb
+descubrimiento ; hallazgo	inventio	science
+descubrir ; detectar ; encontrar ; observar ; revelar ; localizar	reperio	verb
+desde	ab	preposition
+desear	cupio	verb
+desear ; querer	opto	verb
+deseo  ; anhelo	desiderium	abstract
+desistir	tradere	verb
+despedida	commeatus	business
+despierto	vigil	adjective-people
+desplazar ; mover	permoveo	verb-basic
+después	postquam	adverb
+destino ; lugar	destinatio	sports
+destrucción	eversio	abstract
+detener	subsisto	verb
+detestar ; odiar ; aborrecer ; rechazar	contemno	verb
+devolver ; entregar	reddo	verb
+dibujar ; trazar ; delinear	designo	verb-basic
+diccionario ; léxico ; índice ; glosario	lexicon	communication
+diciembre	December	time
+diecinueve	undeviginti	number
+dieciocho	duodeviginti	number
+diecisiete	septendecim	number
+dieciséis	sedecim	number
+diente	dens (nom.)  ; dentis (gen.)	anatomy
+diez	decem	number
+diferencia ; desigualdad ; divergencia ; desemejanza	discrimen	mathematics
+diferente ; distinto	dissimilis	adjective
+dificultad ; obstáculo ; problema	difficultas	business
+dificultad ; problema	quaestio	business
+difícil ; duro ; espinoso	acer	adjective-basic
+dinero ; plata ; pelas ; pasta ; suelto	pecunia	business
+dirección	procuratio	business
+dirección ; ubicación	appellare	house
+directamente	rectus	adverb
+director	rector	business
+discusión ; disputa ; pelea	iurgium	communication
+discutir	confero	verb
+discúlpame	mihi ignosce	conversation
+disparar	ardor	verb-basic
+distancia	distantia	mathematics
+diversidad ; diferencia	distantia	art
+diversión  ; distracción  ; divertimiento	oblectatio (nom.)  ; oblectationis (gen.)	art
+diverso ; vario	multiplex	adjective
+división ; parte ; sección	sectio	business
+división ; partición	discrimen	mathematics
+doctor ; médico	medicus	medicine
+dolor	dolor	medicine
+domingo	Dies solis	time
+dos	duo	number
+ducha	pluvia	house
+duda ; incertidumbre ; inseguridad ; irresolución	dubitatio	communication
+dudar	dubitare	verb
+dulzura	dulcedo	food
+durante	dum	preposition
+durar	duro	verb
+durar ; existir ; vivir	vivere	verb
+débil	debilis	adjective-basic
+día	dies	time
+echar ; enviar ; mandar ; remitir	mittere	verb
+ecología	oecologia	environment
+edad	aetas	time
+edificio	aedificium	city
+educación	educatio	education
+educación ; enseñanza	disciplina	education
+ejemplar ; libro ; volumen	liber	communication
+ejemplo	exemplum	science
+ejercer	appono	verb
+ejercer	exerceo	verb-basic
+ejército ; tropa	exercitus	society
+el	''not used''	article
+elección	cooptatio	society
+elección ; selección ; decisión	electio	abstract
+elefante	elephantus	animal
+elemental ; simple	simplex	adjective
+elemento	elementum	material
+ella	ea	pronoun
+ellos	ei	pronoun
+emplear ; usar ; utilizar	sumo	verb-basic
+empleo ; uso ; utilización	consumptio	abstract
+empresario ; comerciante	negotiator (nom.)  ; negotiatoris (gen.)  ; negotians (nom.)  ; negotiantis (gen.)	profession
+en	in	adverb
+en	in	preposition
+en medio de	inter	preposition
+encima de	supra	adverb
+encontrar ; recuperar	reperio	verb-basic
+encuentro ; reunión	coitio	business
+energía	potestas	abstract
+energía	vis	physics
+enero	Ianuarius	time
+enfermo	aeger	adjective-people
+ensayar ; examinar ; probar	conor	verb
+enseñar ; instruir	erudio	verb
+entero	integer	adjective
+entonces	tum	adverb
+entre	inter	adverb
+entrevista	colloquium	communication
+envenenar	veneno	verb
+error ; fallo ; falta ; equivocación	error	communication
+escalón	gradus	house
+escarcha	pruina	weather
+escenario	scaena	art
+esconder ; ocultar ; tapar	abdo	verb
+escribir	scribere	verb-basic
+escritura	scriptura	communication
+escuchar ; sentir	auscultare	verb-basic
+eso	id	pronoun
+espacio	capacitas	geography
+espalda ; dorso	tergum	anatomy
+especial ; excepcional ; particular ; singular	specialis	adjective
+espectáculo ; muestra	spectaculum	business
+espejo	speculum	physics
+esperar	spero	verb-basic
+espeso	creber	adjective
+esposa	uxor	family
+esposo ; hombre ; marido	maritus	family
+esta	hic	pronoun
+establecimiento ; almacén ; tienda	taberna	business
+estación	constituo	city
+estadio ; etapa ; fase	mansio	science
+estado ; nación ; país ; tierra	rus	society
+estante	pluteus	furniture
+este ; oriente ; levante	oriens	geography
+estilo	stilus	art
+estilo ; forma ; método ; sistema ; procedimiento	modus	art
+estrecho	angustus	adjective
+estrella ; astro	astrum	geography
+estudio ; investigación	exquisitio	science
+estómago	stomachus	anatomy
+estúpido ; imbécil ; tonto	stolidus	adjective-people
+evento ; suceso ; episodio ; hecho	eventus	science
+evidencia	probatio	science
+evidencia ; hecho	factum	science
+evitar ; excusar ; prevenir	declino	verb
+exactamente	exacte	adverb
+examen ; test	probatio	education
+excelente ; magnífico	egregius	adjective
+excepcional ; extraordinario ; insólito	insolitus	adjective
+exhibir ; mostrar ; indicar	demonstro	verb
+existencia ; vida	biota	nature
+existir ; haber ; ser	exsisto	verb
+exitoso ; afortunado	fortunatus	adjective-people
+experiencia ; destreza ; dedicación	usus	business
+experto	peritus	profession
+explicar ; contar ; desarrollar ; comentar	expedio	verb
+extenso ; largo	longus	adjective-basic
+exterior	deforis	mathematics
+extranjero ; extraño ; forastero	allophylus	adjective
+facilitar ; proporcionar ; suministrar ; proveer	exorno	verb
+falso	falsus	adjective
+familia	familia	family
+fe ; religión ; seguridad	fides	society
+febrero	Februarius	time
+fecha	dies	time
+femenino	femineus	adjective-people
+ferrocarril ; tren	hamaxostichus (new)	transport
+fiesta	convivium	relations
+figura	forma	art
+flor	flos	nature
+flora ; planta	planta	nature
+formación ; preparación ; capacitación ; entrenamiento	exercitatio	education
+foto ; fotografía ; imagen	imago	art
+frambuesa	rubus	fruit
+francés  ; francés	lingua Gallica (f)	language
+frecuentemente	sape	adverb
+frente	frons (nom.)  ; frontis (gen.)	anatomy
+fresa	fragum	fruit
+fresco ; helado ; refrescante	recens	adjective
+fruto	fructus	food
+frío ; helado	frigidus	adjective-basic
+fuego ; llama ; incendio	flamma	nature
+fuente	fons	nature
+fuera	extra	adverb
+fuerte	pollens	adjective-basic
+fuerza	vis	physics
+función ; propósito	officium	mathematics
+futuro	posterus	adjective
+futuro ; porvenir	futurum	time
+fácil	facilis	adjective
+físico	corporeus	adjective
+ganancia  ; utilidades	compendium	business
+ganar ; triunfar ; vencer	lucror	verb
+gancho  ; garfio  ; horquilla	hamus	tool
+garganta	pharynx	anatomy
+gato	feles  ; felis (nom.)  ; felis (gen.)	animal
+general	dux	adjective
+general	dux	profession
+generalmente	universe	adverb
+gente	homines	society
+globo ; mundo ; tierra	Terra	geography
+gobernar ; regir	regno	verb
+gol	finis	sports
+golpe ; impacto	aspirare	abstract
+gordo	nitidus	adjective
+gordo	pinguis	adjective
+gota	gutta	abstract
+grado ; nivel	aquus	mathematics
+gran ; grande ; voluminoso	grandis	adjective-basic
+grande ; vasto	grandis	adjective-basic
+grano	mica	material
+gratuito	eripio	adjective
+gris ; aburridor	molestus	adjective
+gritar ; llamar	clamo	verb
+grito ; protesta ; alarido	ululatus	communication
+guardia ; policía	vigil	society
+guerra	bellum	society
+gusto	gustus (m)	abstract
+h ; hora	hora	time
+habitual	celeber	adjective
+habla ; lenguaje ; decir	lingua	communication
+hablas inglés	Anglice loquerisne	conversation
+hambriento	esuriens	adjective-people
+hasta	usque	conjunction
+herir ; torturar	vulnero	verb
+hermana	soror	family
+hermano ; colega	frater	family
+hielo	glacies	material
+hierba	gramen	nature
+hierro	ferrum	material
+hija	filia	family
+hija ; hijo	infans	family
+hijo	filius	family
+historia	historia	society
+hoja	folium	nature
+hola	salve  ; salve  ; ave  ; ave	conversation
+hombre	homo sapiens	family
+hombre ; varón ; macho	vir	family
+honrar ; venerar ; admirar	erubesco	verb
+hormiga	formica	animal
+horno	furnus	device
+hotel	deversorium	city
+hoy	hodie	adverb
+hueso	os (nom.)  ; ossis (gen.)	anatomy
+huevo ; óvulo	ovum	food
+humano	humanus	adjective-people
+humedad	umor	nature
+humo	fumo	physics
+humorismo	festivitas	communication
+huésped ; invitado	hospes	relations
+hábil	sollers	adjective-people
+húmedo	humens	adjective
+idea ; pensamiento ; intención ; concepción ; imagen	cogitatio	communication
+iglesia	ecclesia	city
+iglesia	religio	society
+igual	aequus	adjective
+importante	gravis	adjective-basic
+incluso	etiam	adverb
+incremento ; aumento ; alza	augmen	abstract
+individual ; particular ; personal	personalis	adjective
+industria	diligentia	business
+información	informatio	communication
+informar ; relatar	nuntio	verb
+inglés	Lingua Anglica	language
+ingreso ; ingresos	vectigal	business
+inmediatamente	protinus	adverb
+insecto	insecta	animal
+instancia ; petición ; solicitud	postulatio	communication
+instante ; minuto ; momento ; segundo	aliquatenus	time
+instrumento	organum	device
+insólito	alienus	adjective
+inteligente ; astuto ; agudo	intellegens	adjective-people
+intentar ; pretender	conor	verb
+intento ; tentativa ; prueba ; ensayo ; experimento	conatus	abstract
+internet	interrete	abstract
+interés	fenus	communication
+introducir	induco	verb
+investigación	exquisitio	science
+invierno	hiems	time
+ir	incedo	verb
+isla	insula	geography
+izquierdo	sinister	adjective-basic
+jabón	sapo	material
+japonés	lingua Iaponica (f)	language
+jardín	hortus	house
+joven	iuvenis	adjective-people
+joya	gemma	clothes
+juego	ludus	sports
+jueves	Dies Iovis	time
+juez ; magistrado	iudex	profession
+jugador	lusor	sports
+julio	Iulius	time
+junio	Iunius	time
+juntos	simul	adverb
+justo ; recto	aequus	adjective-people
+labio	labrum	anatomy
+lado	latus	mathematics
+ladrillo	later	house
+lago	lacus	geography
+lamentable ; penoso ; triste	lacrimabilis	adjective
+lazo ; nudo	nodus	abstract
+leche	lac	drink
+leer	legere	verb-basic
+legal ; oficial	legalis	adjective
+lengua	lingua	anatomy
+lenguaje	lingua	communication
+lentamente	lente	adverb
+lento	lentus	adjective-basic
+ley ; derecho	lex	business
+león	leo (nom.)  ; leonis (gen.)	animal
+liberar ; eximir ; franquear ; exonerar ; perdonar	eripio	verb
+libre ; independiente	liber	adjective-people
+ligero ; ágil ; leve	levis	adjective-basic
+limpiar ; pulir	abluo	verb
+limpio ; nítido ; pobre	mundus	adjective-basic
+liso ; llano ; plano	planus	adjective
+liso ; llano ; suave	teres	adjective
+lista ; repertorio	album	abstract
+listo	promptus	adjective
+llamar	advoco	verb
+llamar ; telefonear	advoco	verb
+llave	clavis	tool
+llegar  ; arribar	advenio	verb
+llegar ; venir	venire	verb-basic
+llenar ; abarrotar	effercio	verb
+lleno	plenus	adjective
+llevar ; traer	gero	verb
+llevar ; vestir	gero	verb
+llorar	fleo	verb
+lluvia	pluvia	weather
+lluvia ácida	pluvia acida	environment
+luchar ; pelear ; combatir ; batallar ; contender ; resistir	agon	verb
+lugar ; puesto ; sitio	locus	abstract
+lugar ; sitio	locus	abstract
+luna	luna	geography
+lunes	Dies lunae	time
+luz	lux	physics
+lápiz	plumbum	art
+límite ; raya	finis	mathematics
+línea  ; linea	linea	art
+líquido	liquidus	adjective
+líquido ; licor	liquor	material
+macho	mas	society
+macho	masculus	adjective-people
+macillo	malleus	tool
+madera	lignum	material
+madre	mater	family
+madre	parens	family
+malo	malus	adjective-basic
+manejar ; tratar	curo	verb
+mano	manus	anatomy
+mantequilla	butyrum	food
+manzana	malum	fruit
+mapa ; plano ; carta	tabula	geography
+mar ; océano	mare	geography
+marca ; señal	specimen	business
+margen ; orilla ; vera	crepido	geography
+marinero	nauta	profession
+marrano	porcus  ; sus (nom.)  ; suis (gen.)	animal
+marrón	fuscus	color
+martes	Dies Martis	time
+masa	pondus et massa	physics
+masa ; volumen ; multitud	massa	physics
+masculino	mas	adjective-people
+matar	caedo	verb
+materia	materia	business
+materia ; sustancia	materia	material
+matrimonio ; unión	matrimonium	family
+mayo	Maius	time
+mazo  ; garrote  ; maza	clava	object
+mañana	cras	adverb
+mañana	cras	time
+mañana	mane	time
+me	me	pronoun
+me llamo	mihi nomen est	conversation
+medición	mensura	physics
+mejor	melius	adjective-basic
+mejor	optimus  ; (m)  ; optima  ; (f)  ; optimum (n)	adjective-basic
+melocotón	Malum persicum	fruit
+memoria	memoria	communication
+memoria	memoria	communication
+mentir	mentiri	verb-basic
+menudo ; pequeño ; chico ; breve ; escaso ; poco	parvus	adjective
+mercado	forum	business
+mes	mensis	time
+mes ; regla	menstruatio	medicine
+mesa	mensa	furniture
+metal	metallum	material
+meter	facesso	verb-basic
+mi	meus	pronoun
+miedo ; terror ; inseguridad ; aprensión ; susto	metus	feeling
+miembro	membrum	society
+mil ; millar	mille	number
+mil ; millar	mille	number
+militar	militaris	adjective
+millón	decies centena milia	number
+mina	fodina	environment
+ministro	minister	profession
+minuto	minutus	time
+miserable ; pobre ; triste ; indefenso	inops	adjective
+mismo	idem	adjective
+mitad	dimidium	mathematics
+miércoles	Dies Mercurii	time
+monarca ; rey	rex	society
+mora	morum	fruit
+mortal	homo	family
+mosca	musca	animal
+mostrar	arguo	verb
+movimiento	motus	physics
+muchos	multi	adjective
+mueble ; decoración	supellex	furniture
+muerte	mors	family
+muerto ; difunto	mortuus	adjective-people
+mujer	femina	family
+mujer de negocios ; mujer empresaria	negotiatrix (nom.)  ; negotiatricis (gen.)	business
+mundo ; pueblo	commune	society
+muro ; pared ; tabique	murus	house
+museo	museum	art
+muy	valde	adverb
+máquina	machina	device
+más	et	conjunction
+más	magis	adjective
+más ; otra vez	amplius	adverb
+médico	medicus	adjective-people
+método	via	science
+móvil  ; celular	telephonum gestabile	device
+músculo	musculus	anatomy
+música	musica	art
+músico	musicus	profession
+nacimiento	natio	family
+nación	natio	society
+nadar	natare	verb-basic
+naranja	citrus sinensis	fruit
+nariz	nasus	anatomy
+natural	naturalis	adjective
+naturaleza	natura	nature
+necesario	necessarius	adjective
+necesidad	requirere	business
+necesitar ; precisar	peto	verb-basic
+negocio	causa	business
+negro	niger	color
+nervio	nervus	anatomy
+niebla	nebula	weather
+nieve	nix	weather
+ningún	nullus	adjective
+nivelado	campester	adjective
+no	non	adverb
+no	non	conversation
+no entiendo	nullo intellego	conversation
+no sé	nescio	conversation
+noche	nox	time
+nombre ; apodo	nomen	communication
+norma ; regla ; regulación	principatus	mathematics
+norte	septentriones	geography
+nosotros	nos	pronoun
+nota ; tono	sonus	art
+noticias	nuntius	society
+noventa	nonaginta	number
+noviembre	November	time
+nube	nubes	weather
+nuestro	noster	pronoun
+nueve	novem	number
+nuevo	novus	adjective-basic
+nuez	nux	fruit
+nunca	numquam	adverb
+número	numerus	communication
+o	aut	conjunction
+ocasión ; oportunidad	opportunitas	abstract
+ochenta	octoginta	number
+ocho	octo	number
+octubre	October	time
+oculto ; secreto	latens	adjective
+ocupación	negotium	business
+ocurrir ; pasar ; suceder ; suceso	evenio	verb
+odio	odium	feeling
+oeste	vesper	geography
+oferta  ; ganga  ; saldo  ; liquidación	oblatio	business
+oficina	officium	business
+ofrecer	defero	verb-basic
+ojo	oculus	anatomy
+ola	unda	nature
+oler ; olfatear ; aspirar	adolere	verb
+olor ; hedor	odor	nature
+once	undecim	number
+orden	jussio	society
+ordenador	computatrum	device
+original	archetypus	adjective
+oro	aurum	material
+orquesta	orchestra	art
+oscuro ; sombrío ; misterioso	obscurus	adjective-basic
+oso	ursus {m}  ; ursa {f}	animal
+otoño	autumnus	time
+otra vez	denuo	adverb
+otro	alius	adjective
+oveja	ovis (nom.)  ; ovis (gen.)	animal
+ozono	ozonum	environment
+oído ; oreja	auris (nom.)  ; auris (gen.)	anatomy
+paciente	patiens	adjective-people
+paciente	patiens	medicine
+pacto ; trato	pactum	business
+padre ; papa ; papá ; viejo	pater	family
+pago	pensio	business
+pago ; recompensa	merces	business
+palabra ; oferta	verbum	communication
+palo ; vara ; bastón	baculum	object
+palpar	contrecto	verb-basic
+pan	panis	food
+papel	charta	art
+par ; pareja	par	number
+paralelo	parallelos	adjective
+parecer	videor	verb
+parecido ; semejante ; similar	similis	adjective-basic
+parque	hortus	city
+parte ; porcentaje	pars	abstract
+parte ; región	pars	geography
+partir ; quebrar ; romper ; destrozar	quasso	verb-basic
+pasajero ; pasajera	viator	transport
+pasaporte	syngraphus	society
+paso ; desplazamiento	passus	abstract
+pastel	crustum	food
+pausa ; suspensión	abscissio	time
+paz	pax	society
+paño ; tejido ; tela ; trapo ; red	tela	clothes
+pecho	pectus (nom.)  ; pectoris (gen.)	anatomy
+pedazo ; trozo	frustum	abstract
+pedir ; solicitar ; demandar	postulatio	verb
+peligro ; riesgo	periculum	abstract
+peligro ; riesgo ; azar	periculum	abstract
+peligroso	acutus	adjective
+pelo  ; cabello	capillus	anatomy
+película ; producción	cinematographia (new)	art
+pepino	cucumer	vegetable
+pepita ; semilla	semen	object
+pera	pirum	fruit
+perder	amitto	verb
+perder	amitto	verb-basic
+perdonar ; excusar	dimitto	verb
+permanecer  ; mantener  ; esperar	maneo	verb
+perro	canis (nom.)  ; canis (gen.)	animal
+personal  ; particular	privatus	adjective
+personalidad	persona	abstract
+pertenencia ; propiedad	proprietas	business
+período  ; ciclo	aetas	time
+pesado	ponderosus	adjective-basic
+peso	onus	physics
+petróleo	crudus	material
+pez	piscis (nom.)  ; piscis (gen.)	animal
+pico	rostrum	anatomy
+pie	pes (nom.)  ; pedis (gen.)	anatomy
+piedra ; roca	saxum	object
+piel	cutis (nom.)  ; cutis (gen.)	anatomy
+pierna	crus (nom.)  ; cruris (gen.)	anatomy
+piloto	gubernator	profession
+pintura	color	art
+piso ; planta	tabulatio	house
+piso ; suelo ; pavimento	solum	house
+placer ; gusto	voluptas	feeling
+plan ; programa ; plano ; llano ; proyecto	consilium	business
+planeta	mundus	nature
+plata	argentum	material
+plata ; argento ; color plateado	argenteus	adjective
+plato	lanx	container
+playa	litus	geography
+plomo	plumbum	material
+pluma	penna	object
+pluma	stilus	art
+plátano	musa	fruit
+población	frequentia	society
+población ; villa ; ciudad	urbs	city
+pobre	pauper (m  ; f  ; n)	adjective-people
+poco	paucus	adverb
+poema ; poesía ; verso	poema	art
+poesía ; verso	poesis	art
+polvo	pulvis	material
+polvo	pulvis	material
+poner	colloco	verb-basic
+por	ad	preposition
+por qué	cur	adverb
+porcentaje	per centum	mathematics
+porque	quod	conjunction
+porte	philatelista	object
+posible ; probable ; eventual	probabilis	adjective
+posible ; realizable	possibilis	adjective
+pozo	puteus	house
+preguntar ; solicitar ; interrogar ; averiguar	scisco	verb
+presentar	induco	verb
+presidente	praesidens (nominative)  ; praesidentis (genitive)	profession
+presión	pressio	physics
+primavera	ver	time
+primero	primus	adverb
+primordial ; principal ; mayor	cardinalis	adjective
+prisión	phylaca	city
+probablemente	fortasse	adverb
+problema	molestia	science
+procedimiento ; proceso ; método	ratio	science
+procesar ; tratar	tracto	verb
+producción ; creación ; elaboración	fabricatio	science
+producción ; producto	genimen	business
+profesor ; maestro ; educador	magister	education
+pronto	mane	adverb
+pronto	mox	adverb
+pronunciación	pronuntiatio	communication
+propiedad	possessio	abstract
+proponer ; sugerir ; aconsejar ; inspirar ; apuntar	suggero	verb
+proposición	propositio	communication
+proposición ; propuesta ; sugerencia	propositio	communication
+proyecto ; tarea ; contrata	propositum	abstract
+práctica	exercitatio (nom.)  ; exercitationis (gen.)	abstract
+pueblo	vicus	city
+puente	pons	city
+puerta ; hoja	porta	house
+pulgar	pollex (nom.)  ; pollicis (gen.)	anatomy
+página ; hoja	pagina	communication
+pérdida	calamitas	business
+público	publicus	adjective
+que	quam	conjunction
+que	quid	pronoun
+queso	caseus	food
+quitar ; sacar	abrogo	verb
+quizás	fortasse	adverb
+quién	quem	pronoun
+quién	qui	pronoun
+química	chemia	science
+rama	stipes	nature
+rayo	fulmen	weather
+razón ; motivo	causa	communication
+raíz	radix	nature
+real	regalis	adjective-people
+realmente	enim	adverb
+rechazar ; declinar ; desairar ; desterrar ; excluir ; rehusar	recuso	verb
+recibir	suscipio	verb
+reciclaje	anacyclismus	environment
+reciente	recens	adjective
+recientemente	nunc	time
+recientemente	nuper	adverb
+recto ; derecho ; vertical ; perpendicular ; directo	rectus	adjective
+red  ; malla	rete	mathematics
+redondo	rotundus	adjective
+reflejar	consulo	verb
+regalo ; presente	donum	object
+regreso ; vuelta ; retorno	reditus	abstract
+regular	ordinarius	adjective
+relación	cognatio	family
+reloj	horologium	device
+reloj	horologium	device
+repentino	subitus	adjective
+repollo	brassica	vegetable
+representante	vicarius	profession
+resfriado	frigus	medicine
+responder	respondere	verb
+responsabilidad ; deber	auctoritas	abstract
+respuesta	responsum	communication
+restante ; resto ; residuo ; escombro	reliquum	business
+restaurante	caupona	city
+reír	ridere	verb-basic
+rico	pecuniosus	adjective-people
+ritmo ; compás	numerus	art
+rocío	ros	weather
+rodilla	genu (nom.)  ; genus (gen.)	anatomy
+rosa ; rosado	roseus	color
+roto	fractus (m)  ; fracta (f)  ; fractum (n)	adjective
+rueda	rota	object
+ruido	sonitus	society
+rábano	raphanus	vegetable
+rápidamente ; a prisa ; al trote ; apresuradamente ; aprisa ; con prontitud ; de prisa ; ejecutivamente ; ligero ; prestamente ; presto ; presurosamente ; prontamente ; raudamente ; velozmente	cito	adverb
+rápido ; veloz	firmus	adjective-basic
+rígido ; tieso	rigidus	adjective
+río	flumen	geography
+s ; segundo	secundum	time
+sabio ; serio ; formal	sapiens	adjective-people
+sal	sal	food
+salsa	embamma	food
+salto	saltus	abstract
+salud	valetudo	medicine
+sangre	sanguis (nom.)  ; sanguis (gen.)	anatomy
+sano	saluber	adjective-basic
+sano	saluber	adjective-people
+se	ipsa	pronoun
+seco	siccus	adjective
+secretario	scriba	profession
+secreto	secretum	communication
+seda	bombyx	material
+sediento	siccus	adjective-people
+seguir ; continuar ; proseguir	sequi	verb-basic
+segundo	secundus	adjective
+seguro ; cierto	certus	adjective
+seis	sex	number
+sello ; cajetín ; timbre	signum	tool
+semana	hebdomas	time
+sentar	incubare	verb-basic
+sentimiento	sensus	communication
+separado	separatus	adjective
+septiembre	September	time
+ser	exsisto	verb-basic
+serenidad ; sosiego ; tranquilidad ; calma ; dulzura	tranquillitas	abstract
+serio	serius	adjective
+serpiente	serpens (nom.)  ; serpentis (gen.)	animal
+servicio	officium	business
+sesenta	sexaginta	number
+setenta	septuaginta	number
+si	si	conjunction
+siempre	semper	adverb
+siglo	saeculum	time
+signo	signum	communication
+siguiente  ; próximo	posterus	adjective
+silencio ; discreción ; mordaza ; reserva	silentium	abstract
+silencioso	quies quietis	adjective
+silencioso ; callado	quietus	adjective
+silla	sella	furniture
+simio ; mono	simia	animal
+simpatizar  ; considerar  ; estimar  ; apreciar	amo	verb-basic
+sin	sine	preposition
+sincero ; franco ; leal	sincerus	adjective-people
+sistema	disciplina	science
+situación	condicio	abstract
+sobre	theca	container
+sociedad	societas	science
+sol	sol	geography
+solamente	modo	adverb
+soldado	miles	profession
+solitario	singularis	adverb
+solitario	solitarius	adjective-people
+solo	simplex	adjective
+soltero	unus	adjective-people
+sonido	sonus	physics
+sonreír	subridere%subridere	verb-basic
+sonrisa	risus	relations
+sopa ; caldo	ius	food
+soportar ; sufrir	perfero	verb
+sorprender	obreptio	verb
+su	suus	pronoun
+su	suus	pronoun
+su	suus sua suum	pronoun
+su	tuus	pronoun
+sucio ; asqueroso	sordidus	adjective-basic
+sueño	somnus	nature
+suma	additio	mathematics
+sumar	adaugeo	verb
+superficie	superficies	mathematics
+superioridad ; ventaja	utilitas	business
+supermercado	-	city
+sur	meridianus	geography
+sábado	Dies Saturni	time
+sí	sic	conversation
+sólido	firmus	adjective
+tabla ; tablero	axedo	object
+tal	sic	adverb
+tallo ; pedúnculo	festuca	nature
+también	etiam	adverb
+tarde	meridianus	time
+tarde	serus	adverb
+tardío ; pausado ; lento	sero	adjective
+taza	poculum	container
+te	tutemet	pronoun
+teatro	theatrum	city
+techo	tectum	house
+tecnología	technologia	science
+tele ; televisión ; televisor	televisio {f}  ; televisionis (gen.) (new)	device
+temblor ; escalofríos	horror	abstract
+temporada	tempora anni	time
+tenedor	furca	kitchen
+tener	habere%habere	verb-basic
+tenis	tenniludium	sports
+teoría	ratio	science
+testamento	testamentum	society
+tiempo	tempus	physics
+tiempo ; clima	status caeli	nature
+tierra	humus	geography
+tierra	humus	material
+tinta	atramentum	art
+todavía	etiam	adverb
+todo	totus	adjective
+todo	totus	pronoun
+todo ; totalidad	universitas	abstract
+todos	omnes	pronoun
+tomate	lycopersicum	vegetable
+tormenta	tempestas	weather
+tos	tussis	medicine
+trabajador	operarius	business
+trabajo	opera	business
+trampa	ars	abstract
+transporte	transportatio	transport
+tratamiento ; trato	cura	abstract
+trece	tredecim	number
+treinta	triginta	number
+tres	tres	number
+triste	tristis	adjective-people
+tronco	truncus	anatomy
+trozo	fragmentum	abstract
+trueno	tonitrus	weather
+tubería  ; conducto	fistula	object
+té	thea	drink
+título	appellatio	society
+tórax	pectus (nom.)  ; pectoris (gen.)	anatomy
+tóxico	venenum	material
+un	''not used''	article
+unidad	as	physics
+unión	iunctio	society
+uno ; a	unus (m)  ; una (f)  ; unum (n)	number
+uña	unguis (nom.)  ; unguis (gen.)	anatomy
+vaca	bos (nom.)  ; bovis (gen.)	animal
+vacaciones ; feriado	feria	business
+valor	pretium	business
+vecina ; vecino ; cercano	vicinus	family
+veinte	viginti	number
+vela	velum	object
+vender	exigo	verb-basic
+venta	venditio	business
+ventana	fenestra	house
+ver	animadverto	verb
+ver	videre%video  ; videre  ; vidi  ; visus	verb
+ver ; visitar	frequento	verb
+verano	aestas	time
+verdaderamente	reapse	adverb
+verdadero	verus	adjective
+verde	viridis	color
+verja ; reja ; valla	porta	house
+vestido  ; prenda  ; ropa	vestis	clothes
+vez	quondam	adverb
+viaje	via	transport
+vidrio	vitrum	material
+viejo ; veterano	vetus	adjective-people
+viernes	Dies Veneris	time
+vigente	amnis	adjective
+vino	vinum	drink
+violento	vehemens	adjective-people
+visita	salutatio	relations
+vivo	vivus	adjective-people
+volar	no	verb-basic
+voluntad	voluntas	abstract
+voluntad	voluntas	society
+voz	vox	communication
+ya	iam	adverb
+ya que	enim	conjunction
+yacer	recubo	verb-basic
+zanahoria	carota	vegetable
+zapato	calceus	clothes
+¿es	quid agis	conversation
+ácido	acidus	adjective
+ácido ; agrio	acidum	material
+ámbito ; área ; campo ; disciplina	disciplina	science
+ángulo	angulus	mathematics
+árbol	arbor	nature
+área ; superficie	area	mathematics
+áspero	crudus	adjective
+átomo ; pedazo ; pizca ; viruta	assula	abstract
+él	is	pronoun
+éxito	felix exitus	business
+último	ultimus	adjective

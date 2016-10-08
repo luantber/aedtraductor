@@ -55,7 +55,7 @@ set( Srcs main.cpp
 set( Hdrs
    
      otros/palabra.h
-
+     estructuras/estructura_de_dato.h
      estructuras/cola.h
      estructuras/avl_tree.h
      estructuras/NodoAVL.h

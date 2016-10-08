@@ -36,9 +36,9 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="label">
+           <widget class="QLabel" name="path_label">
             <property name="text">
-             <string>Current Folder:</string>
+             <string>/home/texs/Documents/dicts</string>
             </property>
            </widget>
           </item>
@@ -54,7 +54,33 @@
            </widget>
           </item>
           <item>
-           <widget class="QComboBox" name="idioma_comboBox"/>
+           <widget class="QComboBox" name="idioma_comboBox">
+            <item>
+             <property name="text">
+              <string>Spanish</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Latin</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>English</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>German</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>French</string>
+             </property>
+            </item>
+           </widget>
           </item>
          </layout>
         </item>
@@ -68,7 +94,33 @@
            </widget>
           </item>
           <item>
-           <widget class="QComboBox" name="idioma_destino_combobox"/>
+           <widget class="QComboBox" name="idioma_destino_combobox">
+            <item>
+             <property name="text">
+              <string>English</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>German</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>French</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Spanish</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Latin</string>
+             </property>
+            </item>
+           </widget>
           </item>
          </layout>
         </item>
@@ -82,7 +134,38 @@
            </widget>
           </item>
           <item>
-           <widget class="QComboBox" name="estructura_comboBox"/>
+           <widget class="QComboBox" name="estructura_comboBox">
+            <item>
+             <property name="text">
+              <string>Ärbol AVL</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Árbol Binario</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Árbol Red-Black</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Lista Simple</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Binomial Heap</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Fibonacci Heap</string>
+             </property>
+            </item>
+           </widget>
           </item>
          </layout>
         </item>

@@ -1,0 +1,1249 @@
+April  ; Apr	Aprilis	time
+August  ; Aug	Augustus	time
+China  ; People's Republic of China  ; mainland China  ; Communist China  ; Red China  ; PRC  ; Cathay	Sina	country
+Chinese	Sinesis  ; lingua Sinica	language
+Czech Republic	Tzekia	country
+December  ; Dec	December	time
+Earth  ; earth  ; world  ; globe	Terra	geography
+English  ; English language	Lingua Anglica	language
+February  ; Feb	Februarius	time
+France  ; French Republic	Francia	country
+French	lingua Gallica (f)	language
+Friday  ; Fri	Dies Veneris	time
+German  ; High German  ; German language	Lingua Theodisca	language
+Germany  ; Federal Republic of Germany  ; Deutschland  ; FRG	Germania	country
+I don't know	nescio	conversation
+I don't understand	nullo intellego	conversation
+India  ; Republic of India  ; Bharat	India	country
+Italy  ; Italian Republic  ; Italia	Italia	country
+January  ; Jan	Ianuarius	time
+Japan  ; Nippon  ; Nihon	Iaponia	country
+Japanese	lingua Iaponica (f)	language
+July	Iulius	time
+June	Iunius	time
+May	Maius	time
+Monday  ; Mon	Dies lunae	time
+Moon  ; moon	luna	geography
+November  ; Nov	November	time
+October  ; Oct	October	time
+Saturday  ; Sabbatum  ; Sat	Dies Saturni	time
+September  ; Sep  ; Sept	September	time
+Spain  ; Kingdom of Spain  ; Espana	Hispania	country
+Spanish	lingua Hispanica	language
+Sunday  ; Lord's Day  ; Dominicus  ; Sun	Dies solis	time
+Thursday  ; Th	Dies Iovis	time
+Tuesday  ; Tues	Dies Martis	time
+United Kingdom  ; UK  ; U.K.  ; Britain  ; United Kingdom of Great Britain and Northern Ireland  ; Great Britain	Britanniarum Regnum	country
+United States  ; United States of America  ; America  ; the States  ; US  ; U.S.  ; USA  ; U.S.A.	Civitates Foederatae Americae	country
+Wednesday  ; Midweek  ; Wed	Dies Mercurii	time
+a  ; an	''not used''	article
+able	ingeniosus	adjective-people
+about  ; around	fere	adverb
+above  ; higher up  ; in a higher place  ; to a higher place	supra	adverb
+accept  ; take  ; have	suscipio	verb
+accident	casus	transport
+account  ; business relationship	ratio	business
+accuse  ; charge	arguo	verb
+acid	acidum	material
+acid	acidus	adjective
+acid rain  ; acid precipitation	pluvia acida	environment
+act  ; deed  ; human action  ; human activity	actus	abstract
+action	factum	abstract
+activity  ; action  ; activeness	actio	abstract
+actor  ; histrion  ; player  ; thespian  ; role player	actor	profession
+actress	mima	profession
+add	adaugeo	verb
+add  ; add together	adaugeo	verb
+addition  ; add-on  ; improver	additio	abstract
+addition  ; summation  ; plus	additio	mathematics
+address	appellare	house
+admit  ; acknowledge	agnosco	verb
+advantage  ; vantage	utilitas	business
+advertisement  ; ad  ; advertizement  ; advertising  ; advertizing  ; advert	proscriptio (nom.)  ; proscriptionis (gen.)	business
+advice	consilium	business
+afternoon	meridianus	time
+again  ; once again  ; once more  ; over again	denuo	adverb
+against	econtra	preposition
+age	aetas	time
+agree  ; hold  ; concur  ; concord	congruo	verb
+agreement  ; understanding	pactum	business
+air	aer	nature
+airport  ; airdrome  ; aerodrome  ; drome	aeroportus	city
+alive  ; live	vivus	adjective-people
+all	totus	adjective
+allow  ; let  ; permit	sino	verb
+almost  ; about  ; most  ; nearly  ; near  ; nigh  ; virtually  ; well-nigh	quasi	adverb
+alone  ; lone  ; lonely  ; solitary	solitarius	adjective-people
+already	iam	adverb
+always  ; ever  ; e'er	semper	adverb
+among  ; amongst  ; amid  ; amidst	inter	preposition
+amount	quantitas	abstract
+and	et	conjunction
+angle	angulus	mathematics
+angry	iratus	adjective-people
+animal  ; animate being  ; beast  ; brute  ; creature  ; fauna	animal	nature
+announce  ; denote	denuntio	verb
+announcement  ; proclamation  ; annunciation  ; declaration	pronuntiatio	communication
+answer  ; reply  ; response	responsum	communication
+ant  ; emmet  ; pismire	formica	animal
+any  ; whatever  ; whatsoever	quisquis	adjective
+apple	malum	fruit
+approval  ; blessing  ; approving	approbatio	communication
+approximately  ; about  ; close to  ; just about  ; some  ; roughly  ; more or less  ; around  ; or so	fere	adverb
+apricot	malum Armeniacum	fruit
+area  ; expanse  ; surface area	area	mathematics
+argument  ; controversy  ; contention  ; contestation  ; disputation  ; disceptation  ; tilt  ; arguing	iurgium	communication
+arm	brachium	anatomy
+army  ; regular army  ; ground forces	exercitus	society
+arrive  ; make it  ; get in  ; go far	advenio	verb
+art  ; fine art	ars (nom.)  ; artis (gen.)	art
+artist  ; creative person	artifex	art
+ask  ; inquire  ; enquire	scisco	verb
+at	''locative case	preposition
+at	''locative case	preposition
+atmosphere  ; air	atmosphaera	environment
+attack  ; assail  ; assault  ; set on	incurro	verb
+attack  ; onslaught  ; onset  ; onrush	lacesso	abstract
+attempt  ; effort  ; endeavor  ; endeavour  ; try	conatus	abstract
+attention  ; attending	intentio	business
+authority  ; authorization  ; authorisation  ; potency  ; dominance  ; say-so	auctoritas	business
+autumn  ; fall	autumnus	time
+avoid	declino	verb
+awake	vigil	adjective-people
+baby  ; babe  ; infant	infans	family
+back  ; dorsum	tergum	anatomy
+bad	malus	adjective-basic
+bag	saccus	container
+ball	pila	sports
+banana	musa	fruit
+bank	crepido	geography
+bank  ; depository financial institution  ; banking concern  ; banking company	argentaria	city
+banknote  ; bill  ; note  ; government note  ; bank bill  ; banker's bill  ; bank note  ; Federal Reserve note  ; greenback	-	business
+bargain  ; deal	pactum	business
+base  ; base of operations	substructio	society
+baseball  ; baseball game	basipila	sports
+basket  ; handbasket	fiscus	container
+bathroom  ; bath	lavacrum	house
+be	exsisto	verb-basic
+be  ; live	vivere	verb
+beach	litus	geography
+beak  ; bill  ; neb  ; nib  ; pecker	rostrum	anatomy
+bean  ; edible bean	fasiolum	vegetable
+bear	gero	verb
+bear	ursus {m}  ; ursa {f}	animal
+beautiful	pulcher	adjective-basic
+because	quod	conjunction
+become  ; go  ; get	fio	verb
+bed	lectus	furniture
+bedroom  ; sleeping room  ; sleeping accommodation  ; chamber  ; bedchamber	cubiculum	house
+bee	apis (nom.)  ; apis (gen.)	animal
+beer	cervisia	drink
+begin  ; start  ; get down  ; get  ; start out  ; set about  ; set out  ; commence	inceptio	verb-basic
+beginning  ; commencement  ; first  ; outset  ; get-go  ; start  ; kickoff  ; starting time  ; showtime  ; offset	initium	time
+behavior  ; demeanor  ; demeanour  ; behaviour  ; conduct  ; deportment	mos	abstract
+believe	autumo	verb
+bell	campana	tool
+best	optimus  ; (m)  ; optima  ; (f)  ; optimum (n)	adjective-basic
+better	melius	adjective-basic
+between  ; betwixt	inter	adverb
+big  ; large	grandis	adjective-basic
+bike  ; bicycle  ; wheel  ; cycle	birota	sports
+biology  ; biological science	biologia	science
+bird	avis (nom.)  ; avis (gen.)	animal
+birth  ; nativity  ; nascency  ; nascence	natio	family
+birthday	dies natalis	family
+bit  ; chip  ; flake  ; fleck  ; scrap	assula	abstract
+bitter	amarus	adjective
+black	niger	color
+blackberry	morum	fruit
+blood	sanguis (nom.)  ; sanguis (gen.)	anatomy
+blow	aspirare	abstract
+blue  ; bluish  ; blueish	caeruleus (m)  ; caerulea (f)  ; caeruleum (n)	color
+board	axedo	object
+boat	cumba	transport
+body  ; torso  ; trunk	truncus	anatomy
+bone  ; os	os (nom.)  ; ossis (gen.)	anatomy
+book  ; volume	liber	communication
+boot	calceus	clothes
+boring  ; deadening  ; dull  ; ho-hum  ; irksome  ; slow  ; tedious  ; tiresome  ; wearisome	molestus	adjective
+boy  ; male child	puer	family
+brain  ; encephalon	cerebrum	anatomy
+branch	stipes	nature
+bread  ; breadstuff  ; staff of life	panis	food
+break	quasso	verb-basic
+breakfast	ientaculum	food
+breath	spiritus	anatomy
+brick	later	house
+bridge  ; span	pons	city
+bright  ; brilliant  ; vivid	candidus	adjective
+broken	fractus (m)  ; fracta (f)  ; fractum (n)	adjective
+brother  ; blood brother	frater	family
+brown  ; brownish  ; chocolate-brown  ; dark-brown	fuscus	color
+brush	peniculus	art
+build  ; construct  ; make	texo	verb
+building  ; edifice	aedificium	city
+bus  ; autobus  ; coach  ; charabanc  ; double-decker  ; jitney  ; motorbus  ; motorcoach  ; omnibus  ; passenger vehicle	laophorium	transport
+business  ; concern  ; business concern  ; business organization  ; business organisation	causa	business
+businessman  ; man of affairs	negotiator (nom.)  ; negotiatoris (gen.)  ; negotians (nom.)  ; negotiantis (gen.)	profession
+businesswoman	negotiatrix (nom.)  ; negotiatricis (gen.)	business
+butter	butyrum	food
+buy  ; purchase	redimo	verb-basic
+cabbage  ; chou	brassica	vegetable
+cake	crustum	food
+call  ; telephone  ; call up  ; phone  ; ring	advoco	verb
+campaign  ; cause  ; crusade  ; drive  ; movement  ; effort	expeditio	abstract
+capital	caput	city
+car  ; auto  ; automobile  ; machine  ; motorcar	autocinetum	transport
+carpet  ; rug  ; carpeting	tapetum	furniture
+carrot  ; cultivated carrot  ; Daucus carota sativa	carota	vegetable
+carry  ; transport	veho	verb
+case  ; instance  ; example	causa	abstract
+castle	castellum	city
+cat  ; true cat	feles  ; felis (nom.)  ; felis (gen.)	animal
+cause	causa	science
+cell	cella	anatomy
+cellphone  ; cellular telephone  ; cellular phone  ; cell  ; mobile phone	telephonum gestabile	device
+center  ; centre  ; midpoint	centrum	mathematics
+center  ; kernel  ; substance  ; core  ; centre  ; essence  ; gist  ; heart  ; heart and soul  ; inwardness  ; marrow  ; meat  ; nub  ; pith  ; sum  ; nitty-gritty	essentia	science
+century	saeculum	time
+certain  ; sure	certus	adjective
+chain	catena	object
+chair	sella	furniture
+championship  ; title	appellatio	sports
+chance  ; opportunity	opportunitas	abstract
+change  ; alter  ; modify	mutatio	verb
+change  ; alteration  ; modification	vicis	abstract
+character  ; grapheme  ; graphic symbol	character	communication
+charge  ; electric charge	onus electricum	physics
+cheap  ; inexpensive	vilis	adjective
+cheese	caseus	food
+chemical element  ; element	elementum	material
+chemistry  ; chemical science	chemia	science
+cherry	cerasum	fruit
+chest  ; breast	pectus (nom.)  ; pectoris (gen.)	anatomy
+chest  ; thorax  ; pectus	pectus (nom.)  ; pectoris (gen.)	anatomy
+child  ; kid	infans	family
+chin  ; mentum	mentum	anatomy
+chocolate	socolata	food
+choice  ; selection  ; option  ; pick	electio	abstract
+choose  ; take  ; select  ; pick out	sumo	verb
+church  ; church building	ecclesia	city
+cinema  ; movie theater  ; movie theatre  ; movie house  ; picture palace	cinemateum	city
+circle	circulus	mathematics
+city  ; metropolis  ; urban center	civitas	city
+clean	mundus	adjective-basic
+clean  ; make clean	abluo	verb
+clear	clarus	adjective
+clock	horologium	device
+close  ; shut	claudere	verb-basic
+closed  ; shut  ; unopen	clausus	adjective
+cloth  ; fabric  ; material  ; textile	tela	clothes
+clothing  ; article of clothing  ; vesture  ; wear  ; wearable  ; habiliment	vestis	clothes
+cloud	nubes	weather
+club	clava	object
+club  ; social club  ; society  ; guild  ; gild  ; lodge  ; order	circulus	society
+coal	carbo	material
+coffee  ; java	coffeum	drink
+cold	frigidus	adjective-basic
+cold  ; common cold	frigus	medicine
+color  ; colour  ; coloring material  ; colouring material	colores	art
+come  ; come up	venire	verb-basic
+committee  ; commission	mandatum	business
+common	communis	adjective
+common  ; mutual	communis	adjective
+company  ; companionship  ; fellowship  ; society	vexillum	society
+compare	comparare	verb
+comparison  ; comparing	comparatio	science
+competition	certatio	business
+competitor  ; rival  ; challenger  ; competition  ; contender	competitor	sports
+complaint  ; charge	criminatio	business
+complete  ; consummate	expletus	adjective
+component  ; constituent  ; element  ; factor  ; ingredient	elementum	mathematics
+computer  ; computing machine  ; computing device  ; data processor  ; electronic computer  ; information processing system	computatrum	device
+concert	acroama	art
+condition  ; status	causa	abstract
+consequence  ; effect  ; outcome  ; result  ; event  ; issue  ; upshot	consecutio	science
+contest  ; competition	certamen	business
+continue  ; go on  ; proceed  ; go along  ; keep	persevero	verb
+contract	pactum	business
+control  ; command	gubernatio	verb
+cook	coquus	kitchen
+copy	copia	business
+copy  ; re-create	effingo	verb
+correct  ; right	emendatus	adjective-basic
+cost	sumptus	business
+cough  ; coughing	tussis	medicine
+council	consilium	business
+country  ; state  ; land	rus	society
+couple  ; pair  ; twosome  ; twain  ; brace  ; span  ; yoke  ; couplet  ; distich  ; duo  ; duet  ; dyad  ; duad	par	number
+cow  ; moo-cow	bos (nom.)  ; bovis (gen.)	animal
+crime  ; offense  ; criminal offense  ; criminal offence  ; offence  ; law-breaking	facinus	society
+cruel  ; barbarous  ; brutal  ; fell  ; roughshod  ; savage  ; vicious	barbarus	adjective
+crush	frendo	verb
+crush  ; squash  ; squelch  ; mash  ; squeeze	frendo	verb
+cry  ; outcry  ; call  ; yell  ; shout  ; vociferation	ululatus	communication
+cry  ; weep	fleo	verb
+cucumber  ; cuke	cucumer	vegetable
+culture  ; civilization  ; civilisation	humanitas	society
+cup	poculum	container
+cup  ; loving cup	calix	sports
+cupboard  ; closet	armarium	furniture
+current	amnis	adjective
+current  ; stream	amnis	geography
+curtain  ; drape  ; drapery  ; mantle  ; pall	velum	furniture
+customer  ; client	cliens	business
+damage  ; harm  ; impairment	injuria	abstract
+danger	periculum	abstract
+dangerous  ; unsafe	acutus	adjective
+dark	obscurus	adjective-basic
+date  ; appointment  ; engagement	constitutum	relations
+date  ; day of the month	dies	time
+daughter  ; girl	filia	family
+day  ; twenty-four hours  ; twenty-four hour period  ; 24-hour interval  ; solar day  ; mean solar day	dies	time
+dead	mortuus	adjective-people
+death	mors	family
+death  ; decease  ; expiry	letum	abstract
+decide  ; make up one's mind  ; determine	cerno	verb
+decision  ; determination  ; conclusion	exitus	communication
+decoration  ; ornament  ; ornamentation	decus	abstract
+degree  ; grade  ; level	aquus	mathematics
+demand  ; need	requirere	business
+democracy  ; republic  ; commonwealth	res publica	society
+describe  ; depict  ; draw	demonstro	verb
+desire  ; want	opto	verb
+destruction  ; devastation	eversio	abstract
+dew	ros	weather
+dictionary  ; lexicon	lexicon	communication
+difference	discrimen	mathematics
+different  ; unlike  ; dissimilar	dissimilis	adjective
+difficult  ; hard	acer	adjective-basic
+difficulty	difficultas	business
+direction	gubernatio	business
+directly  ; straight  ; direct	rectus	adverb
+director  ; manager  ; managing director	rector	business
+dirty  ; soiled  ; unclean	sordidus	adjective-basic
+discipline  ; subject  ; subject area  ; subject field  ; field  ; field of study  ; study  ; bailiwick	disciplina	science
+discovery  ; find  ; uncovering	inventio	science
+discuss  ; hash out  ; talk over	confero	verb
+discussion  ; give-and-take  ; word	disputatio	communication
+disease	morbus	medicine
+distance	distantia	mathematics
+diversity  ; diverseness  ; multifariousness  ; variety	distantia	art
+division  ; partition  ; partitioning  ; segmentation  ; sectionalization  ; sectionalisation	discrimen	mathematics
+do  ; practice  ; practise  ; exercise	exerceo	verb-basic
+do you speak English	Anglice loquerisne	conversation
+doctor  ; doc  ; physician  ; MD  ; Dr.  ; medico	medicus	medicine
+dog  ; domestic dog  ; Canis familiaris	canis (nom.)  ; canis (gen.)	animal
+dominion  ; rule	principatus	society
+door	porta	house
+doubt	dubitare	verb
+doubt  ; uncertainty  ; incertitude  ; dubiety  ; doubtfulness  ; dubiousness	dubitatio	communication
+down	deorsum	adjective
+down  ; downwards  ; downward  ; downwardly	deorsum	adverb
+drink  ; beverage  ; drinkable  ; potable	potio	drink
+drink  ; imbibe	bibere	verb-basic
+drop  ; drib  ; driblet	gutta	abstract
+dry	siccus	adjective
+during	dum	preposition
+dust	pulvis	material
+duty	officium	abstract
+each	omnis	adjective
+ear	auris (nom.)  ; auris (gen.)	anatomy
+early  ; early on	mane	adverb
+earth  ; ground	humus	material
+east  ; due east  ; eastward  ; E	oriens	geography
+easy	facilis	adjective
+eat	edere	verb-basic
+ecology  ; bionomics  ; environmental science	oecologia	environment
+edge  ; border	ora	mathematics
+education	educatio	education
+education  ; instruction  ; teaching  ; pedagogy  ; didactics  ; educational activity	disciplina	education
+effort  ; elbow grease  ; exertion  ; travail  ; sweat	labor	abstract
+egg	ovum	food
+eight  ; 8  ; viii	octo	number
+eighteen  ; 18  ; xviii	duodeviginti	number
+eighty  ; 80  ; lxxx  ; fourscore	octoginta	number
+election	cooptatio	society
+elephant	elephantus	animal
+elevator  ; lift	teleferica	device
+eleven  ; 11  ; xi	undecim	number
+embrace  ; encompass  ; comprehend  ; cover	complexo	verb
+end  ; stop  ; finish  ; terminate  ; cease	desino	verb
+end  ; terminal	finis	time
+energy  ; free energy	vis	physics
+enhance  ; heighten  ; raise	erigo	verb
+enough  ; plenty	satis	adverb
+entertainment  ; amusement	oblectatio (nom.)  ; oblectationis (gen.)	art
+entirely  ; exclusively  ; solely  ; alone  ; only	singularis	adverb
+envelope	theca	container
+equal	aequus	adjective
+equally  ; as  ; every bit	ut	adverb
+establish  ; found  ; plant  ; constitute  ; institute	constituo	verb
+even	etiam	adverb
+even  ; fifty-fifty	campester	adjective
+evening  ; eve  ; even  ; eventide	vesper	time
+event	eventus	science
+every	omnis	adjective
+everybody  ; everyone	omnes	pronoun
+everything	totus	pronoun
+evidence	probatio	science
+evolution  ; development	evolutio	nature
+exactly  ; precisely  ; just	exacte	adverb
+examination  ; exam  ; test	probatio	education
+example  ; illustration  ; instance  ; representative	exemplum	science
+excellent  ; first-class  ; fantabulous  ; splendid	egregius	adjective
+exist  ; be	exsisto	verb
+expect  ; look  ; await  ; wait	exspecto	verb
+experience	usus	business
+expert	peritus	profession
+explain  ; explicate	expedio	verb
+eye  ; oculus  ; optic	oculus	anatomy
+face  ; human face	facies	anatomy
+fact	factum	science
+fake  ; false  ; faux  ; imitation  ; simulated	falsus	adjective
+fall	cadere	verb-basic
+fall  ; spill  ; tumble	decido	abstract
+false	falsus	adjective
+family  ; family unit	familia	family
+farm	ager	nature
+fast	firmus	adjective-basic
+fat	nitidus	adjective
+fat  ; fatty	pinguis	adjective
+father  ; male parent  ; begetter	pater	family
+fear  ; fearfulness  ; fright	metus	feeling
+feather  ; plume  ; plumage	penna	object
+feature  ; characteristic	proprius	abstract
+feel  ; sense	contrecto	verb-basic
+feeling	sensus	communication
+female	femineus	adjective-people
+field	ager	nature
+fifteen  ; 15  ; xv	quindecim	number
+fifty  ; 50  ; l	quinquaginta	number
+fight  ; contend  ; struggle	agon	verb
+fight  ; fighting  ; combat  ; scrap	colluctatio	abstract
+fill  ; fill up  ; make full	effercio	verb
+find  ; detect  ; observe  ; discover  ; notice	reperio	verb
+find  ; regain	reperio	verb-basic
+finger	digitus	anatomy
+finish  ; complete	exigo	verb
+finish  ; goal  ; destination	destinatio	sports
+fire  ; flame  ; flaming	flamma	nature
+fire  ; open fire	ardor	verb-basic
+firm  ; house  ; business firm	societas	business
+firm  ; solid	pervicax	adjective
+first  ; firstly  ; foremost  ; first of all  ; first off	primus	adverb
+fish	piscis (nom.)  ; piscis (gen.)	animal
+five  ; 5  ; v	quinque	number
+flag	vexillum	object
+flat  ; apartment	aedes	city
+flat  ; level  ; plane	planus	adjective
+floor  ; flooring	solum	house
+floor  ; level  ; storey  ; story	tabulatio	house
+flower	flos	nature
+fly	musca	animal
+fly  ; wing	no	verb-basic
+fog	nebula	weather
+follow	sequi	verb-basic
+following  ; next	posterus	adjective
+food  ; nutrient	cibus	food
+foot  ; human foot  ; pes	pes (nom.)  ; pedis (gen.)	anatomy
+for	enim	conjunction
+forehead  ; brow	frons (nom.)  ; frontis (gen.)	anatomy
+foreign  ; strange	allophylus	adjective
+forest  ; wood  ; woods	silva	nature
+forgive	dimitto	verb
+fork	furca	kitchen
+former  ; erstwhile  ; old  ; onetime  ; one-time  ; quondam  ; sometime	antiquus	adjective
+forty  ; 40  ; xl  ; twoscore	quadraginta	number
+forward  ; forwards  ; frontward  ; frontwards  ; forrad  ; forrard	protinus	adverb
+fossil fuel	fomes fossilis	environment
+fourteen  ; 14  ; xiv	quattuordecim	number
+fragile  ; delicate  ; frail	fragilis	adjective
+free	liber	adjective-people
+free  ; complimentary  ; costless  ; gratis  ; gratuitous	eripio	adjective
+free  ; liberate  ; release  ; unloose  ; unloosen  ; loose	eripio	verb
+frequent	celeber	adjective
+fresh	recens	adjective
+friend	amicus	family
+friendly	familiaris	adjective-people
+from	ab	preposition
+from	ab	preposition
+front  ; front end  ; forepart	frons	abstract
+frost  ; hoar  ; hoarfrost  ; rime	pruina	weather
+fruit	fructus	food
+full	plenus	adjective
+full  ; total	plenus	adjective
+furniture  ; piece of furniture  ; article of furniture	supellex	furniture
+future	posterus	adjective
+future  ; hereafter  ; futurity  ; time to come	futurum	time
+game	ludus	sports
+garden	hortus	house
+garlic  ; ail	alium	vegetable
+gate	porta	house
+general	dux	adjective
+general  ; full general	dux	profession
+girl  ; miss  ; missy  ; young lady  ; young woman  ; fille	puella	family
+give	affero	verb-basic
+give up  ; surrender	tradere	verb
+glass	vitrum	material
+global warming	calefactio globalis	environment
+glue  ; gum  ; mucilage	gluten	material
+goal	finis	sports
+goat  ; caprine animal	capra	animal
+gold  ; Au  ; atomic number 79	aurum	material
+good	bonus	adjective-basic
+good luck	bona fortuna	conversation
+government  ; authorities  ; regime	gubernatio	society
+grain	mica	material
+grandfather  ; gramps  ; granddad  ; grandad  ; granddaddy  ; grandpa	avus	family
+grass	gramen	nature
+great	grandis	adjective-basic
+green  ; greenish  ; light-green  ; dark-green	viridis	color
+group  ; grouping	classis	business
+guest  ; invitee	hospes	relations
+hair  ; pilus	capillus	anatomy
+half  ; one-half	dimidium	mathematics
+hammer	malleus	tool
+hand  ; manus  ; mitt  ; paw	manus	anatomy
+handle  ; grip  ; handgrip  ; hold	ansa	object
+happen  ; hap  ; go on  ; pass off  ; occur  ; pass  ; fall out  ; come about  ; take place	evenio	verb
+happy	felix	adjective-basic
+hate  ; detest	contemno	verb
+hate  ; hatred	odium	feeling
+have  ; have got  ; hold	habere%habere	verb-basic
+he	is	pronoun
+head  ; caput	caput (nom.)  ; capitis (gen.)	anatomy
+health  ; wellness	valetudo	medicine
+healthy	saluber	adjective-people
+healthy  ; salubrious  ; good for you	saluber	adjective-basic
+heart  ; pump  ; ticker	cor (nom.)  ; cordis (gen.)	anatomy
+heavy	ponderosus	adjective-basic
+height  ; altitude	altitudo	geography
+hello  ; hullo  ; hi  ; howdy  ; how-do-you-do	salve  ; salve  ; ave  ; ave	conversation
+help  ; aid  ; assist  ; assistance	auxilium	business
+help  ; assist  ; aid	subvenio	verb-basic
+her	suus sua suum	pronoun
+here	hac	adverb
+herself	ipsa	pronoun
+hide  ; conceal	abdo	verb
+high	alte	adjective-basic
+hill	collis	geography
+his	suus	pronoun
+history	historia	society
+hold  ; take hold	possideo	verb
+hole	foramen	abstract
+holiday  ; vacation	feria	business
+home  ; place	domus	house
+hook  ; claw	hamus	tool
+hope	spero	verb-basic
+horse  ; Equus caballus	equus	animal
+hospital  ; infirmary	valetudinarium	city
+hot	calidus	adjective-basic
+hotel	deversorium	city
+hour  ; hr  ; 60 minutes	hora	time
+house	domus	house
+how are you	quid agis	conversation
+however  ; nevertheless  ; withal  ; still  ; yet  ; all the same  ; even so  ; nonetheless  ; notwithstanding	autem	adverb
+human	humanus	adjective-people
+human  ; homo  ; man  ; human being	homo sapiens	family
+humor  ; humour  ; sense of humor  ; sense of humour	festivitas	communication
+hungry	esuriens	adjective-people
+husband  ; hubby  ; married man	maritus	family
+ice  ; water ice	glacies	material
+idea  ; thought	cogitatio	communication
+if	si	conjunction
+ill  ; sick	aeger	adjective-people
+immediately  ; instantly  ; straightaway  ; straight off  ; directly  ; now  ; right away  ; at once  ; forthwith  ; like a shot	protinus	adverb
+important  ; significant	gravis	adjective-basic
+in  ; inwards  ; inward	in	adverb
+income	vectigal	business
+increase	amplio	verb
+increase  ; increment	augmen	abstract
+increase  ; increment  ; growth	incrementum	abstract
+industry  ; manufacture	diligentia	business
+information  ; info	informatio	communication
+injure  ; wound	vulnero	verb
+ink	atramentum	art
+insect	insecta	animal
+instrument	organum	device
+intelligent	intellegens	adjective-people
+interest  ; involvement	fenus	communication
+internet  ; net  ; cyberspace	interrete	abstract
+interview	colloquium	communication
+into	in	preposition
+introduce  ; innovate	induco	verb
+introduce  ; present  ; acquaint	induco	verb
+iron  ; Fe  ; atomic number 26	ferrum	material
+island	insula	geography
+it	id	pronoun
+jewel  ; gem  ; precious stone	gemma	clothes
+job  ; task  ; chore	negotium	business
+join  ; bring together	committo	verb
+journey  ; journeying	via	transport
+judge  ; justice  ; jurist	iudex	profession
+jump  ; leap  ;  saltation	saltus	abstract
+just	aequus	adjective-people
+keep  ; maintain  ; hold	possideo	verb
+key	clavis	tool
+kill	caedo	verb
+king  ; male monarch  ; Rex	rex	society
+kiss  ; buss  ; osculation	osculum	relations
+kiss  ; snog  ; buss  ; osculate	basiatio	verb-basic
+kitchen	culina	house
+knee  ; knee joint  ; human knee  ; articulatio genus  ; genu	genu (nom.)  ; genus (gen.)	anatomy
+knife	culter	kitchen
+knot	nodus	abstract
+knowledge  ; cognition  ; noesis	scientia	education
+lake	lacus	geography
+land  ; dry land  ; earth  ; ground  ; solid ground  ; terra firma	humus	geography
+language  ; linguistic communication	lingua	communication
+last	ultimus	adjective
+late	sero	adjective
+late  ; belatedly  ; tardily	serus	adverb
+later  ; after  ; subsequently  ; afterwards  ; afterward  ; later on	postquam	adverb
+laugh  ; express joy  ; express mirth	ridere	verb-basic
+law	lex	business
+lead  ; Pb  ; atomic number 82	plumbum	material
+lead  ; take  ; direct  ; conduct  ; guide	moderor	verb
+leader	dux	society
+leaf  ; leafage  ; foliage	folium	nature
+learn  ; larn  ; acquire	discere	verb-basic
+leather	corium	material
+leave  ; leave of absence	commeatus	business
+left	sinister	adjective-basic
+leg	crus (nom.)  ; cruris (gen.)	anatomy
+legal	legalis	adjective
+let	sino	verb
+letter  ; letter of the alphabet  ; alphabetic character	littera	communication
+letter  ; missive	epistula	communication
+library	bibliotheca	city
+lie	mentiri	verb-basic
+lie	recubo	verb-basic
+lie  ; prevarication	mendacium	communication
+life	biota	nature
+lift  ; raise  ; elevate  ; get up  ; bring up	erigo	verb
+light	levis	adjective-basic
+light  ; visible light  ; visible radiation	lux	physics
+lightning	fulmen	weather
+like	amo	verb-basic
+limit  ; bound  ; boundary	finis	mathematics
+line	linea	art
+lion  ; king of beasts  ; Panthera leo	leo (nom.)  ; leonis (gen.)	animal
+lip	labrum	anatomy
+liquid	liquidus	adjective
+liquid	liquor	material
+list  ; listing	album	abstract
+listen  ; hear  ; take heed	auscultare	verb-basic
+little	paucus	adverb
+lock	cataracta	verb
+lock	claustrum	tool
+long	longus	adjective-basic
+look	spectare	verb-basic
+look  ; appear  ; seem	videor	verb
+lose	amitto	verb
+lose	amitto	verb-basic
+loss	calamitas	business
+love	amor	feeling
+love	diligo	verb-basic
+low	humilis	adjective
+lucky	fortunatus	adjective
+lunch  ; luncheon  ; tiffin  ; dejeuner	prandium	food
+machine	machina	device
+mail  ; mail service  ; postal service  ; post	cursus publicus	communication
+main  ; chief  ; primary  ; principal  ; master	cardinalis	adjective
+make  ; do	facesso	verb-basic
+male	masculus	adjective-people
+male  ; male person	mas	society
+male  ; manful  ; manlike  ; manly  ; virile	mas	adjective-people
+man  ; adult male	vir	family
+manage  ; deal  ; care  ; handle	curo	verb
+management  ; direction	procuratio	business
+manner  ; mode  ; style  ; way  ; fashion	modus	art
+many	multi	adjective
+map	tabula	geography
+marker  ; marking  ; mark	specimen	business
+market  ; marketplace  ; market place	forum	business
+marriage  ; matrimony  ; union  ; spousal relationship  ; wedlock	matrimonium	family
+marry  ; get married  ; wed  ; conjoin  ; hook up with  ; get hitched with  ; espouse	nubere	verb
+mass	pondus et massa	physics
+mass  ; bulk  ; volume	massa	physics
+material  ; stuff	materia	business
+matter	materia	material
+matter  ; affair  ; thing	res	abstract
+me	me	pronoun
+meal  ; repast	epulae	food
+means  ; agency  ; way	modus	abstract
+measurement  ; measuring  ; measure  ; mensuration	mensura	physics
+meat	caro	food
+medical	medicus	adjective-people
+meeting  ; coming together	coitio	business
+member  ; fellow member	membrum	society
+memory	memoria	communication
+memory  ; retention  ; retentiveness  ; retentivity	memoria	communication
+menstruation  ; menses  ; menstruum  ; catamenia  ; period  ; flow	menstruatio	medicine
+mention  ; advert  ; bring up  ; cite  ; name  ; refer	laudo	verb
+metallic element  ; metal	metallum	material
+method	via	science
+military	militaris	adjective
+milk	lac	drink
+million  ; 1000000  ; one thousand thousand  ; meg	decies centena milia	number
+mind  ; head  ; brain  ; psyche  ; nous	mens	abstract
+mine	fodina	environment
+minister  ; government minister	minister	profession
+minute  ; min	minutus	time
+mirror	speculum	physics
+mistake  ; error  ; fault	error	communication
+moisture  ; wet	umor	nature
+money	pecunia	business
+monkey	simia	animal
+month  ; calendar month	mensis	time
+more  ; more than	magis	adjective
+more  ; to a greater extent	amplius	adverb
+morning  ; morn  ; morning time  ; forenoon	mane	time
+mostly  ; by and large  ; generally  ; more often than not	universe	adverb
+mother  ; female parent	mater	family
+mouth  ; oral cavity  ; oral fissure  ; rima oris	os (nom.)  ; oris (gen.)	anatomy
+move  ; displace	permoveo	verb-basic
+movement  ; motion	motus	physics
+movie  ; film  ; picture  ; moving picture  ; moving-picture show  ; motion picture  ; motion-picture show  ; picture show  ; pic  ; flick	cinematographia (new)	art
+muscle  ; musculus	musculus	anatomy
+museum	museum	art
+music	musica	art
+musician  ; instrumentalist  ; player	musicus	profession
+my	meus	pronoun
+my name is	mihi nomen est	conversation
+nail	clavus	tool
+nail	unguis (nom.)  ; unguis (gen.)	anatomy
+name	nomen	communication
+name  ; call	advoco	verb
+narrow	angustus	adjective
+nation  ; land  ; country	natio	society
+natural	naturalis	adjective
+nature	natura	nature
+necessary	necessarius	adjective
+neck  ; cervix	cervix (nom.)  ; cervicis (gen.)	anatomy
+need  ; necessitate  ; ask  ; postulate  ; require  ; take  ; involve  ; call for  ; demand	peto	verb-basic
+needle	acus	tool
+neighbor  ; neighbour	vicinus	family
+nerve  ; nervus	nervus	anatomy
+net  ; network  ; mesh  ; meshing  ; meshwork	rete	mathematics
+never	numquam	adverb
+new	novus	adjective-basic
+news  ; intelligence  ; tidings  ; word	nuntius	society
+nice	bonus	adjective-basic
+night  ; nighttime  ; dark	nox	time
+nine  ; 9  ; ix	novem	number
+nineteen  ; 19  ; xix	undeviginti	number
+ninety  ; 90  ; xc	nonaginta	number
+no	non	conversation
+no	nullus	adjective
+noise  ; dissonance  ; racket	sonitus	society
+north  ; due north  ; northward  ; N	septentriones	geography
+nose  ; olfactory organ	nasus	anatomy
+not  ; non	non	adverb
+note  ; musical note  ; tone	sonus	art
+nothing  ; nil  ; nix  ; nada  ; null  ; aught  ; cipher  ; cypher  ; goose egg  ; naught  ; zero  ; zilch  ; zip  ; zippo	nihil	number
+now	nunc	time
+now  ; at present	nunc	adverb
+number	numerus	communication
+nut	nux	fruit
+occupation  ; business  ; job  ; line of work  ; line	negotium	business
+offer	defero	verb-basic
+offer  ; offering	oblatio	business
+office  ; business office	officium	business
+often  ; frequently  ; oftentimes  ; oft  ; ofttimes	sape	adverb
+oil	oleum	food
+oil  ; petroleum  ; crude oil  ; crude  ; rock oil  ; fossil oil	crudus	material
+old	vetus	adjective-people
+olive	olea	vegetable
+once  ; one time  ; in one case	quondam	adverb
+one  ; 1  ; i  ; ane	unus (m)  ; una (f)  ; unum (n)	number
+onion  ; onion plant  ; Allium cepa	cepa	vegetable
+open  ; open up	patefacio	verb-basic
+open  ; unfastened	patens	adjective-basic
+opinion  ; sentiment  ; persuasion  ; view  ; thought	opinio	communication
+opposite	contrarietas	adjective
+opposite  ; reverse  ; contrary	contrarietas	abstract
+option  ; alternative  ; choice	alternatio	science
+or	aut	conjunction
+orange	citrus sinensis	fruit
+orchestra	orchestra	art
+order	jussio	society
+original	archetypus	adjective
+other	alius	adjective
+our	noster	pronoun
+outside	extra	adverb
+outside  ; exterior	deforis	mathematics
+oven	furnus	device
+owner  ; possessor	possessor	business
+ozone	ozonum	environment
+package  ; bundle  ; packet  ; parcel	fascis	business
+page	pagina	communication
+pain  ; hurting	dolor	medicine
+paint  ; pigment	color	art
+painting  ; picture	tabula  ; pictura	art
+paper	charta	art
+parallel	parallelos	adjective
+parent	parens	family
+park  ; commons  ; common  ; green	hortus	city
+part  ; portion  ; component part  ; component  ; constituent	pars	abstract
+part  ; section  ; division	sectio	business
+part  ; share  ; portion  ; percentage	pars	abstract
+particularly  ; peculiarly  ; especially  ; specially	praesertim	adverb
+party	convivium	relations
+passenger  ; rider	viator	transport
+passport	syngraphus	society
+patient	patiens	adjective-people
+patient	patiens	medicine
+pause  ; intermission  ; break  ; interruption  ; suspension	abscissio	time
+pay	pensito	verb-basic
+payment	pensio	business
+peace	pax	society
+peach	Malum persicum	fruit
+pear	pirum	fruit
+pen	stilus	art
+pencil	plumbum	art
+people	homines	society
+percent  ; percentage  ; per centum  ; pct	per centum	mathematics
+period  ; time period  ; period of time	aetas	time
+person  ; individual  ; someone  ; somebody  ; mortal  ; soul	homo	family
+personal	personalis	adjective
+personality	persona	abstract
+phase  ; stage	mansio	science
+physical	corporeus	adjective
+picture  ; image  ; icon  ; ikon	imago	art
+piece	frustum	abstract
+pig  ; hog  ; grunter  ; squealer  ; Sus scrofa	porcus  ; sus (nom.)  ; suis (gen.)	animal
+pilot  ; airplane pilot	gubernator	profession
+pineapple  ; ananas	Ananas sativus	fruit
+pink  ; pinkish	roseus	color
+pipe  ; pipage  ; piping	fistula	object
+place  ; topographic point  ; spot	locus	abstract
+plain  ; field  ; champaign	planum	geography
+plan  ; program  ; programme	consilium	business
+plane  ; airplane  ; aeroplane	aeroplanum	transport
+plant  ; flora  ; plant life	planta	nature
+plate	lanx	container
+player  ; participant	lusor	sports
+pleasure  ; pleasance	voluptas	feeling
+plum	prunum	fruit
+poem  ; verse form	poema	art
+poetry  ; poesy  ; verse	poesis	art
+poison	veneno	verb
+poison  ; toxicant  ; poisonous substance	venenum	material
+police  ; police force  ; constabulary  ; law	vigil	society
+poor	pauper (m  ; f  ; n)	adjective-people
+poor  ; hapless  ; miserable  ; misfortunate  ; pathetic  ; piteous  ; pitiable  ; pitiful  ; wretched	inops	adjective
+population	frequentia	society
+position  ; place	locus	abstract
+possible	possibilis	adjective
+possibly  ; perchance  ; perhaps  ; maybe  ; mayhap  ; peradventure	fortasse	adverb
+powder  ; pulverization  ; pulverisation	pulvis	material
+power  ; powerfulness	potestas	abstract
+practice	exercitatio (nom.)  ; exercitationis (gen.)	abstract
+present	donum	object
+present	praesens	adjective
+president	praesidens (nominative)  ; praesidentis (genitive)	profession
+pressure  ; pressure level  ; force per unit area	pressio	physics
+price  ; cost  ; toll	sumptus	business
+prison  ; prison house	phylaca	city
+private	privatus	adjective
+probable  ; likely	probabilis	adjective
+probably  ; likely  ; in all likelihood  ; in all probability  ; belike	fortasse	adverb
+problem  ; job	quaestio	business
+procedure  ; process	ratio	science
+process  ; treat	tracto	verb
+product  ; production	genimen	business
+production	fabricatio	science
+profit  ; net income  ; net  ; net profit  ; lucre  ; profits  ; earnings	compendium	business
+project  ; undertaking  ; task  ; labor	propositum	abstract
+pronunciation	pronuntiatio	communication
+property	possessio	abstract
+property  ; belongings  ; holding	proprietas	business
+proposal	propositio	communication
+prove  ; testify  ; bear witness  ; evidence  ; show	arguo	verb
+public	publicus	adjective
+public  ; populace  ; world	commune	society
+punishment  ; penalty  ; penalization  ; penalisation	castigatio	society
+purpose  ; function  ; role  ; use	officium	mathematics
+push  ; force	impressio	verb-basic
+put  ; set  ; place  ; pose  ; position  ; lay	colloco	verb-basic
+quality	qualitas	abstract
+question  ; inquiry  ; enquiry  ; query  ; interrogation	interrogatio	communication
+quickly  ; rapidly  ; speedily  ; chop-chop  ; apace	cito	adverb
+quiet	quies quietis	adjective
+quiet  ; repose  ; placidity  ; serenity  ; tranquillity  ; tranquility	tranquillitas	abstract
+radish	raphanus	vegetable
+rain  ; rainfall	pluvia	weather
+rainbow	arcus	weather
+raise  ; rear  ; bring up  ; nurture  ; parent	erigo	verb
+raspberry	rubus	fruit
+reach  ; make  ; attain  ; hit  ; arrive at  ; gain	adipiscor	verb
+read	legere	verb-basic
+ready	promptus	adjective
+really  ; actually	reapse	adverb
+really  ; truly  ; genuinely	enim	adverb
+reason  ; ground	causa	communication
+receive  ; have	suscipio	verb
+recent	recens	adjective
+recently  ; late  ; lately  ; of late  ; latterly	nuper	adverb
+recycling	anacyclismus	environment
+reduce  ; cut down  ; cut back  ; trim  ; trim down  ; trim back  ; cut  ; bring down	redigo	verb
+reflect  ; reverberate	consulo	verb
+refuse  ; reject  ; pass up  ; turn down  ; decline	recuso	verb
+region  ; part	pars	geography
+regular	ordinarius	adjective
+relationship  ; human relationship	cognatio	family
+religion  ; faith  ; organized religion	religio	society
+religion  ; faith  ; religious belief	fides	society
+remove  ; take  ; take away  ; withdraw	abrogo	verb
+render  ; return	reddo	verb
+reply  ; answer  ; respond	respondere	verb
+report	nuntio	verb
+represent  ; stand for  ; correspond	assimulo	verb
+representative	vicarius	profession
+request  ; asking	postulatio	communication
+request  ; bespeak  ; call for  ; quest	postulatio	verb
+research	exquisitio	science
+research  ; inquiry  ; enquiry	exquisitio	science
+respect  ; honor  ; honour  ; abide by  ; observe	erubesco	verb
+responsibility  ; responsibleness	auctoritas	abstract
+rest  ; ease  ; repose  ; relaxation	otium	abstract
+rest  ; remainder  ; balance  ; residual  ; residue  ; residuum	reliquum	business
+restaurant  ; eating house  ; eating place  ; eatery	caupona	city
+result  ; resultant  ; final result  ; outcome  ; termination	exitus	mathematics
+return  ; homecoming	reditus	abstract
+reveal  ; unwrap  ; disclose  ; let on  ; bring out  ; discover  ; expose  ; divulge  ; break  ; give away  ; let out	reperio	verb
+rhythm  ; beat  ; musical rhythm	numerus	art
+rice	oryza	food
+rich	pecuniosus	adjective-people
+right	dexter (m)  ; dextra (f)  ; dextrum (n)	adjective-basic
+right	ius	business
+rigid  ; stiff	rigidus	adjective
+ring  ; band	anulus	clothes
+rise  ; rising  ; ascent  ; ascension	ascensio	abstract
+risk  ; hazard  ; jeopardy  ; peril  ; endangerment	periculum	abstract
+river	flumen	geography
+road  ; route	via	city
+roof	tectum	house
+room	aedes	house
+root	radix	nature
+rope	chorda	object
+rough  ; unsmooth	crudus	adjective
+round  ; circular	rotundus	adjective
+royal  ; imperial  ; majestic  ; purple  ; regal	regalis	adjective-people
+rule  ; govern	regno	verb
+rule  ; regulation	principatus	mathematics
+run	currere	verb-basic
+sad	tristis	adjective-people
+sad  ; deplorable  ; distressing  ; lamentable  ; pitiful  ; sorry	lacrimabilis	adjective
+sail  ; canvas  ; canvass  ; sheet	velum	object
+sailor  ; crewman	nauta	profession
+sale	venditio	business
+salt  ; table salt  ; common salt	sal	food
+same	idem	adjective
+sand	arena	material
+sauce	embamma	food
+say  ; tell  ; state	aio	verb-basic
+school  ; schoolhouse	schola	city
+science  ; scientific discipline	scientia	science
+sea	mare	geography
+season	tempora anni	time
+seat  ; place	locus	abstract
+second  ; 2nd  ; 2d	secundus	adjective
+second  ; sec  ; s	secundum	time
+secret	secretum	communication
+secret  ; clandestine  ; cloak-and-dagger  ; hole-and-corner  ; hugger-mugger  ; hush-hush  ; surreptitious  ; undercover  ; underground	latens	adjective
+secretary  ; secretarial assistant	scriba	profession
+see	videre%video  ; videre  ; vidi  ; visus	verb
+seed	semen	object
+sell	exigo	verb-basic
+send  ; mail  ; post	mittere	verb
+separate	separatus	adjective
+serious	serius	adjective
+servant  ; retainer	famulus	profession
+serve	appono	verb
+service	officium	business
+set	copia	mathematics
+seventeen  ; 17  ; xvii	septendecim	number
+seventy  ; 70  ; lxx	septuaginta	number
+shake  ; tremble  ; shiver	horror	abstract
+shape  ; form  ; cast	forma	art
+share	pars	business
+sharp  ; acuate  ; acute  ; needlelike	acutus	adjective-basic
+she	ea	pronoun
+sheep	ovis (nom.)  ; ovis (gen.)	animal
+shelf	pluteus	furniture
+ship	navis	transport
+shoe	calceus	clothes
+shop  ; store	taberna	business
+short	brevis	adjective
+shout  ; shout out  ; cry  ; call  ; yell  ; scream  ; holler  ; hollo  ; squall	clamo	verb
+show	spectaculum	business
+show  ; demo  ; exhibit  ; present  ; demonstrate	demonstro	verb
+shower	pluvia	house
+side	latus	mathematics
+sign	signum	communication
+silence  ; quiet	silentium	abstract
+silent  ; soundless  ; still	quietus	adjective
+silk	bombyx	material
+silver	argenteus	adjective
+silver  ; Ag  ; atomic number 47	argentum	material
+similar	similis	adjective-basic
+simple  ; elementary  ; uncomplicated  ; unproblematic	simplex	adjective
+simply  ; merely  ; just  ; only  ; but	modo	adverb
+since	ab	preposition
+sincere	sincerus	adjective-people
+sing	psallo	verb-basic
+singer  ; vocalist  ; vocalizer  ; vocaliser	cantor	art
+single	simplex	adjective
+single  ; unmarried	unus	adjective-people
+sister  ; sis	soror	family
+sit  ; sit down	incubare	verb-basic
+situation  ; state of affairs	condicio	abstract
+six  ; 6  ; vi  ; half dozen  ; half-dozen	sex	number
+sixteen  ; 16  ; xvi	sedecim	number
+sixty  ; 60  ; lx  ; threescore	sexaginta	number
+skilful  ; adept  ; expert  ; good  ; practiced  ; proficient  ; skillful	sollers	adjective-people
+skin  ; tegument  ; cutis	cutis (nom.)  ; cutis (gen.)	anatomy
+sky	caelum	nature
+sleep  ; slumber	somnus	nature
+slice  ; piece	fragmentum	abstract
+slow	lentus	adjective-basic
+slowly  ; slow  ; easy  ; tardily	lente	adverb
+small  ; little	parvus	adjective
+smell	adolere	verb
+smell  ; olfactory property  ; aroma  ; odor  ; odour  ; scent	odor	nature
+smile	subridere%subridere	verb-basic
+smile  ; smiling  ; grin  ; grinning	risus	relations
+smooth	teres	adjective
+snake  ; serpent  ; ophidian	serpens (nom.)  ; serpentis (gen.)	animal
+snow	nix	weather
+so	sic	adverb
+soap	sapo	material
+society	societas	science
+soft	malacus	adjective-basic
+soldier	miles	profession
+solid	firmus	adjective
+sometimes	aliquando	adverb
+son  ; boy	filius	family
+song  ; vocal	carmen (nom.)  ; carminis (gen.)	art
+soon  ; shortly  ; presently  ; before long	mox	adverb
+sorry	mihi ignosce	conversation
+sound	sonus	physics
+soup	ius	food
+south  ; due south  ; southward  ; S	meridianus	geography
+space  ; infinite	capacitas	geography
+sparse  ; thin	tenuis	adjective
+special  ; especial  ; exceptional  ; particular	specialis	adjective
+speech  ; speech communication  ; spoken communication  ; spoken language  ; language  ; voice communication  ; oral communication	lingua	communication
+spoon	cochlear	kitchen
+spring  ; fountain  ; outflow  ; outpouring  ; natural spring	fons	nature
+spring  ; springtime	ver	time
+square	quadratus	adjective
+square  ; foursquare	quadratum	mathematics
+square  ; second power	quadratus	mathematics
+stage	scaena	art
+stamp	signum	tool
+stamp  ; postage  ; postage stamp	philatelista	object
+standard  ; criterion  ; measure  ; touchstone	modificatio	communication
+star	astrum	geography
+station	constituo	city
+stay  ; remain  ; rest	maneo	verb
+steal	abigo	verb
+steam	fumo	physics
+steel	chalybs	material
+stem  ; stalk	festuca	nature
+step  ; footstep  ; pace  ; stride	passus	abstract
+step  ; stair	gradus	house
+stick	baculum	object
+still	etiam	adverb
+stomach  ; tummy  ; tum  ; breadbasket	stomachus	anatomy
+stone  ; rock	saxum	object
+stop  ; halt	subsisto	verb
+storm  ; violent storm	tempestas	weather
+straight	rectus	adjective
+strange  ; unusual	alienus	adjective
+strawberry	fragum	fruit
+stream  ; flow  ; current	amnis	nature
+street	via	city
+strength  ; force  ; forcefulness	vis	physics
+strong	pollens	adjective-basic
+structure  ; construction	constructio	city
+student  ; pupil  ; educatee	scholasticus	education
+stupid	stolidus	adjective-people
+style	stilus	art
+subject  ; topic  ; theme	argumentum	communication
+success	felix exitus	business
+successful	fortunatus	adjective-people
+such	sic	adverb
+sudden	subitus	adjective
+suddenly  ; all of a sudden  ; of a sudden	subito	adverb
+suffer  ; endure	perfero	verb
+sugar  ; refined sugar	saccharum	food
+suggest  ; propose  ; advise	suggero	verb
+suggestion  ; proposition  ; proffer	propositio	communication
+summer  ; summertime	aestas	time
+sun  ; Sun	sol	geography
+supermarket	-	city
+supply  ; provide  ; render  ; furnish	exorno	verb
+support	firmamentum	business
+support  ; back up	statumen	verb
+surely  ; certainly  ; sure  ; for sure  ; for certain  ; sure enough  ; sure as shooting	certe	adverb
+surface	superficies	mathematics
+surprise	obreptio	relations
+surprise	obreptio	verb
+survive  ; last  ; live  ; live on  ; go  ; endure  ; hold up  ; hold out	duro	verb
+sweet  ; sweetness  ; sugariness	dulcedo	food
+swim	natare	verb-basic
+system  ; scheme	disciplina	science
+table	mensa	furniture
+tail	cauda	anatomy
+talk  ; speak  ; utter  ; mouth  ; verbalize  ; verbalise	loquor	verb-basic
+taste  ; gustation  ; sense of taste  ; gustatory modality	gustus (m)	abstract
+tax  ; taxation  ; revenue enhancement	tributum	business
+tea	thea	drink
+teach  ; learn  ; instruct	erudio	verb
+teacher  ; instructor	magister	education
+technology  ; engineering	technologia	science
+television  ; tv set  ; television receiver  ; television set  ; tv  ; idiot box  ; boob tube  ; telly  ; goggle box	televisio {f}  ; televisionis (gen.) (new)	device
+ten  ; 10  ; x	decem	number
+tennis  ; lawn tennis	tenniludium	sports
+test  ; prove  ; try  ; try out  ; examine  ; essay	conor	verb
+than	quam	conjunction
+that	iste	pronoun
+the	''not used''	article
+theater  ; theatre  ; house	theatrum	city
+their	suus	pronoun
+then  ; so  ; and so  ; and then	tum	adverb
+theory	ratio	science
+there  ; at that place  ; in that location	illic	adverb
+therefore  ; hence  ; thence  ; thus  ; so	igitur	adverb
+they	ei	pronoun
+thick	creber	adjective
+thing	quendam	abstract
+thirsty	siccus	adjective-people
+thirteen  ; 13  ; xiii	tredecim	number
+thirty  ; 30  ; xxx	triginta	number
+this	hic	pronoun
+thousand  ; one thousand  ; 1000  ; M  ; K  ; chiliad  ; G  ; grand  ; thou  ; yard	mille	number
+thousand  ; one thousand  ; 1000  ; m  ; k	mille	number
+three  ; 3  ; iii	tres	number
+throat  ; pharynx	pharynx	anatomy
+thumb  ; pollex	pollex (nom.)  ; pollicis (gen.)	anatomy
+thunder	tonitrus	weather
+ticket	tessera	object
+tight	angustus	adjective
+time  ; fourth dimension	tempus	physics
+tired	fessus	adjective-people
+title	appellatio	society
+to	ad	preposition
+today	hodie	adverb
+together	simul	adverb
+tomato	lycopersicum	vegetable
+tomorrow	cras	adverb
+tomorrow	cras	time
+tongue  ; lingua  ; glossa  ; clapper	lingua	anatomy
+too  ; besides  ; also  ; likewise  ; as well	etiam	adverb
+tooth	dens (nom.)  ; dentis (gen.)	anatomy
+top  ; peak  ; summit  ; acme  ; height  ; elevation  ; pinnacle  ;  superlative  ; meridian  ; tiptop	cacumen	abstract
+town	urbs	city
+trace  ; draw  ; line  ; describe  ; delineate	designo	verb-basic
+trade	commercium	business
+train  ; railroad train	hamaxostichus (new)	transport
+training  ; preparation  ; grooming	exercitatio	education
+transport  ; shipping  ; transportation	transportatio	transport
+travel  ; go  ; move  ; locomote	incedo	verb
+treat  ; care for	tracto	verb
+treatment  ; handling	cura	abstract
+tree	arbor	nature
+trick	ars	abstract
+trouble  ; problem	molestia	science
+true	verus	adjective
+try  ; seek  ; attempt  ; essay  ; assay	conor	verb
+twenty  ; 20  ; xx	viginti	number
+two  ; 2  ; ii	duo	number
+ugly	turpis	adjective
+understand	agnosco	verb-basic
+union	iunctio	society
+unit  ; unit of measurement	as	physics
+until	usque	conjunction
+unusual	insolitus	adjective
+up  ; upwards  ; upward  ; upwardly	sursum	adverb
+use  ; usage  ; utilization  ; utilisation  ; employment  ; exercise	consumptio	abstract
+use  ; utilize  ; utilise  ; apply  ; employ	sumo	verb-basic
+usual  ; common	vulgaris	adjective
+value	pretium	business
+various  ; diverse	multiplex	adjective
+very  ; really  ; real  ; rattling	valde	adverb
+village  ; small town  ; settlement	vicus	city
+violent	vehemens	adjective-people
+visit	salutatio	relations
+visit  ; see	frequento	verb
+voice  ; vocalization  ; vocalisation  ; vocalism  ; phonation  ; vox	vox	communication
+wages  ; reward  ; payoff	merces	business
+walk	ambulare	verb
+wall	murus	house
+war  ; state of war	bellum	society
+warm	vapor	adjective
+watch  ; see  ; view  ;  catch  ; take in	animadverto	verb
+watch  ; ticker	horologium	device
+water  ; H2O	aqua	drink
+wave  ; moving ridge	unda	nature
+we	nos	pronoun
+weak	debilis	adjective-basic
+wear  ; have on	gero	verb
+weather  ; weather condition  ; conditions  ; atmospheric condition	status caeli	nature
+wedding  ; marriage  ; marriage ceremony	matrimonium	family
+wedding  ; wedding ceremony  ; nuptials  ; hymeneals	Hymen	family
+week  ; calendar week	hebdomas	time
+weight	onus	physics
+well	puteus	house
+well  ; good	bene	adverb
+west  ; due west  ; westward  ; W	vesper	geography
+wet	humens	adjective
+what	quid	pronoun
+what is your name	quid nomen tibi est	conversation
+wheel	rota	object
+while  ; piece  ; spell  ; patch	aliquatenus	time
+whip	flagellum	tool
+white	albus	color
+who	qui	pronoun
+whole	integer	adjective
+whole	universitas	abstract
+whom	quem	pronoun
+whose	cuius	pronoun
+why	cur	adverb
+wide  ; broad	latus	adjective
+wife  ; married woman	uxor	family
+will	voluntas	society
+will  ; testament	testamentum	society
+will  ; volition	voluntas	abstract
+win	lucror	verb
+wind  ; air current  ; current of air	ventus	weather
+window	fenestra	house
+wine  ; vino	vinum	drink
+wing	ala	anatomy
+winter  ; wintertime	hiems	time
+wise	sapiens	adjective-people
+wish	cupio	verb
+wish  ; wishing  ; want	desiderium	abstract
+with	cum	preposition
+with	cum	preposition
+without	sine	preposition
+woman  ; adult female	femina	family
+wood	lignum	material
+word	verbum	communication
+work	opera	business
+worker	operarius	business
+world	mundus	nature
+write	scribere	verb-basic
+writer  ; author	scriptor	profession
+writing	scriptura	communication
+year  ; twelvemonth  ; yr	annus	time
+yellow  ; yellowish  ; xanthous	flavus	color
+yes	sic	conversation
+you	vos	pronoun
+young  ; immature	iuvenis	adjective-people
+your	tuus	pronoun
+yourself	tutemet	pronoun

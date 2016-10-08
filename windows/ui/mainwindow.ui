@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>775</width>
-    <height>481</height>
+    <width>566</width>
+    <height>584</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,150 +23,209 @@
      </widget>
     </item>
     <item>
-     <layout class="QVBoxLayout" name="verticalLayout_3">
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
-         <widget class="QPushButton" name="pushButton">
-          <property name="text">
-           <string>Select folder</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label">
-          <property name="text">
-           <string>Current Folder:</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_5">
-        <item>
-         <layout class="QVBoxLayout" name="verticalLayout">
+         <layout class="QHBoxLayout" name="horizontalLayout">
           <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_2">
-            <item>
-             <widget class="QLabel" name="label_5">
-              <property name="text">
-               <string>Idioma:</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QComboBox" name="comboBox"/>
-            </item>
-           </layout>
+           <widget class="QPushButton" name="folder_button">
+            <property name="text">
+             <string>Carpeta</string>
+            </property>
+           </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_3">
+           <widget class="QLabel" name="label">
             <property name="text">
-             <string>Cargar</string>
+             <string>Current Folder:</string>
             </property>
            </widget>
           </item>
          </layout>
         </item>
         <item>
-         <layout class="QVBoxLayout" name="verticalLayout_2">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
           <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_3">
-            <item>
-             <widget class="QLabel" name="label_3">
-              <property name="text">
-               <string>Palabra:</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLineEdit" name="lineEdit_2"/>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_4">
-            <item>
-             <widget class="QLabel" name="label_4">
-              <property name="text">
-               <string>Radio:</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLineEdit" name="lineEdit"/>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <widget class="QPushButton" name="pushButton_4">
+           <widget class="QLabel" name="label_5">
             <property name="text">
-             <string>Buscar</string>
+             <string>Traducir de :</string>
             </property>
            </widget>
           </item>
+          <item>
+           <widget class="QComboBox" name="idioma_comboBox"/>
+          </item>
          </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>a :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="idioma_destino_combobox"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>Estructura de dato:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="estructura_comboBox"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="cargar_button">
+          <property name="text">
+           <string>Cargar</string>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
       <item>
-       <widget class="QLabel" name="label_6">
-        <property name="text">
-         <string>Resultados</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QTextBrowser" name="textBrowser"/>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Palabra:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="palabra_lineEdit"/>
+          </item>
+         </layout>
         </item>
         <item>
-         <widget class="QTextBrowser" name="textBrowser_2"/>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Radio:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="radio_lineEdit"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="buscar_button">
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Resultados</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QTextBrowser" name="palabras_textBrowser"/>
+      </item>
+      <item>
+       <widget class="QTextBrowser" name="traducciones_textBrowser"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QLabel" name="label_9">
+          <property name="text">
+           <string>Memoria RAM consumida:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="ram_label">
+          <property name="text">
+           <string>RAM</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QLabel" name="label_10">
+          <property name="text">
+           <string>Tiempo de Carga:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="t_carga_label">
+          <property name="text">
+           <string>TIEMPO</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_10">
+        <item>
+         <widget class="QLabel" name="label_11">
+          <property name="text">
+           <string>Tiempo de busqueda:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="t_busqueda_label">
+          <property name="text">
+           <string>TIEMPO</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="vtk_button">
       <property name="text">
        <string>Cosa de VTK</string>
       </property>
      </widget>
     </item>
    </layout>
-   <zorder>pushButton</zorder>
-   <zorder>label</zorder>
-   <zorder>pushButton_2</zorder>
-   <zorder>label_2</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>label</zorder>
-   <zorder>label</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>label</zorder>
-   <zorder>label_3</zorder>
-   <zorder>label_4</zorder>
-   <zorder>comboBox</zorder>
-   <zorder>label_5</zorder>
-   <zorder>lineEdit</zorder>
-   <zorder>lineEdit_2</zorder>
-   <zorder>pushButton_3</zorder>
-   <zorder>pushButton_4</zorder>
-   <zorder>textBrowser</zorder>
-   <zorder>textBrowser_2</zorder>
-   <zorder>textBrowser</zorder>
-   <zorder>textBrowser_2</zorder>
-   <zorder>label_6</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>775</width>
+     <width>566</width>
      <height>20</height>
     </rect>
    </property>

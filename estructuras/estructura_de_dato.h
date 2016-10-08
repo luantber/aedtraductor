@@ -2,7 +2,8 @@
 #define ESTRUCTURA_DE_DATO_H
 
 
-class palabra;
+//--------------------------GG ESTA COSA
+
 
 template<class T>
 class estructura_de_dato
@@ -10,9 +11,10 @@ class estructura_de_dato
 public:
 	estructura_de_dato(){}
 	~estructura_de_dato(){}
-	void insertar(T d);
-	std::vector<palabra> buscar(std::string palabra);
-	
+    void insertar(T d);
+    void add(T d);
+    std::vector<T> buscar(std::string word);
+
 };
 
 

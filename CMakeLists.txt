@@ -44,6 +44,8 @@ include_directories(
 set( Srcs main.cxx
     src/SimpleView.cxx
     src/mainwindow.cpp
+    src/binomial.cpp
+    src/fibonacci.cpp
 
 
 

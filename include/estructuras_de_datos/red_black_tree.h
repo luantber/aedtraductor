@@ -13,10 +13,6 @@ public:
 	red_black_tree(){m_pRoot=0;}
 	~red_black_tree(){}
 	
-
-
-
-
 	//----------------
 	NodoRB<T>** get_d_father(NodoRB<T>*);
 	NodoRB<T>** get_d_uncle(NodoRB<T>*);
@@ -26,6 +22,7 @@ public:
 	NodoRB<T>* get_father(NodoRB<T>*);
 	NodoRB<T>* get_uncle(NodoRB<T>*);
 	NodoRB<T>* get_Gfather(NodoRB<T>*);
+
 	void add(T d);
 	void add(std::vector<T>);
 	bool der_izq(NodoRB<T>*);

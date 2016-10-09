@@ -11,6 +11,13 @@
 #include <vtkRenderer.h>
 #include <vtkArrowSource.h>
 #include <vtkPolyData.h>
+#include <vtkTextActor.h>
+#include <vtkProperty.h>
+#include <vtkTextProperty.h>
+
+#include <vtkFollower.h>
+#include <vtkVectorText.h>
+
 
 #include "binomial.h"
 #include "palabra.h"
@@ -20,6 +27,9 @@ typedef vtkSmartPointer<vtkArrowSource> ArrowSource;
 typedef vtkSmartPointer<vtkPolyDataMapper> PolyDataMapper;
 typedef vtkSmartPointer<vtkActor> Actor;
 typedef vtkSmartPointer<vtkRenderer> Renderer;
+typedef vtkSmartPointer<vtkTextActor> TextActor;
+typedef vtkSmartPointer<vtkFollower> Follower;
+typedef vtkSmartPointer<vtkVectorText> VectorText;
 
 namespace Ui {
 class VtkWindow;

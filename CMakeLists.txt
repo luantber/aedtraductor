@@ -48,8 +48,7 @@ set( Srcs main.cpp
 
 
     otros/palabra.cpp
-    otros/par.cpp
-     otros/nodovtk.cpp
+
 
     )
 

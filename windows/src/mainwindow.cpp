@@ -25,8 +25,6 @@ void MainWindow::process_text(string texto){
     for (auto& it:traducciones) erase_spaces(it);
     estructura=new avl_tree<palabra>;
 
-
-
     for (auto it:palabras){
 
         palabra word(it,traducciones);
@@ -34,7 +32,7 @@ void MainWindow::process_text(string texto){
 
         //---------------------------------aqui se insertaran las palabras
         //estructura -> insertar(palabra);
-
+        this->bino.Insert(word);
 
         for(auto ite:traducciones){
             cout<<it<<"->"<<ite<<endl;

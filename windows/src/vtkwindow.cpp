@@ -46,6 +46,7 @@ VtkWindow::VtkWindow(QWidget *parent) :
 
 
 
+    int xs = vec.at(0).par.x;
 
 
 

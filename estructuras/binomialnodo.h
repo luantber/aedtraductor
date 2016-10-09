@@ -1,3 +1,6 @@
+#ifndef BINOMIALNODO_H
+#define BINOMIALNODO_H
+
 template<class T>
 class NodoB
 {
@@ -18,3 +21,5 @@ class NodoB
      }
 };
 
+
+#endif

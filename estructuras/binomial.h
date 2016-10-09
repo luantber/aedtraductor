@@ -1,3 +1,7 @@
+#ifndef BINOMIAL_H
+#define BINOMIAL_H
+
+
 #include<iostream>
 #include<list>
 #include <math.h>
@@ -162,3 +166,4 @@ class BinomialHeap
 };
   
 
+#endif

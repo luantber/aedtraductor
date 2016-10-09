@@ -13,6 +13,8 @@
 #include "vtkwindow.h"
 #include "palabra.h"
 #include "estructura_de_dato.h"
+
+#include "binomial.h"
 #include "avl_tree.h"
 
 using namespace std;
@@ -46,6 +48,8 @@ private:
     VtkWindow vtk;
     Ui::MainWindow *ui;
     avl_tree<palabra>* estructura;
+
+    BinomialHeap<palabra> bino ;
 };
 
 #endif // MAINWINDOW_H

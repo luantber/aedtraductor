@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>566</width>
-    <height>584</height>
+    <height>469</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -295,6 +295,16 @@
      </layout>
     </item>
     <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Refresh</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_12"/>
+    </item>
+    <item>
      <widget class="QPushButton" name="vtk_button">
       <property name="text">
        <string>Cosa de VTK</string>
@@ -309,7 +319,7 @@
      <x>0</x>
      <y>0</y>
      <width>566</width>
-     <height>20</height>
+     <height>19</height>
     </rect>
    </property>
   </widget>

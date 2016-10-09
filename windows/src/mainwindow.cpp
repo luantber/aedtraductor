@@ -86,3 +86,11 @@ void MainWindow::on_folder_button_clicked()
     ui->path_label->setText(folderDlg.getExistingDirectory(0,"Caption",QString(),QFileDialog::ShowDirsOnly));
 
 }
+
+
+
+void MainWindow::on_pushButton_clicked()
+{
+
+    ui->ram_label->setText(QString::number(m.getRam()).append(" kb"));
+}

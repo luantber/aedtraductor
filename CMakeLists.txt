@@ -11,7 +11,7 @@ endif()
 if(POLICY CMP0053)
   cmake_policy(SET CMP0053 NEW) # CMake 3.1
 endif()
-project(SimpleView)
+project(AEDTraductor)
 
 add_compile_options(-std=c++11)
 
@@ -45,10 +45,7 @@ set( Srcs main.cpp
     windows/src/mainwindow.cpp
     windows/src/vtkwindow.cpp
 
-
-
     otros/palabra.cpp
-
 
     )
 
@@ -62,6 +59,7 @@ set( Hdrs
     otros/par.h
    otros/palabra.h
     otros/nodovtk.h
+    otros/monitor.h
 
      estructuras/estructura_de_dato.h
      estructuras/cola.h
@@ -113,10 +111,10 @@ if(VTK_QT_VERSION VERSION_GREATER "4")
     ${QRC_Srcs}
   )
 
-  add_executable(SimpleView MACOSX_BUNDLE
+  add_executable(AEDTraductor MACOSX_BUNDLE
     ${Srcs} ${Hdrs} ${UI_Srcs} ${MOC_Hdrs} ${QRC_Srcs})
-  qt5_use_modules(SimpleView Core Gui Widgets)
-  target_link_libraries(SimpleView ${VTK_LIBRARIES})
+  qt5_use_modules(AEDTraductor Core Gui Widgets)
+  target_link_libraries(AEDTraductor ${VTK_LIBRARIES})
 else()
   find_package(Qt4 REQUIRED)
   include(${QT_USE_FILE})
@@ -142,9 +140,9 @@ else()
 
   add_definitions(-DQT_GUI_LIBS -DQT_CORE_LIB -DQT3_SUPPORT)
 
-  add_executable(SimpleView MACOSX_BUNDLE
+  add_executable(AEDTraductor MACOSX_BUNDLE
     ${Srcs} ${Hdrs} ${UI_Srcs} ${MOC_Hdrs} ${QRC_Srcs})
-  target_link_libraries(SimpleView
+  target_link_libraries(AEDTRaductor
     ${QT_LIBRARIES}
     ${VTK_LIBRARIES}
   )

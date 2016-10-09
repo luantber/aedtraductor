@@ -1,22 +1,13 @@
+#ifndef NODOVTK_H
+#define NODOVTK_H
+
 #include <string>
 #include <vector>
 #include <iostream>
+#include "par.h"
+
 typedef int cor;
 using namespace std;
-
-class Par
-{
-public:
-    Par(){
-
-    }
-
-    Par(cor x1, cor y2) {
-        x = x1;
-        y = y2;
-    }
-    cor x,y;
-};
 
 
 class NodoVTK
@@ -34,8 +25,9 @@ public:
     Par par;
     int palabra;
     vector<Par> hijos;
+    void show();
 
-    void show(){
-        cout << par.x << " , " << par.y << endl;
-    }
 };
+
+#endif
+

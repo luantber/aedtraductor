@@ -12,7 +12,7 @@
 #include <vtkArrowSource.h>
 #include <vtkPolyData.h>
 
-#include "binomial.cpp"
+#include "binomial.h"
 
 namespace Ui {
 class VtkWindow;

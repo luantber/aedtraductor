@@ -1,25 +1,8 @@
 #include <list>
 #include <math.h>
+#include "fibonaccinodo.h"
+
 using namespace std;
-template<class T>
-class NodoB
-{
-    typedef NodoB<T> *  pNodo;
-     public:
-      int                m_Grado;
-      T                  m_Dato;
-      pNodo              m_pPadre;
-      list< pNodo >      m_Son;
-      bool               mark;
-     NodoB(T d)
-      {
-           m_Dato = d;
-           m_Grado =0;
-           mark = 0;
-      }
-};
-
-
 template <class T>
 class Fibonacci
 {

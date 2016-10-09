@@ -65,6 +65,8 @@ set( Hdrs
 
      windows/include/vtkwindow.h
      windows/include/mainwindow.h
+
+     otros/nodovtk.h
     )
 
 set( MOC_Hdrs

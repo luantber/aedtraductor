@@ -14,6 +14,12 @@
 
 #include "binomial.cpp"
 
+typedef vtkSmartPointer<vtkSphereSource> SphereSource;
+typedef vtkSmartPointer<vtkArrowSource> ArrowSource;
+typedef vtkSmartPointer<vtkPolyDataMapper> PolyDataMapper;
+typedef vtkSmartPointer<vtkActor> Actor;
+typedef vtkSmartPointer<vtkRenderer> Renderer;
+
 namespace Ui {
 class VtkWindow;
 }
@@ -23,6 +29,11 @@ class VtkWindow : public QWidget
     Q_OBJECT
 
 public:
+
+
+    Renderer renderer = Renderer::New();
+
+
     //Constructor
     explicit VtkWindow(QWidget *parent = 0);
     ~VtkWindow();

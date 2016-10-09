@@ -13,6 +13,7 @@
 #include <vtkPolyData.h>
 
 #include "binomial.h"
+#include "palabra.h"
 
 typedef vtkSmartPointer<vtkSphereSource> SphereSource;
 typedef vtkSmartPointer<vtkArrowSource> ArrowSource;
@@ -39,7 +40,10 @@ public:
     ~VtkWindow();
 
 private:
-    BinomialHeap<int> heap;
+    //Vector de NodosVTK imprimibles
+    vector<NodoVTK<palabra>> vec;
+
+    BinomialHeap<palabra> heap;
     Ui::VtkWindow *ui;
 };
 

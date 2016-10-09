@@ -20,12 +20,19 @@ public:
     friend bool operator !=(const palabra&,const palabra&);
     void operator = (palabra);
 
+    string getPalabra() const {return m_palabra;};
+
 private:
     string m_palabra;
 	std::vector<string> m_traducciones;
 
 };
 
+inline std::ostream& operator<<(std::ostream& os, const palabra& word)
+{
 
+  return os  << "'"<<word.getPalabra() << "'" ;
+}
 
 #endif
+

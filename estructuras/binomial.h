@@ -118,12 +118,11 @@ class BinomialHeap
           return *(m_Heads.begin());
       }
 
-      void llenar(vector<NodoVTK> & coordenadas, pNodo & temp, cor x, cor y, cor & max){
+      void llenar(vector<NodoVTK<T>> & coordenadas, pNodo & temp, cor x, cor y, cor & max){
 
           vector<Par> t1;
           Par p(x,y);
-          int st = 3;
-          NodoVTK tempv(x,y,st,t1);
+          NodoVTK<T> tempv(x,y,temp->m_Dato,t1);
 
           coordenadas.push_back(tempv);
 
@@ -151,7 +150,7 @@ class BinomialHeap
 
       }
 
-      void puntos(vector<NodoVTK> & coordenadas){
+      void puntos(vector<NodoVTK<T> > & coordenadas){
           cor max = 0;
 
           for(auto it:m_Heads){

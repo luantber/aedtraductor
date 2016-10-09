@@ -8,22 +8,43 @@ VtkWindow::VtkWindow(QWidget *parent) :
     ui->setupUi(this);
 
 
-    //Heaps
-    heap.Insert(5);
-    heap.Insert(6);
-    heap.Insert(7);
-    heap.Insert(8);
-    heap.Insert(9);
-    heap.Insert(3);
+    //Traducciones;
+    vector<string> tr = {"b","c"};
+
+    //Test Clase Palabra
+    palabra n("a",tr);
+    cout << n << endl;
 
 
-    vector<NodoVTK> vec;
+
+
+    //Heaps -> inserto palabra
+    heap.Insert(palabra("a",tr));
+    heap.Insert(palabra("b",tr));
+    heap.Insert(palabra("c",tr));
+    
+    //hallar puntos
     heap.puntos(vec);
 
-    cout << "plox: " <<vec.size() << endl;
+    cout << "tamanio: " <<vec.size() << endl;
+
+    //imprimo puntos
     for(auto it:vec){
         it.show() ;
     }
+
+   cout << endl;
+
+   //primer punto"
+    cout << vec.at(0).par.x << endl;
+    cout << vec.at(0).par.y << endl;
+    cout << vec.at(0).palabra << endl; // Funciona por la sobrecarga si quieres usarlo
+    cout << vec.at(0).palabra.getPalabra() << endl;
+
+        //primer hijo
+    cout << vec.at(0).hijos.at(0).x << endl;
+
+
 
 
 

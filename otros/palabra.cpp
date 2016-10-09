@@ -34,3 +34,4 @@ void palabra::operator = (palabra word2){
     m_traducciones=word2.m_traducciones;
 }
 
+

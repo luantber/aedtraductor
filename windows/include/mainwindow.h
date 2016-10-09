@@ -13,6 +13,7 @@
 #include "vtkwindow.h"
 #include "palabra.h"
 #include "estructura_de_dato.h"
+#include "avl_tree.h"
 
 using namespace std;
 
@@ -44,7 +45,7 @@ private slots:
 private:
     VtkWindow vtk;
     Ui::MainWindow *ui;
-    estructura_de_dato<palabra>* estructura;
+    avl_tree<palabra>* estructura;
 };
 
 #endif // MAINWINDOW_H

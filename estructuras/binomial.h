@@ -1,37 +1,25 @@
-
 #include<iostream>
 #include<list>
 #include <math.h>
 
-using namespace std;
+#include "nodovtk.h"
 
-template<class T>
-class NodoB
-{
-    typedef NodoB<T> *  pNodo; 
-    public:
-      int                m_Grado;
-      T                  m_Dato;
-      pNodo              m_pPadre;
-      list< pNodo >      m_Son; 
-     NodoB(T d)
-      {
-           m_Dato = d;
-           m_Grado =0;
-      } 
-};
+#include "binomialnodo.h"
+using namespace std;
 
 template<class T>
 class BinomialHeap
 {
-    typedef NodoB<T> *  pNodo; 
+    typedef NodoB<T> *  pNodo;
     typedef    list< NodoB<T> *>       TLista;
     typedef typename   TLista::iterator  TIterator; 
     
     private:
     	int num_datos;
-      TLista  m_Heads;
+
+        //suubir
     public:
+        TLista  m_Heads;
       BinomialHeap(){
       	num_datos=0;
       };
@@ -126,9 +114,52 @@ class BinomialHeap
           Extract_min();    
       }  
 
+      pNodo getCabeza(){
+          return *(m_Heads.begin());
+      }
 
+      void llenar(vector<NodoVTK> & coordenadas, pNodo & temp, cor x, cor y, cor & max){
 
-  
+          vector<Par> t1;
+          Par p(x,y);
+          int st = 3;
+          NodoVTK tempv(x,y,st,t1);
+
+          coordenadas.push_back(tempv);
+
+          if(temp->isHoja()){
+              cout << "isHoja: "<<temp->m_Dato << endl;
+              return;
+          }
+
+          cor tX = x;
+          for (int i= 0; i< temp->m_Son.size();++i){
+              Par t2(x,y+1);
+              coordenadas.back().hijos.push_back(t2);
+              x++;
+          }
+          x = tX;
+          for(auto it:temp->m_Son){
+              llenar(coordenadas,it,x,y+1,max);
+              x++;
+          }
+          if(x>max){
+
+              max=x;
+              cout <<" max: " << x << endl;
+           }
+
+      }
+
+      void puntos(vector<NodoVTK> & coordenadas){
+          cor max = 0;
+
+          for(auto it:m_Heads){
+              llenar(coordenadas,it,max,0,max);
+
+          }
+          return;
+      }
 };
   
 

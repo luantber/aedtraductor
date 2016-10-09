@@ -45,16 +45,25 @@ set( Srcs main.cpp
     windows/src/mainwindow.cpp
     windows/src/vtkwindow.cpp
 
-    estructuras/binomial.cpp
-    estructuras/fibonacci.cpp
+
 
     otros/palabra.cpp
+    otros/par.cpp
+     otros/nodovtk.cpp
 
     )
 
 set( Hdrs
-   
-     otros/palabra.h
+
+    estructuras/binomial.h
+    estructuras/binomialnodo.h
+    estructuras/fibonacci.h
+    estructuras/fibonaccinodo.h
+
+    otros/par.h
+   otros/palabra.h
+    otros/nodovtk.h
+
      estructuras/estructura_de_dato.h
      estructuras/cola.h
      estructuras/avl_tree.h
@@ -65,6 +74,8 @@ set( Hdrs
 
      windows/include/vtkwindow.h
      windows/include/mainwindow.h
+
+
     )
 
 set( MOC_Hdrs

@@ -23,13 +23,14 @@ void MainWindow::process_text(string texto){
     std::vector<std::string> traducciones = split(temp.at(1),';');
     for (auto& it:palabras) erase_spaces(it);
     for (auto& it:traducciones) erase_spaces(it);
+    estructura=new avl_tree<palabra>;
 
 
 
     for (auto it:palabras){
 
         palabra word(it,traducciones);
-
+        estructura->add(word);
 
         //---------------------------------aqui se insertaran las palabras
         //estructura -> insertar(palabra);

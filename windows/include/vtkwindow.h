@@ -12,7 +12,7 @@
 #include <vtkArrowSource.h>
 #include <vtkPolyData.h>
 
-#include "binomial.cpp"
+#include "binomial.h"
 
 typedef vtkSmartPointer<vtkSphereSource> SphereSource;
 typedef vtkSmartPointer<vtkArrowSource> ArrowSource;

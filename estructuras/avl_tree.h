@@ -1,8 +1,10 @@
 #ifndef AVL_TREE_H
 #define AVL_TREE_H
+#include <vector>
 #include "NodoAVL.h"
 #include "cola.h"
-#include <vector>
+#include "estructura_de_dato.h"
+
 
 
 
@@ -11,7 +13,7 @@ class avl_tree
 {
 public:
 	avl_tree():m_pRoot(0){}
-	~avl_tree(){};
+    ~avl_tree(){}
 	bool find(T,NodoAVL<T>**&);
 	void add(std::vector<T>);	
 	void add(T d);
@@ -24,9 +26,9 @@ public:
     void insertar(T d,NodoAVL<T>*& p,bool&);
     void imprimir_fe_por_niveles();
     void imprimir_por_niveles();
-    NodoAVL<T>* m_pRoot;
+
 private:
-	
+    NodoAVL<T>* m_pRoot;
 
 };
 

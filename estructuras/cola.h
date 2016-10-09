@@ -1,7 +1,7 @@
 #ifndef COLA_H
 #define COLA_H
 #include "Nodo.h"
-
+#include "nodovtk.h"
 using namespace std;
 
 template<class T>

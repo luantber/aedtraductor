@@ -10,12 +10,22 @@ class palabra
 {
 public:
     palabra(string palabra,vector<string> traducciones){ m_palabra=palabra; m_traducciones=traducciones; }
+    palabra(){}
 	~palabra(){}
-	
+    friend bool operator > (const palabra&,const palabra&);
+    friend bool operator < (const palabra&,const palabra&);
+    friend bool operator >=(const palabra&,const palabra&);
+    friend bool operator <=(const palabra&,const palabra&);
+    friend bool operator ==(const palabra&,const palabra&);
+    friend bool operator !=(const palabra&,const palabra&);
+    void operator = (palabra);
+
 private:
-	string m_palabra;
+    string m_palabra;
 	std::vector<string> m_traducciones;
+
 };
+
 
 
 #endif

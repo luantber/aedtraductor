@@ -1,3 +1,6 @@
+#ifndef FIBONACCI_H
+#define FIBONACCI_H
+
 template<class T>
 class NodoB
 {
@@ -15,4 +18,6 @@ class NodoB
            mark = 0;
       }
 };
+
+#endif
 

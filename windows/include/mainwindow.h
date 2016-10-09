@@ -13,7 +13,11 @@
 #include "vtkwindow.h"
 #include "palabra.h"
 #include "estructura_de_dato.h"
+
+#include "binomial.h"
 #include "avl_tree.h"
+
+#include "monitor.h"
 
 using namespace std;
 
@@ -42,10 +46,17 @@ private slots:
 
     void on_folder_button_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     VtkWindow vtk;
     Ui::MainWindow *ui;
     avl_tree<palabra>* estructura;
+
+    BinomialHeap<palabra> bino ;
+
+    Monitor m;
+
 };
 
 #endif // MAINWINDOW_H

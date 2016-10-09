@@ -1,3 +1,6 @@
+#ifndef FIBONACCI_H
+#define FIBONACCI_H
+
 #include <list>
 #include <math.h>
 #include "fibonaccinodo.h"
@@ -93,3 +96,4 @@ public:
 
 };
 
+#endif

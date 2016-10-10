@@ -12,6 +12,7 @@ class List
         List(): m_phead(0){}
         virtual ~List(){};
         bool list_find(T d,Nodo<T>**&p);
+        bool find(T d);
         bool list_add(T d);
         bool list_delete(T d);
         List<T> list_get_interseccion(List<T> otro);
@@ -21,6 +22,17 @@ class List
         Nodo<T>* m_phead;
 
 };
+
+template<class T>
+bool List<T>::find(T d){
+    Nodo<T>**p=&m_phead;
+    while(*p){
+        if(d==(*p)->m_dato) return true;
+        else if(d<(*p)->m_dato) return false;
+        p=&((*p)->m_psig);
+    }
+    return false;
+}
 
 template<class T>
 bool List<T>::list_find(T d,Nodo<T>**&p){

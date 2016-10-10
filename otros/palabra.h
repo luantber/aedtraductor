@@ -20,7 +20,7 @@ public:
     friend bool operator !=(const palabra&,const palabra&);
     void operator = (palabra);
 
-    string getPalabra() const {return m_palabra;};
+    string getPalabra() const {return m_palabra;}
 
 private:
     string m_palabra;

@@ -50,6 +50,7 @@ bool Binary_tree<T>::find1(T d){
     if(!m_pRoot) return false;
     NodoT<T>*temp=m_pRoot;
     while(temp){
+        cout<<"as"<<endl;
         if(temp->m_dato==d) return true;
         if(temp->m_dato<d) temp=temp->m_pDer;
         else temp=temp->m_pIzq;

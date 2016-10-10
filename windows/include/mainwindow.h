@@ -53,6 +53,8 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_buscar_button_clicked();
+
 private:
     VtkWindow vtk;
     Ui::MainWindow *ui;

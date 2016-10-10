@@ -36,6 +36,7 @@ public:
     NodoRB<T>* rotacion_izquierda(NodoRB<T>* p);
     bool verif_properties(NodoRB<T>*& p);
     void insertar(T d,NodoRB<T>*& p,NodoRB<T>*& q);
+    bool find(T d);
     bool find(T d,NodoRB<T>**& p);
     void imprimir_por_niveles();
     void imprimir(NodoRB<T>*);
@@ -62,6 +63,12 @@ bool red_black_tree<T>::find(T d, NodoRB<T>**& p){
         else p=&((*p)->m_pSon[0]);
     }
     return false;
+}
+
+template<class T>
+bool red_black_tree<T>::find(T d){
+    NodoRB<T>** p;
+    return find(d,p);
 }
 
 template<class T>

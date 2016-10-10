@@ -137,17 +137,17 @@
            <widget class="QComboBox" name="estructura_comboBox">
             <item>
              <property name="text">
-              <string>Ärbol AVL</string>
+              <string>Arbol AVL</string>
              </property>
             </item>
             <item>
              <property name="text">
-              <string>Árbol Red-Black</string>
+              <string>Arbol Red-Black</string>
              </property>
             </item>
             <item>
              <property name="text">
-              <string>Árbol Binario</string>
+              <string>Arbol Binario</string>
              </property>
             </item>
             <item>

@@ -14,6 +14,7 @@ public:
     ~avl_tree(){};
     void fix_FE(NodoAVL<T>*hijo,NodoAVL<T>*padre);
     bool find(T,NodoAVL<T>**&);
+    bool find(T);
     void add(std::vector<T>);
     void add(T d);
     void rotacion_left_left(NodoAVL<T>*&p);
@@ -30,6 +31,12 @@ private:
 
 
 };
+
+template<class T>
+bool avl_tree<T>::find(T d){
+    NodoAVL<T>** p;
+    return find(d,p);
+}
 
 
 

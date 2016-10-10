@@ -239,9 +239,6 @@
       <item>
        <widget class="QTextBrowser" name="palabras_textBrowser"/>
       </item>
-      <item>
-       <widget class="QTextBrowser" name="traducciones_textBrowser"/>
-      </item>
      </layout>
     </item>
     <item>
@@ -335,7 +332,7 @@
      <x>0</x>
      <y>0</y>
      <width>566</width>
-     <height>19</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>

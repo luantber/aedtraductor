@@ -209,26 +209,34 @@ void MainWindow::on_buscar_button_clicked()
 
     buscar(busqueda,radio,palabras,radios,traducciones);
     ui->palabras_textBrowser->clear();
-    ui->traducciones_textBrowser->clear();
-    /*
-    [&](){
-      for(int i=0;i<palabras.size();i++){
+    //ui->traducciones_textBrowser->clear();
 
+    auto func = [](vector<string>& palabras, vector<string>& traducciones,vector<int>& radios){
+      for(int i=0;i<palabras.size();i++){
+          for(int j=0;j<palabras.size();j++){
+            if(radios.at(i)<=radios.at(j)){
+                int temp= radios.at(i);
+                radios.at(i)=radios.at(j);
+                radios.at(j)=temp;
+                string temp2= palabras.at(i);
+                palabras.at(i)=palabras.at(j);
+                palabras.at(j)=temp2;
+                string temp3= traducciones.at(i);
+                traducciones.at(i)=traducciones.at(j);
+                traducciones.at(j)=temp3;
+            }
+          }
       }
-      for (i=1; i<TAM; i++)
-            for j=0 ; j<TAM - 1; j++)
-                 if (lista[j] > lista[j+1])
-                      temp = lista[j];
-                      lista[j] = lista[j+1];
-                      lista[j+1] = temp;
 
     };
-    */
+
+    func(palabras,traducciones,radios);
+
     for(int i=0;i<palabras.size();i++){
 
 
-        ui->palabras_textBrowser->append(        QString::fromStdString(palabras.at(i)) + " -> " + QString::fromStdString(traducciones.at(i)) +  " ->  " + QString::number(radios.at(i))  );
-        //ui->traducciones_textBrowser->append(QString::fromStdString(traducciones.at(i)));
+        ui->palabras_textBrowser->append(        QString::fromStdString(palabras.at(i)) + "      ->      " + QString::fromStdString(traducciones.at(i)) +  "    ->   " + QString::number(radios.at(i))  );
+
     }
     end_(&tiempof, tiempoi, &tiempo);
     ui->t_busqueda_label->setText(QString::number(tiempo));

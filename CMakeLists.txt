@@ -57,11 +57,15 @@ set( Hdrs
     estructuras/fibonaccinodo.h
 
     otros/par.h
-   otros/palabra.h
+    otros/palabra.h
     otros/nodovtk.h
     otros/monitor.h
 
      estructuras/estructura_de_dato.h
+     estructuras/List.h
+     estructuras/NodoL.h
+     estructuras/Binary_tree.h
+     estructuras/NodoT.h
      estructuras/cola.h
      estructuras/avl_tree.h
      estructuras/NodoAVL.h
@@ -142,7 +146,7 @@ else()
 
   add_executable(AEDTraductor MACOSX_BUNDLE
     ${Srcs} ${Hdrs} ${UI_Srcs} ${MOC_Hdrs} ${QRC_Srcs})
-  target_link_libraries(AEDTRaductor
+  target_link_libraries(AEDTraductor
     ${QT_LIBRARIES}
     ${VTK_LIBRARIES}
   )

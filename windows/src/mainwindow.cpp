@@ -23,20 +23,42 @@ void MainWindow::process_text(string texto){
     std::vector<std::string> traducciones = split(temp.at(1),';');
     for (auto& it:palabras) erase_spaces(it);
     for (auto& it:traducciones) erase_spaces(it);
-    estructura=new avl_tree<palabra>;
+
 
     for (auto it:palabras){
 
         palabra word(it,traducciones);
-        estructura->add(word);
+
+
+        switch (estructura_de_dato) {
+        case 0 :
+            arbol_avl->add(word);
+            break;
+        case 1 :
+            arbol_red_black->add(word);
+            break;
+        case 2 :
+
+            arbol_binario->add1(word);
+            break;
+        case 3 :
+            lista->list_add(word);
+            break;
+        default:
+            break;
+        }
+
+
+
 
         //---------------------------------aqui se insertaran las palabras
-        //estructura -> insertar(palabra);
-        this->bino.Insert(word);
 
+        this->bino.Insert(word);
+        /*
         for(auto ite:traducciones){
             cout<<it<<"->"<<ite<<endl;
         }
+        */
 
     }
 
@@ -65,6 +87,30 @@ void MainWindow::on_vtk_button_clicked()
 
 void MainWindow::on_cargar_button_clicked()
 {
+
+
+  string s_estructura_de_dato= (ui->estructura_comboBox->currentText()).toStdString();
+  if(s_estructura_de_dato=="Arbol AVL"){
+       estructura_de_dato=0;
+       arbol_avl=new avl_tree<palabra>;
+  }
+  else if(s_estructura_de_dato=="Arbol Red-Black"){
+      estructura_de_dato=1;
+      arbol_red_black=new red_black_tree<palabra>;
+  }
+  else if(s_estructura_de_dato=="Arbol Binario"){
+
+      estructura_de_dato=2;
+      arbol_binario=new Binary_tree<palabra>;
+  }
+  else if(s_estructura_de_dato=="Lista Simple"){
+
+      estructura_de_dato=3;
+      lista=new List<palabra>;
+  }
+
+
+
   std::string line;
   std::ifstream myfile ((ui->path_label->text()).toStdString()+"/"+(ui->idioma_comboBox->currentText()).toStdString()+"_"+(ui->idioma_destino_combobox->currentText()).toStdString()+".txt");
   if (myfile.is_open())
@@ -93,4 +139,33 @@ void MainWindow::on_pushButton_clicked()
 {
 
     ui->ram_label->setText(QString::number(m.getRam()).append(" kb"));
+}
+
+void MainWindow::on_buscar_button_clicked()
+{
+    string busqueda= (ui->palabra_lineEdit->text()).toStdString();
+    cout<<busqueda<<endl;
+    vector<string> v;
+    palabra temp(busqueda,v);
+    bool temp2;
+
+    switch (estructura_de_dato) {
+    case 0 :
+        temp2=arbol_avl->find(temp);
+        break;
+    case 1 :
+        temp2=arbol_red_black->find(temp);
+        break;
+    case 2 :
+
+        temp2=arbol_binario->find1(temp);
+        break;
+    case 3 :
+        temp2=lista->find(temp);
+        break;
+    default:
+        break;
+    }
+
+    cout<<temp2<<endl;
 }

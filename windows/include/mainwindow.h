@@ -71,6 +71,8 @@ private slots:
     void on_estructura_comboBox_currentIndexChanged(int index);
 
 
+    void on_palabras_textBrowser_cursorPositionChanged();
+
 private:
     VtkWindow vtk;
     Ui::MainWindow *ui;
@@ -81,10 +83,10 @@ private:
 
 
     //punteros a las clases
-    avl_tree<palabra>* arbol_avl;
-    red_black_tree<palabra>* arbol_red_black;
+    avl_tree<palabra>* arbol_avl=new avl_tree<palabra>;
+    red_black_tree<palabra>* arbol_red_black=new red_black_tree<palabra>;
     arbolbinario<palabra>* arbol_binario = new arbolbinario<palabra>;
-    List<palabra>* lista;
+    List<palabra>* lista=new List<palabra>;
 
 
     Monitor monitor;

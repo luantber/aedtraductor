@@ -12,7 +12,9 @@ class avl_tree
 {
 public:
     avl_tree():m_pRoot(0){}
-    ~avl_tree(){};
+    ~avl_tree(){
+        if(m_pRoot) m_pRoot->borrar_r(m_pRoot);
+    }
     void fix_FE(NodoAVL<T>*hijo,NodoAVL<T>*padre);
     bool find(T,NodoAVL<T>**&);
     bool find(T);

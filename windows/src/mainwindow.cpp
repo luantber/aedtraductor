@@ -127,11 +127,12 @@ void MainWindow::on_cargar_button_clicked()
   string s_estructura_de_dato= (ui->estructura_comboBox->currentText()).toStdString();
   if(s_estructura_de_dato=="Arbol AVL"){
        estructura_de_dato=0;
-
-       arbol_avl=new avl_tree<palabra>;
+       delete(arbol_avl);
+       arbol_avl=new avl_tree<palabra>();
   }
   else if(s_estructura_de_dato=="Arbol Red-Black"){
       estructura_de_dato=1;
+      delete(arbol_red_black);
       arbol_red_black=new red_black_tree<palabra>;
   }
   else if(s_estructura_de_dato=="Arbol Binario"){
@@ -139,14 +140,14 @@ void MainWindow::on_cargar_button_clicked()
       estructura_de_dato=2;
       delete(arbol_binario);
 
-      cout << "borrado" << endl;
       arbol_binario=new arbolbinario<palabra>();
-      cout << " y Creado" << endl;
+
   }
 
   else if(s_estructura_de_dato=="Lista Simple"){
 
       estructura_de_dato=3;
+      delete(lista);
       lista=new List<palabra>;
   }
   else if(s_estructura_de_dato=="Binomial Heap"){
@@ -202,11 +203,11 @@ void MainWindow::on_buscar_button_clicked()
 
 
     buscar(busqueda,radio,palabras,traducciones);
-
-
+    ui->palabras_textBrowser->clear();
+    ui->traducciones_textBrowser->clear();
     for(int i=0;i<palabras.size();i++){
-        ui->palabras_textBrowser->clear();
-        ui->traducciones_textBrowser->clear();
+
+
         ui->palabras_textBrowser->append(QString::fromStdString(palabras.at(i)));
         ui->traducciones_textBrowser->append(QString::fromStdString(traducciones.at(i)));
     }
@@ -314,4 +315,9 @@ void MainWindow::end_(timeb *tiempof, timeb tiempoi, float *resultado){
     //cout<<tiempoi.time<<endl;
     //cout<<tiempof->time<<endl;
     *resultado = dif_sec((int)tiempoi.time, (int)((*tiempof).time)) + dif_mil((int)tiempoi.millitm, (int)((*tiempof).millitm));
+}
+
+void MainWindow::on_palabras_textBrowser_cursorPositionChanged()
+{
+
 }

@@ -11,7 +11,9 @@ class red_black_tree
 {
 public:
     red_black_tree(){m_pRoot=0;}
-    ~red_black_tree(){}
+    ~red_black_tree(){
+        if(m_pRoot) m_pRoot->borrar_r(m_pRoot);
+    }
 
 
 

@@ -401,6 +401,12 @@ void VtkWindow::on_pushButton_clicked()
 
 void VtkWindow::on_pushButton_2_clicked()
 {
+
+  renderer = Renderer::New();
+  ui->qvtkWidget->GetRenderWindow()->AddRenderer(renderer);
+
+  renderer->SetBackground(0.0,0.04,0.0);
+
     binomialheap->puntos(vec);
     cout << "end HAllar Puntos"<<endl;
     int tamanio = vec.size();

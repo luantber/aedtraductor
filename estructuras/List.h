@@ -13,7 +13,9 @@ class List
 {
     public:
         List(): m_phead(0){}
-        virtual ~List(){};
+        virtual ~List(){
+            if(m_phead) m_phead->borrar_r(m_phead);
+        }
         bool list_find(T d,Nodo<T>**&p);
         bool find(T d);
         bool list_add(T d);

@@ -185,6 +185,7 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_buscar_button_clicked()
 {
+
     string busqueda= (ui->palabra_lineEdit->text()).toStdString();
 
 

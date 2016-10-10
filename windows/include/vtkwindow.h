@@ -58,9 +58,15 @@ public:
 
     void setBinomialHeap(BinomialHeap<palabra> * bi);
 
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
 private:
     //Vector de NodosVTK imprimibles
     vector<NodoVTK<palabra>> vec;
+    BinomialHeap<palabra> *binomialheap = new BinomialHeap<palabra>;
 
     Ui::VtkWindow *ui;
 

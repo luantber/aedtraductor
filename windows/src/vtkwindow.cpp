@@ -218,9 +218,10 @@ VtkWindow::~VtkWindow()
 {
     delete ui;
 }
+
 void VtkWindow::setBinomialHeap(BinomialHeap<palabra> * bi){
 
-
+/*
       bi->puntos(vec);
       cout << "end HAllar Puntos"<<endl;
       int tamanio = vec.size();

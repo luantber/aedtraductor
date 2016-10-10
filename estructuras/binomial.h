@@ -147,7 +147,6 @@ class BinomialHeap
           }
 
 
-
       }
 
       void puntos(vector<NodoVTK<T> > & coordenadas){

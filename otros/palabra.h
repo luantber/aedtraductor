@@ -6,6 +6,9 @@
 
 using namespace std;
 
+
+class MainWindow;
+
 class palabra
 {
 public:
@@ -26,6 +29,7 @@ private:
     string m_palabra;
 	std::vector<string> m_traducciones;
 
+friend class MainWindow;
 };
 
 inline std::ostream& operator<<(std::ostream& os, const palabra& word)

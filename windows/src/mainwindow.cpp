@@ -1,6 +1,40 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
+
+int levenshtein(const string &s1, const string &s2)
+{
+   int N1 = s1.size();
+   int N2 = s2.size();
+   int i, j;
+   vector<int> T(N2+1);
+
+   for ( i = 0; i <= N2; i++ )
+      T[i] = i;
+
+   for ( i = 0; i < N1; i++ )
+   {
+      T[0] = i+1;
+      int corner = i;
+      for ( j = 0; j < N2; j++ )
+      {
+         int upper = T[j+1];
+         if ( s1[i] == s2[j] )
+            T[j+1] = corner;
+         else
+            T[j+1] = min(T[j], min(upper, corner)) + 1;
+         corner = upper;
+      }
+   }
+   return T[N2];
+}
+
+
+
+
+
+
+
 std::vector<string> MainWindow::split(const string &s, char delim) {
     stringstream ss(s);
     string item;
@@ -39,7 +73,7 @@ void MainWindow::process_text(string texto){
             break;
         case 2 :
 
-            arbol_binario->add1(word);
+            arbol_binario->add(word);
             break;
         case 3 :
             lista->list_add(word);
@@ -101,7 +135,7 @@ void MainWindow::on_cargar_button_clicked()
   else if(s_estructura_de_dato=="Arbol Binario"){
 
       estructura_de_dato=2;
-      arbol_binario=new Binary_tree<palabra>;
+      arbol_binario=new arbolbinario<palabra>;
   }
   else if(s_estructura_de_dato=="Lista Simple"){
 
@@ -144,28 +178,56 @@ void MainWindow::on_pushButton_clicked()
 void MainWindow::on_buscar_button_clicked()
 {
     string busqueda= (ui->palabra_lineEdit->text()).toStdString();
-    cout<<busqueda<<endl;
-    vector<string> v;
-    palabra temp(busqueda,v);
-    bool temp2;
+
+
+    vector<string> palabras;
+    vector<string> traducciones;
+    int radio=std::stoi((ui->radio_lineEdit->text()).toStdString());
+
+
+    buscar(busqueda,radio,palabras,traducciones);
+
+
+    for(int i=0;i<palabras.size();i++){
+        ui->palabras_textBrowser->clear();
+        ui->traducciones_textBrowser->clear();
+        ui->palabras_textBrowser->append(QString::fromStdString(palabras.at(i)));
+        ui->traducciones_textBrowser->append(QString::fromStdString(traducciones.at(i)));
+    }
+
+}
+
+void MainWindow::buscar(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones){
+
 
     switch (estructura_de_dato) {
     case 0 :
-        temp2=arbol_avl->find(temp);
+        //temp2=arbol_avl->find(temp);
         break;
     case 1 :
-        temp2=arbol_red_black->find(temp);
+        //temp2=arbol_red_black->find(temp);
         break;
     case 2 :
 
-        temp2=arbol_binario->find1(temp);
+        buscar_arbol_binario(busqueda,radio,palabras,traducciones,arbol_binario->m_root);
         break;
     case 3 :
-        temp2=lista->find(temp);
+        //temp2=lista->find(temp);
         break;
     default:
         break;
     }
+}
 
-    cout<<temp2<<endl;
+void MainWindow::buscar_arbol_binario(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,nodoarbol<palabra>*p){
+    if(!p) return;
+    palabra word=p->m_dato;
+    if(radio>=levenshtein(busqueda,word.m_palabra)){
+        palabras.push_back(word.m_palabra);
+        string s_traducciones="";
+        for (auto it:word.m_traducciones) s_traducciones+= (" "+it);
+        traducciones.push_back(s_traducciones);
+    }
+    buscar_arbol_binario(busqueda,radio,palabras,traducciones,p->m_pSon[0]);
+    buscar_arbol_binario(busqueda,radio,palabras,traducciones,p->m_pSon[1]);
 }

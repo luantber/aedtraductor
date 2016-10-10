@@ -9,16 +9,18 @@
 #include <vector>
 #include <sstream>
 #include <QFileDialog>
+#include <algorithm>
 
 #include "vtkwindow.h"
 #include "palabra.h"
-#include "estructura_de_dato.h"
+#include "funciones.h"
 
 #include "binomial.h"
 #include "avl_tree.h"
 #include "red_black_tree.h"
 #include "Binary_tree.h"
 #include "List.h"
+#include "arbolbinario.h"
 
 #include "monitor.h"
 
@@ -39,6 +41,10 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     void erase_spaces(string& cosa);
     void process_text(string texto);
+
+    void buscar(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones);
+    void buscar_arbol_binario(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,nodoarbol<palabra>*p);
+
     std::vector<string> split(const string &s, char delim);
     ~MainWindow();
 
@@ -65,7 +71,7 @@ private:
     //punteros a las clases
     avl_tree<palabra>* arbol_avl;
     red_black_tree<palabra>* arbol_red_black;
-    Binary_tree<palabra>* arbol_binario;
+    arbolbinario<palabra>* arbol_binario;
     List<palabra>* lista;
 
     BinomialHeap<palabra> bino ;

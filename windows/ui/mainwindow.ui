@@ -190,7 +190,11 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="palabra_lineEdit"/>
+           <widget class="QLineEdit" name="palabra_lineEdit">
+            <property name="text">
+             <string>comida</string>
+            </property>
+           </widget>
           </item>
          </layout>
         </item>
@@ -204,7 +208,11 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="radio_lineEdit"/>
+           <widget class="QLineEdit" name="radio_lineEdit">
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
           </item>
          </layout>
         </item>

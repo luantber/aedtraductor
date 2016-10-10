@@ -61,11 +61,11 @@ set( Hdrs
     otros/nodovtk.h
     otros/monitor.h
 
-     estructuras/estructura_de_dato.h
+     estructuras/funciones.h
+     estructuras/arbolbinario.h
+     estructuras/nodoarbol.h
      estructuras/List.h
      estructuras/NodoL.h
-     estructuras/Binary_tree.h
-     estructuras/NodoT.h
      estructuras/cola.h
      estructuras/avl_tree.h
      estructuras/NodoAVL.h

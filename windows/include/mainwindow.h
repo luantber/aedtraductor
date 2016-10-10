@@ -56,6 +56,11 @@ private slots:
 private:
     VtkWindow vtk;
     Ui::MainWindow *ui;
+
+    //este int permitira saber que estructura de dato usar
+    int estructura_de_dato;
+
+    //punteros a las clases
     avl_tree<palabra>* arbol_avl;
     red_black_tree<palabra>* arbol_red_black;
     Binary_tree<palabra>* arbol_binario;

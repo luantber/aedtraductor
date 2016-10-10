@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>566</width>
-    <height>469</height>
+    <height>485</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -142,12 +142,12 @@
             </item>
             <item>
              <property name="text">
-              <string>Árbol Binario</string>
+              <string>Árbol Red-Black</string>
              </property>
             </item>
             <item>
              <property name="text">
-              <string>Árbol Red-Black</string>
+              <string>Árbol Binario</string>
              </property>
             </item>
             <item>
@@ -319,7 +319,7 @@
      <x>0</x>
      <y>0</y>
      <width>566</width>
-     <height>19</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>

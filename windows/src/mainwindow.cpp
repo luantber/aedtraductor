@@ -28,13 +28,30 @@ void MainWindow::process_text(string texto){
     for (auto it:palabras){
 
         palabra word(it,traducciones);
-        //arbol_avl->add(word);
-        //arbol_red_black->add(word);
-        //arbol_binario->add1(word);
-        lista->list_add(word);
+
+
+        switch (estructura_de_dato) {
+        case 0 :
+            arbol_avl->add(word);
+            break;
+        case 1 :
+            arbol_red_black->add(word);
+            break;
+        case 2 :
+            arbol_binario->add1(word);
+            break;
+        case 3 :
+            lista->list_add(word);
+            break;
+        default:
+            break;
+        }
+
+
+
 
         //---------------------------------aqui se insertaran las palabras
-        //estructura -> insertar(palabra);
+
         this->bino.Insert(word);
 
         for(auto ite:traducciones){
@@ -70,10 +87,27 @@ void MainWindow::on_cargar_button_clicked()
 {
 
 
-  //arbol_avl=new avl_tree<palabra>;
-  //arbol_red_black=new red_black_tree<palabra>;
-  //arbol_binario=new Binary_tree<palabra>;
-  lista=new List<palabra>;
+  string s_estructura_de_dato= (ui->estructura_comboBox->currentText()).toStdString();
+  if(s_estructura_de_dato=="Ärbol AVL"){
+       estructura_de_dato=0;
+       arbol_avl=new avl_tree<palabra>;
+  }
+  else if(s_estructura_de_dato=="Árbol Red-Black"){
+      estructura_de_dato=1;
+      arbol_red_black=new red_black_tree<palabra>;
+  }
+  else if(s_estructura_de_dato=="Árbol Binario"){
+      estructura_de_dato=2;
+      arbol_binario=new Binary_tree<palabra>;
+  }
+  else if(s_estructura_de_dato=="Lista Simple"){
+      estructura_de_dato=3;
+      lista=new List<palabra>;
+  }
+
+
+
+
   std::string line;
   std::ifstream myfile ((ui->path_label->text()).toStdString()+"/"+(ui->idioma_comboBox->currentText()).toStdString()+"_"+(ui->idioma_destino_combobox->currentText()).toStdString()+".txt");
   if (myfile.is_open())

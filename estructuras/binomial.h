@@ -135,22 +135,13 @@ class BinomialHeap
               return;
           }
 
-          cor tX = x;
-          for (int i= 0; i< temp->m_Son.size();++i){
+
+          for (auto it:temp->m_Son){
               Par t2(x,y+1);
               coordenadas.back().hijos.push_back(t2);
-              x++;
+              llenar(coordenadas,it,max,y+1,max);
+              max++;
           }
-          x = tX;
-          for(auto it:temp->m_Son){
-              llenar(coordenadas,it,x,y+1,max);
-              x++;
-          }
-          if(x>max){
-
-              max=x;
-              cout <<" max: " << x << endl;
-           }
 
       }
 

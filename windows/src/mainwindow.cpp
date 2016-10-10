@@ -203,39 +203,54 @@ void MainWindow::on_buscar_button_clicked()
 
     vector<string> palabras;
     vector<string> traducciones;
+    vector<int> radios;
     int radio=std::stoi((ui->radio_lineEdit->text()).toStdString());
 
 
-    buscar(busqueda,radio,palabras,traducciones);
+    buscar(busqueda,radio,palabras,radios,traducciones);
     ui->palabras_textBrowser->clear();
     ui->traducciones_textBrowser->clear();
+    /*
+    [&](){
+      for(int i=0;i<palabras.size();i++){
+
+      }
+      for (i=1; i<TAM; i++)
+            for j=0 ; j<TAM - 1; j++)
+                 if (lista[j] > lista[j+1])
+                      temp = lista[j];
+                      lista[j] = lista[j+1];
+                      lista[j+1] = temp;
+
+    };
+    */
     for(int i=0;i<palabras.size();i++){
 
 
-        ui->palabras_textBrowser->append(QString::fromStdString(palabras.at(i)));
-        ui->traducciones_textBrowser->append(QString::fromStdString(traducciones.at(i)));
+        ui->palabras_textBrowser->append(        QString::fromStdString(palabras.at(i)) + " -> " + QString::fromStdString(traducciones.at(i)) +  " ->  " + QString::number(radios.at(i))  );
+        //ui->traducciones_textBrowser->append(QString::fromStdString(traducciones.at(i)));
     }
     end_(&tiempof, tiempoi, &tiempo);
     ui->t_busqueda_label->setText(QString::number(tiempo));
 
 }
 
-void MainWindow::buscar(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones){
+void MainWindow::buscar(string busqueda,int radio, vector<string>&palabras,vector<int>&radios,vector<string>&traducciones){
 
 
     switch (estructura_de_dato) {
     case 0 :
-        buscar_arbol_avl(busqueda,radio,palabras,traducciones,arbol_avl->m_pRoot);
+        buscar_arbol_avl(busqueda,radio,palabras,traducciones,radios,arbol_avl->m_pRoot);
         break;
     case 1 :
-        buscar_arbol_red_black(busqueda,radio,palabras,traducciones,arbol_red_black->m_pRoot);
+        buscar_arbol_red_black(busqueda,radio,palabras,traducciones,radios,arbol_red_black->m_pRoot);
         break;
     case 2 :
 
-        buscar_arbol_binario(busqueda,radio,palabras,traducciones,arbol_binario->m_root);
+        buscar_arbol_binario(busqueda,radio,palabras,traducciones,radios,arbol_binario->m_root);
         break;
     case 3 :
-        buscar_lista(busqueda,radio,palabras,traducciones,lista->m_phead);
+        buscar_lista(busqueda,radio,palabras,traducciones,radios,lista->m_phead);
         break;
     default:
         break;
@@ -243,7 +258,7 @@ void MainWindow::buscar(string busqueda,int radio, vector<string>&palabras,vecto
 
 }
 
-void MainWindow::buscar_arbol_binario(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,nodoarbol<palabra>*p){
+void MainWindow::buscar_arbol_binario(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,vector<int>&radios,nodoarbol<palabra>*p){
     if(!p) return;
     palabra word=p->m_dato;
     if(radio>=levenshtein(busqueda,word.m_palabra)){
@@ -251,13 +266,14 @@ void MainWindow::buscar_arbol_binario(string busqueda,int radio, vector<string>&
         string s_traducciones="";
         for (auto it:word.m_traducciones) s_traducciones+= (" "+it);
         traducciones.push_back(s_traducciones);
+        radios.push_back(levenshtein(busqueda,word.m_palabra));
     }
-    buscar_arbol_binario(busqueda,radio,palabras,traducciones,p->m_pSon[0]);
-    buscar_arbol_binario(busqueda,radio,palabras,traducciones,p->m_pSon[1]);
+    buscar_arbol_binario(busqueda,radio,palabras,traducciones,radios,p->m_pSon[0]);
+    buscar_arbol_binario(busqueda,radio,palabras,traducciones,radios,p->m_pSon[1]);
 }
 
 
-void MainWindow::buscar_arbol_avl(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,NodoAVL<palabra>*p){
+void MainWindow::buscar_arbol_avl(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,vector<int>&radios,NodoAVL<palabra>*p){
     if(!p) return;
     palabra word=p->m_dato;
     if(radio>=levenshtein(busqueda,word.m_palabra)){
@@ -265,13 +281,14 @@ void MainWindow::buscar_arbol_avl(string busqueda,int radio, vector<string>&pala
         string s_traducciones="";
         for (auto it:word.m_traducciones) s_traducciones+= (" "+it);
         traducciones.push_back(s_traducciones);
+        radios.push_back(levenshtein(busqueda,word.m_palabra));
     }
-    buscar_arbol_avl(busqueda,radio,palabras,traducciones,p->m_pSon[0]);
-    buscar_arbol_avl(busqueda,radio,palabras,traducciones,p->m_pSon[1]);
+    buscar_arbol_avl(busqueda,radio,palabras,traducciones,radios,p->m_pSon[0]);
+    buscar_arbol_avl(busqueda,radio,palabras,traducciones,radios,p->m_pSon[1]);
 }
 
 
-void MainWindow::buscar_arbol_red_black(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,NodoRB<palabra>*p){
+void MainWindow::buscar_arbol_red_black(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,vector<int>&radios,NodoRB<palabra>*p){
     if(!p) return;
     palabra word=p->m_dato;
     if(radio>=levenshtein(busqueda,word.m_palabra)){
@@ -279,12 +296,13 @@ void MainWindow::buscar_arbol_red_black(string busqueda,int radio, vector<string
         string s_traducciones="";
         for (auto it:word.m_traducciones) s_traducciones+= (" "+it);
         traducciones.push_back(s_traducciones);
+        radios.push_back(levenshtein(busqueda,word.m_palabra));
     }
-    buscar_arbol_red_black(busqueda,radio,palabras,traducciones,p->m_pSon[0]);
-    buscar_arbol_red_black(busqueda,radio,palabras,traducciones,p->m_pSon[1]);
+    buscar_arbol_red_black(busqueda,radio,palabras,traducciones,radios,p->m_pSon[0]);
+    buscar_arbol_red_black(busqueda,radio,palabras,traducciones,radios,p->m_pSon[1]);
 }
 
-void MainWindow::buscar_lista(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,Nodo<palabra>*p){
+void MainWindow::buscar_lista(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,vector<int>&radios,Nodo<palabra>*p){
     if(!p) return;
     palabra word=p->m_dato;
     if(radio>=levenshtein(busqueda,word.m_palabra)){
@@ -292,8 +310,9 @@ void MainWindow::buscar_lista(string busqueda,int radio, vector<string>&palabras
         string s_traducciones="";
         for (auto it:word.m_traducciones) s_traducciones+= (" "+it);
         traducciones.push_back(s_traducciones);
+        radios.push_back(levenshtein(busqueda,word.m_palabra));
     }
-    buscar_lista(busqueda,radio,palabras,traducciones,p->m_psig);
+    buscar_lista(busqueda,radio,palabras,traducciones,radios,p->m_psig);
 
 }
 

@@ -24,6 +24,8 @@
 
 #include "monitor.h"
 
+#include <sys/timeb.h>
+
 
 
 using namespace std;
@@ -68,6 +70,7 @@ private slots:
 
     void on_estructura_comboBox_currentIndexChanged(int index);
 
+
 private:
     VtkWindow vtk;
     Ui::MainWindow *ui;
@@ -85,6 +88,11 @@ private:
 
 
     Monitor monitor;
+
+    float dif_sec(int tiempoi, int tiempof);
+    float dif_mil(int tiempoi, int tiempof);
+    void start(timeb * t);
+    void end_(timeb * tiempof, timeb tiempoi, float * resultado);
 
 
     friend class VtkWindow;

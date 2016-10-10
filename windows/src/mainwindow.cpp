@@ -120,6 +120,10 @@ void MainWindow::on_vtk_button_clicked()
 void MainWindow::on_cargar_button_clicked()
 {
 
+  float tiempo;
+  timeb tiempoi, tiempof;
+  start(&tiempoi);
+
   string s_estructura_de_dato= (ui->estructura_comboBox->currentText()).toStdString();
   if(s_estructura_de_dato=="Arbol AVL"){
        estructura_de_dato=0;
@@ -163,8 +167,9 @@ void MainWindow::on_cargar_button_clicked()
 
     }
     myfile.close();
+    end_(&tiempof, tiempoi, &tiempo);
+    ui->t_carga_label->setText(QString::number(tiempo));
   }
-
   else std::cout << "Unable to open file";
 }
 
@@ -185,7 +190,9 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_buscar_button_clicked()
 {
-
+    float tiempo;
+    timeb tiempoi, tiempof;
+    start(&tiempoi);
     string busqueda= (ui->palabra_lineEdit->text()).toStdString();
 
 
@@ -203,6 +210,8 @@ void MainWindow::on_buscar_button_clicked()
         ui->palabras_textBrowser->append(QString::fromStdString(palabras.at(i)));
         ui->traducciones_textBrowser->append(QString::fromStdString(traducciones.at(i)));
     }
+    end_(&tiempof, tiempoi, &tiempo);
+    ui->t_busqueda_label->setText(QString::number(tiempo));
 
 }
 
@@ -286,4 +295,23 @@ void MainWindow::buscar_lista(string busqueda,int radio, vector<string>&palabras
 void MainWindow::on_estructura_comboBox_currentIndexChanged(int index)
 {
     cout << index;
+}
+
+float MainWindow::dif_sec(int tiempoi, int tiempof){
+    return (float)(tiempof - tiempoi);
+}
+
+float MainWindow::dif_mil(int tiempoi, int tiempof){
+    return (float)(tiempof - tiempoi) * 0.001;
+}
+
+void MainWindow::start(timeb *t){
+    ftime(t);
+}
+
+void MainWindow::end_(timeb *tiempof, timeb tiempoi, float *resultado){
+    ftime(tiempof);
+    //cout<<tiempoi.time<<endl;
+    //cout<<tiempof->time<<endl;
+    *resultado = dif_sec((int)tiempoi.time, (int)((*tiempof).time)) + dif_mil((int)tiempoi.millitm, (int)((*tiempof).millitm));
 }

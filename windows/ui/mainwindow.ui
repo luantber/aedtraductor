@@ -38,7 +38,7 @@
           <item>
            <widget class="QLabel" name="path_label">
             <property name="text">
-             <string>/dicts</string>
+             <string>/home/luisbch/AED/aedtraductor/dicts</string>
             </property>
            </widget>
           </item>

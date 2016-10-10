@@ -23,11 +23,11 @@ class BinomialHeap
 
         //suubir
     public:
-        int gg;
+
         TLista  m_Heads;
       BinomialHeap(){
       	num_datos=0;
-        gg= 12;
+
       };
       void Insert(T d)
       {

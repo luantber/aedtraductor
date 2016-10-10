@@ -7,6 +7,7 @@ int levenshtein(const string &s1, const string &s2)
    int N1 = s1.size();
    int N2 = s2.size();
    int i, j;
+
    vector<int> T(N2+1);
 
    for ( i = 0; i <= N2; i++ )
@@ -99,6 +100,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+    this->arbol_binario = new arbolbinario<palabra>();
     ui->setupUi(this);
 }
 
@@ -118,10 +120,10 @@ void MainWindow::on_vtk_button_clicked()
 void MainWindow::on_cargar_button_clicked()
 {
 
-
   string s_estructura_de_dato= (ui->estructura_comboBox->currentText()).toStdString();
   if(s_estructura_de_dato=="Arbol AVL"){
        estructura_de_dato=0;
+
        arbol_avl=new avl_tree<palabra>;
   }
   else if(s_estructura_de_dato=="Arbol Red-Black"){
@@ -131,8 +133,13 @@ void MainWindow::on_cargar_button_clicked()
   else if(s_estructura_de_dato=="Arbol Binario"){
 
       estructura_de_dato=2;
-      arbol_binario=new arbolbinario<palabra>;
+      delete(arbol_binario);
+
+      cout << "borrado" << endl;
+      arbol_binario=new arbolbinario<palabra>();
+      cout << " y Creado" << endl;
   }
+
   else if(s_estructura_de_dato=="Lista Simple"){
 
       estructura_de_dato=3;
@@ -218,6 +225,7 @@ void MainWindow::buscar(string busqueda,int radio, vector<string>&palabras,vecto
     default:
         break;
     }
+
 }
 
 void MainWindow::buscar_arbol_binario(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,nodoarbol<palabra>*p){
@@ -272,4 +280,9 @@ void MainWindow::buscar_lista(string busqueda,int radio, vector<string>&palabras
     }
     buscar_lista(busqueda,radio,palabras,traducciones,p->m_psig);
 
+}
+
+void MainWindow::on_estructura_comboBox_currentIndexChanged(int index)
+{
+    cout << index;
 }

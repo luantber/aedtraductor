@@ -39,7 +39,10 @@ class arbolbinario{
 			if(buscar(d, q) == true) return;
 			*q = new nodoarbol<T>(d);
 		}
-		~arbolbinario(){}
+
+        ~arbolbinario(){
+            if(m_root) m_root->borrarRecursivo(m_root);
+        }
     friend class mainwindow;
 };
 

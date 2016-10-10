@@ -38,7 +38,7 @@
           <item>
            <widget class="QLabel" name="path_label">
             <property name="text">
-             <string>/home/texs/Documents/dicts</string>
+             <string>/dicts</string>
             </property>
            </widget>
           </item>
@@ -327,7 +327,7 @@
      <x>0</x>
      <y>0</y>
      <width>566</width>
-     <height>20</height>
+     <height>19</height>
     </rect>
    </property>
   </widget>

@@ -218,7 +218,6 @@ VtkWindow::~VtkWindow()
 }
 
 void VtkWindow::setBinomialHeap(BinomialHeap<palabra> * bi){
-    cout << bi->gg << endl;
 
 /*
     //Traducciones;

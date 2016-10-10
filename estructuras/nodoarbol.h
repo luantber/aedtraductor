@@ -16,7 +16,16 @@ class nodoarbol{
 			m_dato = d;
 			m_pSon[0] = m_pSon[1] = NULL;
 		}
-		~nodoarbol(){}
+
+        void borrarRecursivo(nodoarbol * temp){
+            if (temp->m_pSon[0]) borrarRecursivo(temp->m_pSon[0]);
+            if (temp->m_pSon[1]) borrarRecursivo(temp->m_pSon[1]);
+            delete(temp);
+        }
+
+        ~nodoarbol(){
+
+        }
 };
 
 #endif

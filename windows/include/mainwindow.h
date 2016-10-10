@@ -66,6 +66,8 @@ private slots:
     void on_buscar_button_clicked();
 
 
+    void on_estructura_comboBox_currentIndexChanged(int index);
+
 private:
     VtkWindow vtk;
     Ui::MainWindow *ui;
@@ -73,10 +75,12 @@ private:
     //este int permitira saber que estructura de dato usar
     int estructura_de_dato;
 
+
+
     //punteros a las clases
     avl_tree<palabra>* arbol_avl;
     red_black_tree<palabra>* arbol_red_black;
-    arbolbinario<palabra>* arbol_binario;
+    arbolbinario<palabra>* arbol_binario = new arbolbinario<palabra>;
     List<palabra>* lista;
 
 

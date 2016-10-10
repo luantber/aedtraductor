@@ -16,8 +16,13 @@
 
 #include "binomial.h"
 #include "avl_tree.h"
+#include "red_black_tree.h"
+#include "Binary_tree.h"
+#include "List.h"
 
 #include "monitor.h"
+
+
 
 using namespace std;
 
@@ -51,7 +56,10 @@ private slots:
 private:
     VtkWindow vtk;
     Ui::MainWindow *ui;
-    avl_tree<palabra>* estructura;
+    avl_tree<palabra>* arbol_avl;
+    red_black_tree<palabra>* arbol_red_black;
+    Binary_tree<palabra>* arbol_binario;
+    List<palabra>* lista;
 
     BinomialHeap<palabra> bino ;
 

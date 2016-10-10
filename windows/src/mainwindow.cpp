@@ -23,12 +23,15 @@ void MainWindow::process_text(string texto){
     std::vector<std::string> traducciones = split(temp.at(1),';');
     for (auto& it:palabras) erase_spaces(it);
     for (auto& it:traducciones) erase_spaces(it);
-    estructura=new avl_tree<palabra>;
+
 
     for (auto it:palabras){
 
         palabra word(it,traducciones);
-        estructura->add(word);
+        //arbol_avl->add(word);
+        //arbol_red_black->add(word);
+        //arbol_binario->add1(word);
+        lista->list_add(word);
 
         //---------------------------------aqui se insertaran las palabras
         //estructura -> insertar(palabra);
@@ -65,6 +68,12 @@ void MainWindow::on_vtk_button_clicked()
 
 void MainWindow::on_cargar_button_clicked()
 {
+
+
+  //arbol_avl=new avl_tree<palabra>;
+  //arbol_red_black=new red_black_tree<palabra>;
+  //arbol_binario=new Binary_tree<palabra>;
+  lista=new List<palabra>;
   std::string line;
   std::ifstream myfile ((ui->path_label->text()).toStdString()+"/"+(ui->idioma_comboBox->currentText()).toStdString()+"_"+(ui->idioma_destino_combobox->currentText()).toStdString()+".txt");
   if (myfile.is_open())

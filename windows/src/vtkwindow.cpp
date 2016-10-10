@@ -220,7 +220,7 @@ VtkWindow::~VtkWindow()
 void VtkWindow::setBinomialHeap(BinomialHeap<palabra> * bi){
     cout << bi->gg << endl;
 
-
+/*
     //Traducciones;
     vector<string> tr = {"b","c"};
     vector<string> tr2 = {"d","e"};
@@ -241,7 +241,7 @@ vector<string> letras = {"a","g","b","h","i","j","n","o","p","k","l","m","q","r"
     }
 
     //hallar puntos
-    bi->puntos(vec);
+
 
     //*************TAMAÑO DE PADRES*************
     int tamanio = vec.size();
@@ -271,16 +271,26 @@ vector<string> letras = {"a","g","b","h","i","j","n","o","p","k","l","m","q","r"
     cout << vec.at(0).hijos.at(0).y << endl;
     cout<< "hereeeeeeeeeeeeeeeeeee"<<vec.at(0).hijos.size()<<endl;
     //Codigo VTK
-
+*/
+      bi->puntos(vec);
+      cout << "end HAllar Puntos"<<endl;
+      int tamanio = vec.size();
+      cout << "tamanio: " <<tamanio << endl;
+      int tamanito = vec.at(0).hijos.size();
+      cout << "tamanito: " <<tamanito << endl;
 
 for (int i = 0; i<tamanio;i++){
     double a = ((vec.at(i).par.x)*(1.9))-7;
     double b = (vec.at(i).par.y)*(-1.9)+3;
 
     //cout <<"a"<<i<<" "<<a<<" b"<<i<<" "<<b<<endl;
-    cout<<"parada"<<endl;
-    int tamanito2 = vec.at(i).hijos.size();
-    cout<<"tamaño"<<tamanito2<<endl;
+    //cout<<"parada"<<endl;
+    //int tamanito2 = vec.at(i).hijos.size();
+    //cout<<"tamaño"<<tamanito2<<endl;
+
+    cout << "iteracion " << i << endl;
+    if (i>=300)break;
+    /*
 
     for(int j = 0; j<tamanito2;j++){
 
@@ -353,7 +363,7 @@ for (int i = 0; i<tamanio;i++){
         renderer->AddActor(lineasActor);
 
     }
-
+*/
 
     SphereSource sphereSource =  SphereSource::New();
      sphereSource->SetCenter(a, b, 0);
@@ -375,13 +385,13 @@ for (int i = 0; i<tamanio;i++){
     //PolyDataMapper mapper = PolyDataMapper::New();
      //mapper->SetInputConnection(arrowSource->GetOutputPort());
 
-
+/*
      TextActor textActor = TextActor::New();
        textActor->SetInput ( "BINOMIAL HEAP" );
        textActor->SetPosition2 ( 8, 20 );
        textActor->GetTextProperty()->SetFontSize ( 15 );
        textActor->GetTextProperty()->SetColor ( .1,.9,0.0);
-
+*/
        //Palabras ...!!!!!
 
        Follower xLabel = Follower::New();
@@ -403,7 +413,7 @@ for (int i = 0; i<tamanio;i++){
        //Fin palabras !!!
 
      renderer->AddActor( xLabel );
-     renderer->AddActor ( textActor );
+     //renderer->AddActor ( textActor );
      renderer->AddActor( sphereActor );
      renderer->ResetCamera();
 

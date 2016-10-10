@@ -78,21 +78,14 @@ void MainWindow::process_text(string texto){
         case 3 :
             lista->list_add(word);
             break;
+        case 4 :
+            binomialheap->Insert(word);
+            cout << "insertado en binomial"<<word;
+            break;
         default:
             break;
         }
 
-
-
-
-        //---------------------------------aqui se insertaran las palabras
-
-        this->binomialheap->Insert(word);
-        /*
-        for(auto ite:traducciones){
-            cout<<it<<"->"<<ite<<endl;
-        }
-        */
 
     }
 
@@ -117,7 +110,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_vtk_button_clicked()
 {
     this->vtk.show();
-    this->binomialheap = new BinomialHeap<palabra>();
+    //this->binomialheap = new BinomialHeap<palabra>();
     vtk.setBinomialHeap(this->binomialheap);
 
 }
@@ -144,6 +137,11 @@ void MainWindow::on_cargar_button_clicked()
 
       estructura_de_dato=3;
       lista=new List<palabra>;
+  }
+  else if(s_estructura_de_dato=="Binomial Heap"){
+      cout << "binomial Selected" << endl;
+      estructura_de_dato=4;
+      binomialheap = new BinomialHeap<palabra>;
   }
 
 

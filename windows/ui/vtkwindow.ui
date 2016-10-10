@@ -45,6 +45,16 @@
      <height>22</height>
     </rect>
    </property>
+   <item>
+    <property name="text">
+     <string>Binomial Heap</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Fibonacci Heap</string>
+    </property>
+   </item>
   </widget>
  </widget>
  <customwidgets>

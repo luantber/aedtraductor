@@ -1,5 +1,6 @@
 #ifndef VTKWINDOW_H
 #define VTKWINDOW_H
+#define USER_MATRIX
 
 #include <QWidget>
 
@@ -14,6 +15,8 @@
 #include <vtkTextActor.h>
 #include <vtkProperty.h>
 #include <vtkTextProperty.h>
+
+
 
 #include <vtkFollower.h>
 #include <vtkVectorText.h>
@@ -30,6 +33,10 @@ typedef vtkSmartPointer<vtkRenderer> Renderer;
 typedef vtkSmartPointer<vtkTextActor> TextActor;
 typedef vtkSmartPointer<vtkFollower> Follower;
 typedef vtkSmartPointer<vtkVectorText> VectorText;
+typedef vtkSmartPointer<vtkPoints> Points;
+typedef vtkSmartPointer<vtkPolyLine> PolyLine;
+typedef vtkSmartPointer<vtkCellArray> CellArray;
+typedef vtkSmartPointer<vtkPolyData> PolyData;
 
 namespace Ui {
 class VtkWindow;

@@ -1,6 +1,9 @@
 #ifndef NODOAVL_H
 #define NODOAVL_H
 
+
+class MainWindow;
+
 template<class T>
 class avl_tree;
 
@@ -19,6 +22,7 @@ class NodoAVL
 
         int m_FE;
     friend class avl_tree<T>;
+    friend class MainWindow;
 };
 
 

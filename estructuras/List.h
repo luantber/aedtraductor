@@ -1,10 +1,13 @@
 #ifndef LIST_H
 #define LIST_H
 #include <iostream>
-#include "NodoL.h"
+#include "Nodo.h"
 
 
 using namespace std;
+
+class MainWindow;
+
 template<class T>
 class List
 {
@@ -20,6 +23,7 @@ class List
     protected:
     private:
         Nodo<T>* m_phead;
+    friend class MainWindow;
 
 };
 

@@ -202,17 +202,17 @@ void MainWindow::buscar(string busqueda,int radio, vector<string>&palabras,vecto
 
     switch (estructura_de_dato) {
     case 0 :
-        //temp2=arbol_avl->find(temp);
+        buscar_arbol_avl(busqueda,radio,palabras,traducciones,arbol_avl->m_pRoot);
         break;
     case 1 :
-        //temp2=arbol_red_black->find(temp);
+        buscar_arbol_red_black(busqueda,radio,palabras,traducciones,arbol_red_black->m_pRoot);
         break;
     case 2 :
 
         buscar_arbol_binario(busqueda,radio,palabras,traducciones,arbol_binario->m_root);
         break;
     case 3 :
-        //temp2=lista->find(temp);
+        buscar_lista(busqueda,radio,palabras,traducciones,lista->m_phead);
         break;
     default:
         break;
@@ -230,4 +230,45 @@ void MainWindow::buscar_arbol_binario(string busqueda,int radio, vector<string>&
     }
     buscar_arbol_binario(busqueda,radio,palabras,traducciones,p->m_pSon[0]);
     buscar_arbol_binario(busqueda,radio,palabras,traducciones,p->m_pSon[1]);
+}
+
+
+void MainWindow::buscar_arbol_avl(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,NodoAVL<palabra>*p){
+    if(!p) return;
+    palabra word=p->m_dato;
+    if(radio>=levenshtein(busqueda,word.m_palabra)){
+        palabras.push_back(word.m_palabra);
+        string s_traducciones="";
+        for (auto it:word.m_traducciones) s_traducciones+= (" "+it);
+        traducciones.push_back(s_traducciones);
+    }
+    buscar_arbol_avl(busqueda,radio,palabras,traducciones,p->m_pSon[0]);
+    buscar_arbol_avl(busqueda,radio,palabras,traducciones,p->m_pSon[1]);
+}
+
+
+void MainWindow::buscar_arbol_red_black(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,NodoRB<palabra>*p){
+    if(!p) return;
+    palabra word=p->m_dato;
+    if(radio>=levenshtein(busqueda,word.m_palabra)){
+        palabras.push_back(word.m_palabra);
+        string s_traducciones="";
+        for (auto it:word.m_traducciones) s_traducciones+= (" "+it);
+        traducciones.push_back(s_traducciones);
+    }
+    buscar_arbol_red_black(busqueda,radio,palabras,traducciones,p->m_pSon[0]);
+    buscar_arbol_red_black(busqueda,radio,palabras,traducciones,p->m_pSon[1]);
+}
+
+void MainWindow::buscar_lista(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,Nodo<palabra>*p){
+    if(!p) return;
+    palabra word=p->m_dato;
+    if(radio>=levenshtein(busqueda,word.m_palabra)){
+        palabras.push_back(word.m_palabra);
+        string s_traducciones="";
+        for (auto it:word.m_traducciones) s_traducciones+= (" "+it);
+        traducciones.push_back(s_traducciones);
+    }
+    buscar_lista(busqueda,radio,palabras,traducciones,p->m_psig);
+
 }

@@ -2,7 +2,7 @@
 #define NODO_H
 #include <iostream>
 
-
+class MainWindow;
 
 template<class T>
 class List;
@@ -23,7 +23,7 @@ class Nodo
 
     friend class List<T>;
     friend class Cola<T>;
-
+    friend class MainWindow;
 };
 
 #endif // NODO_H

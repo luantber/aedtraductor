@@ -2,6 +2,9 @@
 #define NODORB_H
 #include <iostream>
 
+
+class MainWindow;
+
 template<class T>
 class red_black_tree;
 
@@ -18,6 +21,7 @@ private:
 	NodoRB<T>* m_pSon[2];
 	NodoRB<T>* m_pFather;
 friend class red_black_tree<T>;
+friend class MainWindow;
 };
 
 

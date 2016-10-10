@@ -2,11 +2,9 @@
 #define NODO_H
 #include <iostream>
 
-template<class T>
-class List;
+class MainWindow;
 
-template<class T>
-class ListCircular;
+
 
 template<class T>
 class Nodo
@@ -23,6 +21,7 @@ class Nodo
         Nodo<T>* m_psig;
     friend class List<T>;
     friend class ListCircular<T>;
+    friend class MainWindow;
 };
 
 #endif // NODO_H

@@ -41,10 +41,13 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     void erase_spaces(string& cosa);
     void process_text(string texto);
-
+    //esta funcion llama a las otras funciones de buscar
     void buscar(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones);
-    void buscar_arbol_binario(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,nodoarbol<palabra>*p);
 
+    void buscar_arbol_binario(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,nodoarbol<palabra>*p);
+    void buscar_arbol_avl(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,NodoAVL<palabra>*p);
+    void buscar_arbol_red_black(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,NodoRB<palabra>*p);
+    void buscar_lista(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,Nodo<palabra>*p);
     std::vector<string> split(const string &s, char delim);
     ~MainWindow();
 

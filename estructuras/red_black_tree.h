@@ -1,7 +1,7 @@
 #ifndef RED_BLACK_TREE_H
 #define RED_BLACK_TREE_H
 #include "NodoRB.h"
-#include "cola.h"
+//#include "cola.h"
 #include <vector>
 
 enum color{red,black};

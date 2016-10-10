@@ -52,7 +52,7 @@ public:
     void buscar_lista(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,Nodo<palabra>*p);
     std::vector<string> split(const string &s, char delim);
     ~MainWindow();
-    BinomialHeap<palabra> * binomialheap = new BinomialHeap<palabra> ;
+
 
 private slots:
 
@@ -73,6 +73,8 @@ private slots:
 
     void on_palabras_textBrowser_cursorPositionChanged();
 
+    void on_verDiccionario_clicked();
+
 private:
     VtkWindow vtk;
     Ui::MainWindow *ui;
@@ -86,6 +88,8 @@ private:
     avl_tree<palabra>* arbol_avl=new avl_tree<palabra>;
     red_black_tree<palabra>* arbol_red_black=new red_black_tree<palabra>;
     arbolbinario<palabra>* arbol_binario = new arbolbinario<palabra>;
+
+    BinomialHeap<palabra> * binomialheap = new BinomialHeap<palabra> ;
     List<palabra>* lista=new List<palabra>;
 
 

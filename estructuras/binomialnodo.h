@@ -19,6 +19,15 @@ class NodoB
          if (m_Son.empty()) return true;
          else return false;
      }
+
+     void borrarRecursivo(pNodo temp){
+         for(auto it:temp->m_Son){
+             borrarRecursivo(it);
+         }
+         delete temp;
+     }
+     ~NodoB(){
+     }
 };
 
 

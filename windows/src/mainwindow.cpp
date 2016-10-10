@@ -112,8 +112,6 @@ MainWindow::~MainWindow()
 void MainWindow::on_vtk_button_clicked()
 {
     this->vtk.show();
-    //this->binomialheap = new BinomialHeap<palabra>();
-    vtk.setBinomialHeap(this->binomialheap);
 
 }
 
@@ -151,8 +149,13 @@ void MainWindow::on_cargar_button_clicked()
       lista=new List<palabra>;
   }
   else if(s_estructura_de_dato=="Binomial Heap"){
+
       cout << "binomial Selected" << endl;
       estructura_de_dato=4;
+
+      delete(binomialheap);
+
+      //borrado binomial
       binomialheap = new BinomialHeap<palabra>;
   }
 
@@ -170,6 +173,7 @@ void MainWindow::on_cargar_button_clicked()
     myfile.close();
     end_(&tiempof, tiempoi, &tiempo);
     ui->t_carga_label->setText(QString::number(tiempo));
+    this->on_pushButton_clicked();
   }
   else std::cout << "Unable to open file";
 }
@@ -320,4 +324,11 @@ void MainWindow::end_(timeb *tiempof, timeb tiempoi, float *resultado){
 void MainWindow::on_palabras_textBrowser_cursorPositionChanged()
 {
 
+}
+
+void MainWindow::on_verDiccionario_clicked()
+{
+    this->vtk.show();
+
+    vtk.setBinomialHeap(this->binomialheap);
 }

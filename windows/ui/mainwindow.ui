@@ -310,14 +310,22 @@
      </widget>
     </item>
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_12"/>
-    </item>
-    <item>
-     <widget class="QPushButton" name="vtk_button">
-      <property name="text">
-       <string>Visualización Heaps</string>
-      </property>
-     </widget>
+     <layout class="QHBoxLayout" name="horizontalLayout_12">
+      <item>
+       <widget class="QPushButton" name="vtk_button">
+        <property name="text">
+         <string>Visualización Heaps</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="verDiccionario">
+        <property name="text">
+         <string>Ver Diccionario (50)</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>

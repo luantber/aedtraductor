@@ -29,6 +29,14 @@ class BinomialHeap
       	num_datos=0;
 
       };
+
+      ~BinomialHeap(){
+        for(auto it:m_Heads){
+            it->borrarRecursivo(it);
+
+        }
+      }
+
       void Insert(T d)
       {
           m_Heads.push_back(new NodoB<T>(d));

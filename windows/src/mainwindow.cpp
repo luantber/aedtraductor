@@ -117,6 +117,8 @@ MainWindow::~MainWindow()
 void MainWindow::on_vtk_button_clicked()
 {
     this->vtk.show();
+    MainWindow*temp=this;
+    vtk.set_main(temp);
 }
 
 void MainWindow::on_cargar_button_clicked()

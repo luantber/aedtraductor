@@ -80,6 +80,7 @@ private:
     BinomialHeap<palabra> bino ;
 
     Monitor m;
+friend class VtkWindow;
 
 };
 

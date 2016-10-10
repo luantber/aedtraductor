@@ -50,7 +50,7 @@ public:
 
 
     Renderer renderer = Renderer::New();
-
+    void set_main(MainWindow* w){ mainwi=w; }
 
     //Constructor
     explicit VtkWindow(QWidget *parent = 0);
@@ -62,6 +62,7 @@ private:
 
     BinomialHeap<palabra> heap;
     Ui::VtkWindow *ui;
+    MainWindow* mainwi;
 };
 
 #endif // VTKWINDOW_H

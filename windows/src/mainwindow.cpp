@@ -87,7 +87,7 @@ void MainWindow::process_text(string texto){
 
         //---------------------------------aqui se insertaran las palabras
 
-        this->bino.Insert(word);
+        this->binomialheap->Insert(word);
         /*
         for(auto ite:traducciones){
             cout<<it<<"->"<<ite<<endl;
@@ -117,8 +117,9 @@ MainWindow::~MainWindow()
 void MainWindow::on_vtk_button_clicked()
 {
     this->vtk.show();
-    MainWindow*temp=this;
-    vtk.set_main(temp);
+    this->binomialheap = new BinomialHeap<palabra>();
+    vtk.setBinomialHeap(this->binomialheap);
+
 }
 
 void MainWindow::on_cargar_button_clicked()
@@ -174,7 +175,7 @@ void MainWindow::on_folder_button_clicked()
 void MainWindow::on_pushButton_clicked()
 {
 
-    ui->ram_label->setText(QString::number(m.getRam()).append(" kb"));
+    ui->ram_label->setText(QString::number(monitor.getRam()).append(" kb"));
 }
 
 void MainWindow::on_buscar_button_clicked()

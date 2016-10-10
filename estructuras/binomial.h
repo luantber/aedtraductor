@@ -23,9 +23,11 @@ class BinomialHeap
 
         //suubir
     public:
+        int gg;
         TLista  m_Heads;
       BinomialHeap(){
       	num_datos=0;
+        gg= 12;
       };
       void Insert(T d)
       {
@@ -122,34 +124,38 @@ class BinomialHeap
           return *(m_Heads.begin());
       }
 
-      void llenar(vector<NodoVTK<T>> & coordenadas, pNodo & temp, cor x, cor y, cor & max){
+      void llenar(vector<NodoVTK<T>> & coordenadas, pNodo & temp, cor x, cor y, cor & max,int i,int & j){
 
           vector<Par> t1;
-          Par p(x,y);
           NodoVTK<T> tempv(x,y,temp->m_Dato,t1);
 
           coordenadas.push_back(tempv);
+          j++;
 
           if(temp->isHoja()){
               cout << "isHoja: "<<temp->m_Dato << endl;
               return;
           }
 
-
-          for (auto it:temp->m_Son){
+          for(auto it:temp->m_Son){
+              x = max;
+              llenar(coordenadas,it,max,y+1,max,j+1,j);
               Par t2(x,y+1);
-              coordenadas.back().hijos.push_back(t2);
-              llenar(coordenadas,it,max,y+1,max);
+              coordenadas.at(i).hijos.push_back(t2);
               max++;
+
           }
+
+
 
       }
 
       void puntos(vector<NodoVTK<T> > & coordenadas){
           cor max = 0;
+          int j = -1;
 
           for(auto it:m_Heads){
-              llenar(coordenadas,it,max,0,max);
+              llenar(coordenadas,it,max,0,max,0,j);
 
           }
           return;

@@ -50,7 +50,10 @@ public:
     void buscar_lista(string busqueda,int radio, vector<string>&palabras,vector<string>&traducciones,Nodo<palabra>*p);
     std::vector<string> split(const string &s, char delim);
     ~MainWindow();
+    
     BinomialHeap<palabra> * binomialheap = new BinomialHeap<palabra> ;
+    
+    
 
 private slots:
 
